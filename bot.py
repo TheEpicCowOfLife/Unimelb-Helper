@@ -1,3 +1,4 @@
+print("cans omeone hear me")
 
 import discord
 import re
