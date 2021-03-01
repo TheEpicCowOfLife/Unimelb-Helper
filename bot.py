@@ -1,5 +1,4 @@
 print("cans omeone hear me")
-sys.stdout.flush()
 
 import discord
 import re
