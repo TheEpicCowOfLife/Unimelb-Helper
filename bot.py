@@ -1,9 +1,9 @@
-# Work with Python 3.6
+
 import discord
 import re
 import requests
-TOKEN = open("token.txt", "r").read()
-
+import os
+TOKEN = os.environ.get('UNIMELB_HELPER_TOKEN')
 client = discord.Client()
 
 command_prefix = "?"
