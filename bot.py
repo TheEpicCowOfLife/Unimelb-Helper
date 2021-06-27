@@ -4,7 +4,7 @@ from discord.ext import commands
 description = '''A simple helper bot for unimelb students'''
 
 intents = discord.Intents.default()
-intents.members = True
+intents.members = False
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 
