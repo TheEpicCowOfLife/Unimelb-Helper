@@ -2,7 +2,7 @@
     "AAAM00101": {
         "code": "AAAM00101",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Academic Advising Group Meeting",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -3526,7 +3526,7 @@
     "ABPL90424": {
         "code": "ABPL90424",
         "has_handbook_page": true,
-        "title": "Introduction to High-Performance Design ",
+        "title": "Introduction to High-Performance Design",
         "level": "Graduate coursework",
         "points": 12.5,
         "delivery": "Online and Dual-Delivery (Parkville)",
@@ -5323,7 +5323,7 @@
     "AGRI20030": {
         "code": "AGRI20030",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Wine & Spirits:An Australian Perspective",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -7179,7 +7179,7 @@
     "ANCW20027": {
         "code": "ANCW20027",
         "has_handbook_page": true,
-        "title": "Archaeology of the Classical Greek World",
+        "title": "The Ancient Greeks: Art & Archaeology",
         "level": "Undergraduate level 2",
         "points": 12.5,
         "delivery": "Online",
@@ -8082,7 +8082,7 @@
     "ARBC10003": {
         "code": "ARBC10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Arabic 5",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -13195,7 +13195,7 @@
     "CHEN90012": {
         "code": "CHEN90012",
         "has_handbook_page": true,
-        "title": "Process Equipment Design",
+        "title": "Design and Construction of Equipment",
         "level": "Graduate coursework",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -13238,7 +13238,7 @@
     "CHEN90018": {
         "code": "CHEN90018",
         "has_handbook_page": true,
-        "title": "Particle Mechanics and Processing",
+        "title": "Particle Technology",
         "level": "Graduate coursework",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -13442,7 +13442,7 @@
     "CHEN90031": {
         "code": "CHEN90031",
         "has_handbook_page": true,
-        "title": "Bioprocess Engineering",
+        "title": "Sustainable Processing",
         "level": "Graduate coursework",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -21136,6 +21136,19 @@
         ],
         "prereq_for": [],
         "has_studentVIP_page": true,
+        "rating": -1,
+        "review_count": 0
+    },
+    "ECON90054": {
+        "code": "ECON90054",
+        "has_handbook_page": false,
+        "title": "Special Reading Topics in Economics 2",
+        "level": "",
+        "points": 0,
+        "delivery": "",
+        "availability": [],
+        "prereq_for": [],
+        "has_studentVIP_page": false,
         "rating": -1,
         "review_count": 0
     },
@@ -36552,7 +36565,7 @@
     "GEOL20002": {
         "code": "GEOL20002",
         "has_handbook_page": true,
-        "title": "Structural and Metamorphic Geology",
+        "title": "Earth Structure, Geophysics, Geodynamics",
         "level": "Undergraduate level 2",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -38277,7 +38290,7 @@
     "HIST20088": {
         "code": "HIST20088",
         "has_handbook_page": true,
-        "title": "Introduction to Indigenous History",
+        "title": "Indigenous History",
         "level": "Undergraduate level 2",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -38475,7 +38488,7 @@
     "HIST30075": {
         "code": "HIST30075",
         "has_handbook_page": true,
-        "title": "Gender in History, 1800 to the Present",
+        "title": "Gender in History, 1800 to the present",
         "level": "Undergraduate level 3",
         "points": 12.5,
         "delivery": "Online",
@@ -51461,7 +51474,7 @@
     "MECM90025": {
         "code": "MECM90025",
         "has_handbook_page": true,
-        "title": "Advanced Industry Practice \u2013 PR",
+        "title": "Advanced Industry Practice ? PR",
         "level": "Graduate coursework",
         "points": 12.5,
         "delivery": "Dual-Delivery (Parkville)",
@@ -53969,7 +53982,7 @@
     "MPMP00101": {
         "code": "MPMP00101",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Melbourne Peer Mentor Program Part 1",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -53982,7 +53995,7 @@
     "MPMP00102": {
         "code": "MPMP00102",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Melbourne Peer Mentor Program Part 2",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -53995,7 +54008,7 @@
     "MPMP00301": {
         "code": "MPMP00301",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Peer Mentor Part 1",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -54008,7 +54021,7 @@
     "MPMP00302": {
         "code": "MPMP00302",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Peer Mentor Part 2",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -60630,7 +60643,7 @@
     "MUSI90206": {
         "code": "MUSI90206",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Research in Music Therapy",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -60643,7 +60656,7 @@
     "MUSI90211": {
         "code": "MUSI90211",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Applications of Music in Therapy B",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73396,7 +73409,7 @@
     "ENVS10004": {
         "code": "ENVS10004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73412,7 +73425,7 @@
     "ENVS10003": {
         "code": "ENVS10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73428,7 +73441,7 @@
     "ENGR10003": {
         "code": "ENGR10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73446,7 +73459,7 @@
     "ENVS10009": {
         "code": "ENVS10009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73461,7 +73474,7 @@
     "ABPL20038": {
         "code": "ABPL20038",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73477,7 +73490,7 @@
     "ABPL20040": {
         "code": "ABPL20040",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73493,7 +73506,7 @@
     "ABPL20049": {
         "code": "ABPL20049",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73510,7 +73523,7 @@
     "ABPL20027": {
         "code": "ABPL20027",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73525,7 +73538,7 @@
     "ABPL20041": {
         "code": "ABPL20041",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73540,7 +73553,7 @@
     "ABPL20004": {
         "code": "ABPL20004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73556,7 +73569,7 @@
     "ABPL20031": {
         "code": "ABPL20031",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73573,7 +73586,7 @@
     "ABPL20052": {
         "code": "ABPL20052",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73588,7 +73601,7 @@
     "ABPL20051": {
         "code": "ABPL20051",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73604,7 +73617,7 @@
     "ABPL30006": {
         "code": "ABPL30006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73620,7 +73633,7 @@
     "ABPL10003": {
         "code": "ABPL10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73635,7 +73648,7 @@
     "ABPL20048": {
         "code": "ABPL20048",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73650,7 +73663,7 @@
     "ENVS20001": {
         "code": "ENVS20001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73665,7 +73678,7 @@
     "ABPL40008": {
         "code": "ABPL40008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73680,7 +73693,7 @@
     "ABPL40009": {
         "code": "ABPL40009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73695,7 +73708,7 @@
     "ABPL30012": {
         "code": "ABPL30012",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73710,7 +73723,7 @@
     "HORT20026": {
         "code": "HORT20026",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73727,7 +73740,7 @@
     "ABPL90009": {
         "code": "ABPL90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73742,7 +73755,7 @@
     "ABPL90025": {
         "code": "ABPL90025",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73757,7 +73770,7 @@
     "FNCE20001": {
         "code": "FNCE20001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73782,7 +73795,7 @@
     "ACCT10003": {
         "code": "ACCT10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73797,7 +73810,7 @@
     "MAST10013": {
         "code": "MAST10013",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73822,7 +73835,7 @@
     "MAST10019": {
         "code": "MAST10019",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73860,7 +73873,7 @@
     "MAST10018": {
         "code": "MAST10018",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73896,7 +73909,7 @@
     "ACTL20002": {
         "code": "ACTL20002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73914,7 +73927,7 @@
     "BIOL10004": {
         "code": "BIOL10004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73960,7 +73973,7 @@
     "BIOL10005": {
         "code": "BIOL10005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -73999,7 +74012,7 @@
     "CHEM10009": {
         "code": "CHEM10009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74020,7 +74033,7 @@
     "VETS20014": {
         "code": "VETS20014",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74041,7 +74054,7 @@
     "VETS20015": {
         "code": "VETS20015",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74063,7 +74076,7 @@
     "ARBC10004": {
         "code": "ARBC10004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74078,7 +74091,7 @@
     "AUDI90015": {
         "code": "AUDI90015",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74096,7 +74109,7 @@
     "AUDI90017": {
         "code": "AUDI90017",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74112,7 +74125,7 @@
     "CHEN40005": {
         "code": "CHEN40005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74127,7 +74140,7 @@
     "CHEN40007": {
         "code": "CHEN40007",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74142,7 +74155,7 @@
     "BIOL10003": {
         "code": "BIOL10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74172,7 +74185,7 @@
     "BMEN20001": {
         "code": "BMEN20001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74193,7 +74206,7 @@
     "BMEN90026": {
         "code": "BMEN90026",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74208,7 +74221,7 @@
     "BUSA90480": {
         "code": "BUSA90480",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74226,7 +74239,7 @@
     "BUSA90481": {
         "code": "BUSA90481",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74241,7 +74254,7 @@
     "BUSA90193": {
         "code": "BUSA90193",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74256,7 +74269,7 @@
     "BUSA90483": {
         "code": "BUSA90483",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74271,7 +74284,7 @@
     "BUSA90487": {
         "code": "BUSA90487",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74286,7 +74299,7 @@
     "IBUS90005": {
         "code": "IBUS90005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74301,7 +74314,7 @@
     "BUSA90500": {
         "code": "BUSA90500",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74316,7 +74329,7 @@
     "GENE20002": {
         "code": "GENE20002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74335,7 +74348,7 @@
     "CHEN20008": {
         "code": "CHEN20008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74350,7 +74363,7 @@
     "CHEN90008": {
         "code": "CHEN90008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74365,7 +74378,7 @@
     "CHEN30014": {
         "code": "CHEN30014",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74380,7 +74393,7 @@
     "BTCH90006": {
         "code": "BTCH90006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74395,7 +74408,7 @@
     "ENGR30001": {
         "code": "ENGR30001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74414,7 +74427,7 @@
     "CHEN40003": {
         "code": "CHEN40003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74429,7 +74442,7 @@
     "ENGR90027": {
         "code": "ENGR90027",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74445,7 +74458,7 @@
     "BMEN30007": {
         "code": "BMEN30007",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74460,7 +74473,7 @@
     "CLAS20035": {
         "code": "CLAS20035",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74475,7 +74488,7 @@
     "CLAS30045": {
         "code": "CLAS30045",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74490,7 +74503,7 @@
     "CLAS10003": {
         "code": "CLAS10003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74507,7 +74520,7 @@
     "ISYS90088": {
         "code": "ISYS90088",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74523,7 +74536,7 @@
     "COMP30018": {
         "code": "COMP30018",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74540,7 +74553,7 @@
     "ENGR30003": {
         "code": "ENGR30003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74557,7 +74570,7 @@
     "COMP20004": {
         "code": "COMP20004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74572,7 +74585,7 @@
     "CUMC40001": {
         "code": "CUMC40001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74587,7 +74600,7 @@
     "CUMC40004": {
         "code": "CUMC40004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74602,7 +74615,7 @@
     "ENVS10002": {
         "code": "ENVS10002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74619,7 +74632,7 @@
     "CWRI30005": {
         "code": "CWRI30005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74634,7 +74647,7 @@
     "CWRI30011": {
         "code": "CWRI30011",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74649,7 +74662,7 @@
     "DNCE20034": {
         "code": "DNCE20034",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74664,7 +74677,7 @@
     "THTR90009": {
         "code": "THTR90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74679,7 +74692,7 @@
     "DRAM90022": {
         "code": "DRAM90022",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74694,7 +74707,7 @@
     "DRAM90023": {
         "code": "DRAM90023",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74709,7 +74722,7 @@
     "DRAM90024": {
         "code": "DRAM90024",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74724,7 +74737,7 @@
     "EDUC90830": {
         "code": "EDUC90830",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74793,7 +74806,7 @@
     "EDUC90900": {
         "code": "EDUC90900",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74862,7 +74875,7 @@
     "EDUC90372": {
         "code": "EDUC90372",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74877,7 +74890,7 @@
     "EDUC90713": {
         "code": "EDUC90713",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74892,7 +74905,7 @@
     "EDUC90850": {
         "code": "EDUC90850",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74907,7 +74920,7 @@
     "EDUC90848": {
         "code": "EDUC90848",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74923,7 +74936,7 @@
     "EDUC90742": {
         "code": "EDUC90742",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74939,7 +74952,7 @@
     "EDUC90926": {
         "code": "EDUC90926",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74954,7 +74967,7 @@
     "EDUC90758": {
         "code": "EDUC90758",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74969,7 +74982,7 @@
     "EDUC90833": {
         "code": "EDUC90833",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74984,7 +74997,7 @@
     "EDUC90748": {
         "code": "EDUC90748",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -74999,7 +75012,7 @@
     "EDUC90879": {
         "code": "EDUC90879",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75015,7 +75028,7 @@
     "EDUC91008": {
         "code": "EDUC91008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75031,7 +75044,7 @@
     "EDUC91020": {
         "code": "EDUC91020",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75046,7 +75059,7 @@
     "EDUC91011": {
         "code": "EDUC91011",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75061,7 +75074,7 @@
     "EDUC90987": {
         "code": "EDUC90987",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75076,7 +75089,7 @@
     "EDUC90894": {
         "code": "EDUC90894",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75091,7 +75104,7 @@
     "ELEN30003": {
         "code": "ELEN30003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75106,7 +75119,7 @@
     "ELEN30008": {
         "code": "ELEN30008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75121,7 +75134,7 @@
     "ELEN30002": {
         "code": "ELEN30002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75136,7 +75149,7 @@
     "ELEN30007": {
         "code": "ELEN30007",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75151,7 +75164,7 @@
     "MCEN30016": {
         "code": "MCEN30016",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75166,7 +75179,7 @@
     "ELEN30001": {
         "code": "ELEN30001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75181,7 +75194,7 @@
     "MCEN30008": {
         "code": "MCEN30008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75196,7 +75209,7 @@
     "CVEN90019": {
         "code": "CVEN90019",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75211,7 +75224,7 @@
     "PHYC10005": {
         "code": "PHYC10005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75231,7 +75244,7 @@
     "EVSC20005": {
         "code": "EVSC20005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75247,7 +75260,7 @@
     "FINA30028": {
         "code": "FINA30028",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75262,7 +75275,7 @@
     "FLTV70043": {
         "code": "FLTV70043",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75277,7 +75290,7 @@
     "FLTV90009": {
         "code": "FLTV90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75292,7 +75305,7 @@
     "FNCE10001": {
         "code": "FNCE10001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75308,7 +75321,7 @@
     "FNCE30002": {
         "code": "FNCE30002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75324,7 +75337,7 @@
     "COMP90040": {
         "code": "COMP90040",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75339,7 +75352,7 @@
     "FNCE90076": {
         "code": "FNCE90076",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75354,7 +75367,7 @@
     "FINA10040": {
         "code": "FINA10040",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75370,7 +75383,7 @@
     "FINA20038": {
         "code": "FINA20038",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75385,7 +75398,7 @@
     "FINA20037": {
         "code": "FINA20037",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75400,7 +75413,7 @@
     "GENE20003": {
         "code": "GENE20003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75416,7 +75429,7 @@
     "MIIM20003": {
         "code": "MIIM20003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75432,7 +75445,7 @@
     "GEOG30022": {
         "code": "GEOG30022",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75447,7 +75460,7 @@
     "GEOG20009": {
         "code": "GEOG20009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75463,7 +75476,7 @@
     "SINF90001": {
         "code": "SINF90001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75479,7 +75492,7 @@
     "GEOM90041": {
         "code": "GEOM90041",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75494,7 +75507,7 @@
     "INFO20001": {
         "code": "INFO20001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75509,7 +75522,7 @@
     "INFO20002": {
         "code": "INFO20002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75524,7 +75537,7 @@
     "HLTH90006": {
         "code": "HLTH90006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75541,7 +75554,7 @@
     "JOUR90017": {
         "code": "JOUR90017",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75556,7 +75569,7 @@
     "LAWS50027": {
         "code": "LAWS50027",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75598,7 +75611,7 @@
     "LAWS50057": {
         "code": "LAWS50057",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75613,7 +75626,7 @@
     "LAWS70008": {
         "code": "LAWS70008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75628,7 +75641,7 @@
     "LAWS70325": {
         "code": "LAWS70325",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75643,7 +75656,7 @@
     "LAWS70250": {
         "code": "LAWS70250",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75658,7 +75671,7 @@
     "MAST30029": {
         "code": "MAST30029",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75674,7 +75687,7 @@
     "GENE90019": {
         "code": "GENE90019",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75690,7 +75703,7 @@
     "POPH90016": {
         "code": "POPH90016",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75706,7 +75719,7 @@
     "POPH90148": {
         "code": "POPH90148",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75724,7 +75737,7 @@
     "POPH90017": {
         "code": "POPH90017",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75740,7 +75753,7 @@
     "POPH90120": {
         "code": "POPH90120",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75755,7 +75768,7 @@
     "MCEN30014": {
         "code": "MCEN30014",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75771,7 +75784,7 @@
     "MCEN30019": {
         "code": "MCEN30019",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75787,7 +75800,7 @@
     "MCEN90009": {
         "code": "MCEN90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75802,7 +75815,7 @@
     "MECM30010": {
         "code": "MECM30010",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75817,7 +75830,7 @@
     "MKTG90027": {
         "code": "MKTG90027",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75834,7 +75847,7 @@
     "MEDS30004": {
         "code": "MEDS30004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75849,7 +75862,7 @@
     "MEDS90006": {
         "code": "MEDS90006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75864,7 +75877,7 @@
     "MEDS90007": {
         "code": "MEDS90007",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75879,7 +75892,7 @@
     "MEDS90008": {
         "code": "MEDS90008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75894,7 +75907,7 @@
     "MEDS90009": {
         "code": "MEDS90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75909,7 +75922,7 @@
     "MEDS90004": {
         "code": "MEDS90004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75925,7 +75938,7 @@
     "MEDS90021": {
         "code": "MEDS90021",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75940,7 +75953,7 @@
     "ERTH10001": {
         "code": "ERTH10001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75955,7 +75968,7 @@
     "IBUS20002": {
         "code": "IBUS20002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75970,7 +75983,7 @@
     "MGMT90222": {
         "code": "MGMT90222",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -75986,7 +75999,7 @@
     "MGMT90226": {
         "code": "MGMT90226",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76002,7 +76015,7 @@
     "MIIM20004": {
         "code": "MIIM20004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76017,7 +76030,7 @@
     "MUSI90220": {
         "code": "MUSI90220",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76032,7 +76045,7 @@
     "NURS90120": {
         "code": "NURS90120",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76048,7 +76061,7 @@
     "NURS90070": {
         "code": "NURS90070",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76063,7 +76076,7 @@
     "HLTH90002": {
         "code": "HLTH90002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76079,7 +76092,7 @@
     "NURS50003": {
         "code": "NURS50003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76098,7 +76111,7 @@
     "NURS50006": {
         "code": "NURS50006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76116,7 +76129,7 @@
     "NURS50004": {
         "code": "NURS50004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76133,7 +76146,7 @@
     "NURS50007": {
         "code": "NURS50007",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76150,7 +76163,7 @@
     "NURS50008": {
         "code": "NURS50008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76165,7 +76178,7 @@
     "NURS90123": {
         "code": "NURS90123",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76180,7 +76193,7 @@
     "NURS50005": {
         "code": "NURS50005",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76195,7 +76208,7 @@
     "NURS90079": {
         "code": "NURS90079",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76210,7 +76223,7 @@
     "NURS90076": {
         "code": "NURS90076",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76225,7 +76238,7 @@
     "NURS90108": {
         "code": "NURS90108",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76240,7 +76253,7 @@
     "FOOD20008": {
         "code": "FOOD20008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76258,7 +76271,7 @@
     "PHTY90040": {
         "code": "PHTY90040",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76274,7 +76287,7 @@
     "PHTY90009": {
         "code": "PHTY90009",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76289,7 +76302,7 @@
     "PHTY90075": {
         "code": "PHTY90075",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76304,7 +76317,7 @@
     "PHYC20011": {
         "code": "PHYC20011",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76319,7 +76332,7 @@
     "ABPL20034": {
         "code": "ABPL20034",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76334,7 +76347,7 @@
     "ABPL20037": {
         "code": "ABPL20037",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76349,7 +76362,7 @@
     "ASIA90012": {
         "code": "ASIA90012",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76364,7 +76377,7 @@
     "HIST90034": {
         "code": "HIST90034",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76379,7 +76392,7 @@
     "POLS40021": {
         "code": "POLS40021",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76394,7 +76407,7 @@
     "POLS90054": {
         "code": "POLS90054",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76409,7 +76422,7 @@
     "PPMN90049": {
         "code": "PPMN90049",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76424,7 +76437,7 @@
     "SOCI40006": {
         "code": "SOCI40006",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76439,7 +76452,7 @@
     "SOLS40002": {
         "code": "SOLS40002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76454,7 +76467,7 @@
     "GENE10004": {
         "code": "GENE10004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76469,7 +76482,7 @@
     "POPH90142": {
         "code": "POPH90142",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76487,7 +76500,7 @@
     "POPH90143": {
         "code": "POPH90143",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76505,7 +76518,7 @@
     "POPH90282": {
         "code": "POPH90282",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76520,7 +76533,7 @@
     "PSYC80001": {
         "code": "PSYC80001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76535,7 +76548,7 @@
     "PSYC90003": {
         "code": "PSYC90003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76556,7 +76569,7 @@
     "CICU10001": {
         "code": "CICU10001",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76572,7 +76585,7 @@
     "CICU10002": {
         "code": "CICU10002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76588,7 +76601,7 @@
     "SCWK90049": {
         "code": "SCWK90049",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76603,7 +76616,7 @@
     "SOCI90022": {
         "code": "SOCI90022",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76618,7 +76631,7 @@
     "SOCI90002": {
         "code": "SOCI90002",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76633,7 +76646,7 @@
     "PPMN90044": {
         "code": "PPMN90044",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76648,7 +76661,7 @@
     "SWEN40004": {
         "code": "SWEN40004",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76663,7 +76676,7 @@
     "SWEN90003": {
         "code": "SWEN90003",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76678,7 +76691,7 @@
     "SWEN90008": {
         "code": "SWEN90008",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76693,7 +76706,7 @@
     "VETS30013": {
         "code": "VETS30013",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76708,7 +76721,7 @@
     "VETS70014": {
         "code": "VETS70014",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76723,7 +76736,7 @@
     "VETS70015": {
         "code": "VETS70015",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76738,7 +76751,7 @@
     "VETS70017": {
         "code": "VETS70017",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76753,7 +76766,7 @@
     "VETS70018": {
         "code": "VETS70018",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
@@ -76768,7 +76781,7 @@
     "VETS30015": {
         "code": "VETS30015",
         "has_handbook_page": false,
-        "title": "",
+        "title": "Unknown",
         "level": "",
         "points": 0,
         "delivery": "",
