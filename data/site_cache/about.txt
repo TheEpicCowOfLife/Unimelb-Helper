@@ -1,0 +1,3 @@
+Cache of handbook HTML to avoid repeated requests.
+Not included in github. Call cache_handbook() in scraper.py to scrape. 
+
