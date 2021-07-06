@@ -1,79 +1,80 @@
 Here is a list of all the possible values certain things can take.
+
 Should probably sort them so they appear in a sane order
+
 Each entry is of the form (thing, subject_code) where subject_code is an example where thing appears
 
 Terms:
-('Semester 2', 'SPAN30001')
-('Semester 1', 'ZOOL20004')
-('Winter Term', 'VETS90083')
-('November', 'SOCI90024')
-('September', 'SOCI90003')
-('Summer Term', 'THTR30042')
-('Semester 1 (Early-Start)', 'VETS90141')
-('Semester 2 (Early-Start)', 'VETS90149')
-('June', 'THTR20043')
-('July', 'THTR30042')
-('March', 'SOCI90011')
-('February', 'THTR30042')
-('August', 'SCWK90050')
-('Term 3', 'EDUC90716')
-('Term 4', 'EDUC90717')
-('January', 'PPMN90031')
-('May', 'SOCI90025')
-('Year Long', 'SWEN90013')
-('Semester 2 (Extended)', 'VETS90046')
-('April', 'SOCI90004')
-('October', 'POPH90244')
-('Year Long (Extended)', 'VETS90096')
-('Semester 1 (Extended)', 'VETS90046')
-('Term 1', 'EDUC90715')
-('December', 'PPMN90006')
+Semester 1 : ZOOL90007
+Semester 2 : ZOOL20006
+Winter Term : VETS90083
+November : SOCI90024
+September : SOCI90003
+Summer Term : THTR30042
+Semester 1 (Early-Start) : VETS90145
+Semester 2 (Early-Start) : VETS90150
+June : THTR20043
+July : THTR30042
+March : SOCI90011
+February : THTR30042
+August : SCWK90050
+Term 4 : EDUC90717
+Term 3 : EDUC90716
+January : PPMN90031
+May : SOCI90025
+Year Long : SWEN90013
+Semester 2 (Extended) : VETS90057
+April : SOCI90004
+October : POPH90299
+Year Long (Extended) : VETS90096
+Semester 1 (Extended) : VETS90057
+Term 1 : EDUC90715
+December : PPMN90006
 
 Study modes:
-('Dual-Delivery', 'ZOOL20004')
-('Online', 'ZOOL30006')
-('', 'VETS90141')
-('On Campus', 'PSYT90079')
-('Off Campus', 'NURS90102')
-
+Dual-Delivery : ZOOL90007
+Online : ZOOL30006
+ : VETS90150
+On Campus : UNIB10011
+Off Campus : NURS90102
 Delivery:
-('Dual-Delivery (Parkville)', 'ZOOL20004')
-('Online', 'ZOOL30006')
-('Dual-Delivery (Parkville) and Online', 'UNIB10022')
-('On Campus (Parkville)', 'VETS90068')
-('Online and Dual-Delivery (Parkville)', 'SWEN90016')
-('Not available in 2021', 'UNIB10020')
-('Dual-Delivery (Burnley)', 'HORT90042')
-('On Campus (Dookie)', 'SKIL10007')
-('On Campus (Parkville) and On Campus (Dookie)', 'AGRI10039')
-('On Campus (Dookie) and Dual-Delivery (Parkville)', 'AGRI30038')
-('Dual-Delivery (Dookie) and Dual-Delivery (Parkville)', 'AGRI20038')
-('On Campus (Parkville) and Dual-Delivery (Parkville)', 'NURS90026')
-('On Campus (Parkville) and Online', 'PSYT90079')
-('Dual-Delivery (Parkville) and On Campus (Parkville)', 'PHTY90103')
-('Online and On Campus (Parkville)', 'PSYT90004')
-('On Campus (Southbank)', 'THTR70008')
-('Dual-Delivery (Parkville) and On Campus (Dookie)', 'ANSC30008')
-('Dual-Delivery (Southbank)', 'PERF30001')
-('Dual-Delivery (Southbank) and Online', 'MUSI90191')
-('Off Campus', 'NURS90102')
-('Off Campus and On Campus (Parkville)', 'GEOL20004')
-('On Campus (Burnley)', 'HORT90035')
-('Off Campus and Dual-Delivery (Parkville)', 'LAWS50059')
-('Online, Dual-Delivery (Parkville), and On Campus (Parkville)', 'LING90039')
-('Dual-Delivery (Parkville), On Campus (Parkville), and Online', 'LING90012')
-('Online and Dual-Delivery (Southbank)', 'MUSI40105')
-('Dual-Delivery (Southbank) and On Campus (Southbank)', 'MUSI30214')
-('On Campus (Southbank) and Dual-Delivery (Southbank)', 'MUSI30019')
-('On Campus (Werribee)', 'VETS90141')
+Dual-Delivery (Parkville) : ZOOL90007
+Dual-Delivery (Parkville) and Online : UNIB10022
+Online : ZOOL30006
+On Campus (Parkville) : VETS90119
+Not available in 2021 : UNIB10020
+Online and Dual-Delivery (Parkville) : SWEN90016
+Dual-Delivery (Burnley) : HORT90048
+On Campus (Dookie) : SKIL10007
+On Campus (Parkville) and On Campus (Dookie) : AGRI10039
+On Campus (Dookie) and Dual-Delivery (Parkville) : AGRI20036
+Dual-Delivery (Dookie) and Dual-Delivery (Parkville) : AGRI20038
+Dual-Delivery (Parkville) and On Campus (Dookie) : ANSC30008
+Dual-Delivery (Parkville) and On Campus (Parkville) : PHTY90103
+On Campus (Parkville) and Online : UNIB10011
+On Campus (Parkville) and Dual-Delivery (Parkville) : NURS90026
+Online and On Campus (Parkville) : PSYT90004
+On Campus (Southbank) : THTR70009
+Dual-Delivery (Southbank) : PERF30001
+Dual-Delivery (Southbank) and Online : MUSI90191
+Off Campus : NURS90102
+Off Campus and On Campus (Parkville) : GEOL20004
+On Campus (Burnley) : HORT90038
+Off Campus and Dual-Delivery (Parkville) : LAWS50059
+Dual-Delivery (Parkville), On Campus (Parkville), and Online : LING90012
+Online, Dual-Delivery (Parkville), and On Campus (Parkville) : LING90039
+Online and Dual-Delivery (Southbank) : MUSI40105
+On Campus (Southbank) and Dual-Delivery (Southbank) : MUSI30020
+Dual-Delivery (Southbank) and On Campus (Southbank) : MUSI40068
+On Campus (Werribee) : VETS90150
 
 Levels:
-('Undergraduate level 2', 'ZOOL20004')
-('Graduate coursework', 'VETS90141')
-('Undergraduate level 1', 'UNIB10002')
-('Undergraduate level 3', 'SPAN30001')
-('Honours', 'SOCI40003')
-('Graduate coursework level 7', 'THTR70008')
-('Graduate coursework level 6', 'FINA60010')
-('Graduate coursework level 5', 'LAWS50047')
-('Undergraduate level 4', 'PSYC40013')
+Undergraduate level 1 : UNIB10027
+Undergraduate level 2 : ZOOL20006
+Undergraduate level 3 : ZOOL30007
+Graduate coursework : ZOOL90007
+Honours : THTR40006
+Graduate coursework level 6 : FINA60014
+Graduate coursework level 7 : THTR70009
+Graduate coursework level 5 : LAWS50131
+Undergraduate level 4 : PSYC40014
