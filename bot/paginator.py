@@ -74,7 +74,8 @@ async def page(ctx, *args):
         raise ValidationError(f"Expecting only one argument. Usage is {ctx.prefix}page x where x is a positive integer representing the page you want.")
     
     paginator = paginators[author_id]
-    await ctx.send(embed = paginator.make_embed(ctx, page = args[0]))
+    paginator.validate_page(args[0])
+    await ctx.send(embed = paginator.make_embed(ctx, page = int(args[0])))
 
 @page.error
 async def subject_error(ctx, error):
