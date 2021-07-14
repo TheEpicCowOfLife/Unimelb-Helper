@@ -16,8 +16,6 @@ def get_prefix(bot, message):
     if (message.guild == None):
         return default_prefix
     id = message.guild.id
-    print(f"{id}, {prefixes.get(str(id))}")
-
     return prefixes.get(str(id), default_prefix)
 
 description = '''A simple helper bot for unimelb students'''

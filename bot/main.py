@@ -1,5 +1,7 @@
 from bot import bot
 from subject import *
+from search import *
+from paginator import *
 from admin import *
 
 import os

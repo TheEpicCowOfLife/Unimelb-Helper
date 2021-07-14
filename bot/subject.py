@@ -2,6 +2,7 @@
 from bot import bot
 from data import UoM_blue, subjects, YEAR
 from error import on_error,ValidationError
+from paginator import Field
 import requests
 import discord
 import re
@@ -9,6 +10,12 @@ from discord.ext import commands
 
 
 subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"
+
+def get_studentVIP_URL(code):
+    return f"https://studentvip.com.au/unimelb/subjects/{code.lower()}"
+
+def get_handbook_URL(code, year = YEAR):
+    return f"https://handbook.unimelb.edu.au/{year}/subjects/{code.lower()}"
 
 def add_availability_field(embed,subject):
     availability = subject['availability']
@@ -31,9 +38,9 @@ def add_review_field(embed,subject):
 def add_links_field(embed,subject):
     links = []
     if (subject['has_handbook_page']):
-        links.append(f"[Handbook](https://handbook.unimelb.edu.au/{YEAR}/subjects/{subject['code'].lower()})")
+        links.append(f"[Handbook]({get_handbook_URL(subject['code'])})")
     if (subject['has_studentVIP_page']):
-        links.append(f"[StudentVIP](https://studentvip.com.au/unimelb/subjects/{subject['code'].lower()})")
+        links.append(f"[StudentVIP]({get_studentVIP_URL(subject['code'])})")
     links_desc = ""
     if (len(links) == 0):
         links_desc = "No links exist for this subject"
@@ -43,7 +50,7 @@ def add_links_field(embed,subject):
 
 # Precondition: subject is a dictionary entry from subjects.json
 def get_subject_embed_detailed(subject):
-    embed = discord.Embed(title=f"{subject['title']} ({subject['code']})", color=UoM_blue)
+    embed = discord.Embed(title=f"__{subject['title']} ({subject['code']})__", color=UoM_blue)
     if (not subject['has_handbook_page']):
         embed.description = f"Unfortunately {subject['code']} does not appear to have a handbook page," \
         " which means that little is known about the subject and it likely won't be offered to uni students in the future"
@@ -60,6 +67,23 @@ def get_subject_embed_detailed(subject):
 
     return embed
 
+def subject_list_to_fields(subject_list):
+    ret = []
+    for subject in subject_list:
+        title = f"{subject['code']}: {subject['title']}"
+        desc = []
+        if (subject["has_handbook_page"]):
+            desc.append(f"[Handbook]({get_handbook_URL(subject['code'])})")
+        if (subject['has_studentVIP_page']):
+            desc.append(f"[StudentVIP]({get_studentVIP_URL(subject['code'])})")
+        if (subject['points'] != 0):
+            desc.append(f"Points: {subject['points']}")
+        if (subject['delivery'] != ""):
+            desc.append(f"{subject['delivery']}")
+        
+        desc = " / ".join(desc)
+        ret.append(Field(title,desc))
+    return ret
 
 @bot.command()
 async def subject(ctx, *args):
@@ -72,7 +96,7 @@ async def subject(ctx, *args):
         raise ValidationError(f"{subject_code} is an invalid subject code. Subject codes are of the form 'ABCD12345'. Case insensitive.")
 
     if subject_code.upper() not in subjects:
-        raise ValidationError(f"{subject_code} does not exist in the database")
+        raise ValidationError(f"Subject {subject_code} does not exist.")
 
     await ctx.send(embed = get_subject_embed_detailed(subject=subjects[subject_code]))        
 
