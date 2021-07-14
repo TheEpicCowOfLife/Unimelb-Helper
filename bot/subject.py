@@ -90,7 +90,7 @@ async def subject(ctx, *args):
     if (len(args) != 1):
         raise ValidationError(f"Expecting exactly one argument. Usage is '{ctx.prefix}subject ABCD12345'. Case insensitive")
 
-    subject_code = args[0]
+    subject_code = args[0].upper()
 
     if not re.match(subject_code_regex,subject_code):
         raise ValidationError(f"{subject_code} is an invalid subject code. Subject codes are of the form 'ABCD12345'. Case insensitive.")
