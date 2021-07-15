@@ -93,24 +93,3 @@ async def search(ctx, *, arg):
 @search.error
 async def subject_error(ctx, error):
     await on_error(ctx,error)
-
-
-
-
-
-@bot.command()
-async def test(ctx,*args):
-
-    markdown_test = f"""
-    - unordered list? kek
-    - test2
-    - breh
-    ---
-    1. what about this
-    2. heh?
-    3. kekw
-    """
-    embed = discord.Embed(title="Title", description="Desc", color=UoM_blue)
-    embed.add_field(name="Field1", value="# hi **markdown** test", inline=True)
-    embed.add_field(name="Field2", value=markdown_test, inline=True)
-    await ctx.send(embed=embed)
