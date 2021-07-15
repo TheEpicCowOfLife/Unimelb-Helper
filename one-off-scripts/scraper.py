@@ -15,6 +15,14 @@ from bs4 import BeautifulSoup
 # Run "do_everything()" which will scrape almost everything from scratch
 # Run "update_studentVIP()" which will scrape studentVIP and update review counts and ratings.
 
+# General pseudocode looks like this.
+
+# Call scrape_code_list() to get a list of all the subject codes we care about, and initialise subjects{} dict with empty/default values for each code, 
+# or simply add new entries that didn't previously exist.
+
+# Call scrape_SOMEPAGE(code) which scrapes some page and populates corresponding entries in subjects[code] or other entries in subjects[code]
+# Save scrape_SOMEPAGE
+
 # You can also change this, and hope everything works the same way it did before.
 # I almost guarantee it won't.
 YEAR = "2021"
@@ -25,7 +33,7 @@ subject_code_regex_exact = r"^[a-zA-Z]{4}[0-9]{5}$"
 # Scrapes https://sws.unimelb.edu.au/2021/ for a list of all subject codes
 # and writes it to codes.json. You need to actually click on the subjects button, and paste the HTML manually
 # into input_path. Clicking a js button really is the bane of this scraper.
-def scrape_code_list_new(input_path,output_path):
+def scrape_code_list(input_path,output_path):
     with open(input_path,"r") as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
         
@@ -60,6 +68,7 @@ level: Subject level. See unique_entries.txt for the possible strings that can a
 availability: cbs explaining, just look in the data, and look at unique_entries.txt
 points: Subject points
 delivery: this has information on how and which campus the subject is held. See unique_entries.txt for the possible strings that can appear.
+overview: the paragraph subsectioned 
 
 Handbook requirements page:
 prereq_for: List of subjects that use the current subject as a prereq. Note that this field can exist for subjects without a handbook entry.
@@ -367,18 +376,21 @@ def clean_subjects():
 # asyncio.run(test())
 # Runs all the code, start to finish. Input data/raw/sws{YEAR}.txt, outputs codes.json, subjects.json, and unique_entries.txt
 # Don't forget to set the YEAR constant
-async def do_everything():
+# replace_subjects is a boolean describing whether or not the existing information in subjects.json will be replaced.
+async def do_everything(replace_subjects = True):
     async with aiohttp.ClientSession() as session:
-
+        if (not replace_subjects):
+            load_subjects()
         # I have stored codes in a very lazy and haphazard manner. I apologise
-        scrape_code_list_new(f"data/raw/sws{YEAR}.html","data/codes.json")
+        scrape_code_list(f"data/raw/sws{YEAR}.html","data/codes.json")
 
         with open("data/codes.json") as f:
             things = json.loads(f.read())["codes"]
             codes = [a[0] for a in things]
-
+            
             for code,title in things:
-                subjects[code] = get_default_subject(code,title)
+                if (replace_subjects or code not in subjects):
+                    subjects[code] = get_default_subject(code,title)
 
         await cache_handbook(session,codes)
 

@@ -2,7 +2,9 @@ import discord
 from discord.ext import commands
 from discord.ext.commands.errors import CommandInvokeError, MissingPermissions
 
-# Describes a kind of error that's totally fine bc of bad user input that was checked for.
+# Anything related to error handling goes here
+
+# Describes a kind of error that's totally fine because of bad user input that was checked for.
 class ValidationError(Exception):
     pass
 
