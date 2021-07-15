@@ -5,7 +5,7 @@ import re
 import traceback
 
 from bot import bot
-from data import UoM_blue, subjects, YEAR, sort_by_importance
+from data import UoM_blue, subjects, YEAR
 from error import on_error,ValidationError
 from paginator import Field,paginators,EmbedPaginator
 from search import do_search, sort_by_importance

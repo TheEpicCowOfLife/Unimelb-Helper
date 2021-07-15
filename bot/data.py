@@ -1,5 +1,8 @@
 from functools import cmp_to_key
 import json
+
+# Contains constants loads data, and other things to be accessed globally
+
 with open("data/subjects.json") as f:
     subjects = json.loads(f.read())
 
@@ -24,14 +27,3 @@ create_acronyms()
 UoM_blue = 0x094183
 
 YEAR = 2021
-
-
-def compare(match1, match2):
-    key0 = int(match2["has_handbook_page"])-int(match1["has_handbook_page"])
-    key1 = match2["review_count"]-match1["review_count"]
-    if (key0 == 0):
-        return key1
-    return key0
-
-def sort_by_importance(subject_list):
-    return sorted(subject_list,key = cmp_to_key(compare))

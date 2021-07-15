@@ -62,6 +62,10 @@ def match_title_contains(substring):
             ret.append(subjects[code])
     return ret 
 
+# The search algorithm ranks results first by the type of match they are, 
+# and among those of the same kind of match uses a heuristic sort_by_importance.
+# Sorting by "type of match" is a heuristic for search relevance. An exact code match is more relevant
+# than the query being a substring of the title. See the funcs[] list for the exact ordering I have devised.
 def do_search(query):
     # Ordered dict has the nice property of maintaining insertion order and removing duplicates.
     ret = OrderedDict()
@@ -76,4 +80,5 @@ def do_search(query):
     for f in funcs:
         for match in sort_by_importance(f(query)):
             ret[match["code"]] = match
+
     return [match for code,match in ret.items()]

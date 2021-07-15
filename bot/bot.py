@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 
-
+# Creates the discord bot object and sets associated settings
 
 # thanks to stackoverflow I learn that the command_prefix attribute accepts callables.
 with open("data/prefixes.json") as f:

@@ -5,6 +5,8 @@ from error import on_error,ValidationError
 
 import json
 
+# Module handles all server-specific settings. More to come?
+
 # command looks like !prefix text
 
 @bot.command()
