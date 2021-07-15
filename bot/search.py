@@ -9,16 +9,8 @@ from bot import bot
 from error import on_error,ValidationError
 from paginator import *
 from subject import subject_list_to_fields
-from data import subjects,UoM_blue,YEAR
+from data import subjects,UoM_blue,YEAR, sort_by_importance
 
-
-# Within each categories the subjects are sorted by this function
-def compare(match1, match2):
-    key0 = int(match2["has_handbook_page"])-int(match1["has_handbook_page"])
-    key1 = match2["review_count"]-match1["review_count"]
-    if (key0 == 0):
-        return key1
-    return key0
 
 # Different functions that return a list of subjects depending on the kind of match they are
 def match_code_exact(code):
@@ -61,6 +53,7 @@ def match_title_contains(substring):
     return ret 
 
 
+
 def do_search(query):
     # Ordered dict has the nice property of maintaining insertion order and removing duplicates.
     ret = OrderedDict()
@@ -73,7 +66,7 @@ def do_search(query):
         match_title_contains]
     
     for f in funcs:
-        for match in sorted(f(query), key = cmp_to_key(compare)):
+        for match in sort_by_importance(f(query)):
             ret[match["code"]] = match
     return [match for code,match in ret.items()]
 

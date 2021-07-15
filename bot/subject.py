@@ -2,14 +2,13 @@ import discord
 from discord.ext import commands
 
 import re
+import traceback
 
 from bot import bot
-from data import UoM_blue, subjects, YEAR
+from data import UoM_blue, subjects, YEAR, sort_by_importance
 from error import on_error,ValidationError
-from paginator import Field
-
-
-
+from paginator import Field,paginators,EmbedPaginator
+# This module handles everything related to displaying subjects.
 
 subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"
 
@@ -38,8 +37,7 @@ def add_overview_field(embed, subject, inline = False):
         cutoff -= 1
     
     embed.add_field(name = "Overview", value = overview[:cutoff] + "...", inline = inline)
-    # embed.add_field(name = "Overview", value = subject['overview'][:200] + "...")
-    # pass
+
     # # This code displays the whole thing. It is long. TODO: Possibly paginate it.
     # overview_pars = subject['overview'].split("\n")
     # embed.add_field(name = "Overview", value = overview_pars[0], inline = False)
@@ -97,8 +95,6 @@ def get_subject_embed_detailed(subject):
         add_availability_field(embed,subject,inline = True)
         if (subject['has_studentVIP_page']):
             add_review_field(embed,subject)
-        
-
     return embed
 
 
@@ -120,9 +116,7 @@ def subject_list_to_fields(subject_list):
         ret.append(Field(title,desc))
     return ret
 
-
-@bot.command()
-async def subject(ctx, *args):
+def validate_args_is_subject_code(ctx,args):
     if (len(args) != 1):
         raise ValidationError(f"Expecting exactly one argument. Usage is '{ctx.prefix}subject ABCD12345'. Case insensitive")
 
@@ -133,10 +127,41 @@ async def subject(ctx, *args):
 
     if subject_code.upper() not in subjects:
         raise ValidationError(f"Subject {subject_code} does not exist.")
+    
 
+@bot.command()
+async def subject(ctx, *args):
+    validate_args_is_subject_code(ctx, args)
+    subject_code = args[0].upper()
     await ctx.send(embed = get_subject_embed_detailed(subject=subjects[subject_code]))        
 
 
 @subject.error
+async def subject_error(ctx, error):
+    await on_error(ctx,error)
+
+@bot.command()
+async def reqfor(ctx, *args):
+    validate_args_is_subject_code(ctx, args)
+    subject_code = args[0].upper()
+    subject_title = subjects[subject_code]["title"]
+    author_id = ctx.author.id
+    title = f"Displaying subjects that use '{subject_title}' as a prerequisite"
+    
+    subject_list = sort_by_importance([subjects[code] for code in subjects[subject_code]['prereq_for']])
+
+    # Send a special embed for no results
+    if (len(subject_list) == 0):
+        desc = f"No subjects use '{subject_code}' as a prerequisite"
+        await ctx.send(embed = discord.Embed(title = title, description = desc, color = UoM_blue))
+    else:
+        desc = f"{len(subject_list)} result(s) found. Note that {subject_code} is one possible requirement for the following subjects"\
+            " or it may even be simply listed as recommended subject. Always check the handbook for more details."
+        fields = subject_list_to_fields(subject_list)
+        paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
+        await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))    
+
+
+@reqfor.error
 async def subject_error(ctx, error):
     await on_error(ctx,error)
