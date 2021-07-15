@@ -1,21 +1,16 @@
+import discord
+from discord.ext import commands
 
-from discord.ext.commands.help import Paginator
-import traceback
 from typing import OrderedDict
+from collections import OrderedDict
+from functools import cmp_to_key
+
 from bot import bot
 from error import on_error,ValidationError
 from paginator import *
 from subject import subject_list_to_fields
-
-import requests
-import discord
-import re
-import math
-
 from data import subjects,UoM_blue,YEAR
-from discord.ext import commands
-from collections import OrderedDict
-from functools import cmp_to_key
+
 
 # Within each categories the subjects are sorted by this function
 def compare(match1, match2):

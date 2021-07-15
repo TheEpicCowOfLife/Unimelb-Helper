@@ -1,12 +1,14 @@
+import discord
+from discord.ext import commands
+
+import re
 
 from bot import bot
 from data import UoM_blue, subjects, YEAR
 from error import on_error,ValidationError
 from paginator import Field
-import requests
-import discord
-import re
-from discord.ext import commands
+
+
 
 
 subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"

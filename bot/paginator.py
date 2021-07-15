@@ -1,20 +1,16 @@
-import traceback
 import discord
+
 from typing import List, Dict
-from bot import bot
-from error import on_error
-from discord.embeds import Embed
-from error import ValidationError
-from data import UoM_blue
 import math
-discord.Embed
-# Design for paginator: 
-# It just displays a list of fields, with a custom title and everything. 
-# Paginator 
-# Turns out there's no default class for a field.
-# So I'm gonna make one. Because EmbedProxy is weird
 
+from bot import bot
+from error import on_error,ValidationError
+from data import UoM_blue
 
+# The EmbedPaginator is a custom paginator that displays an embed with a list of fields.
+# where a user can decide which 'page' of fields to interact with
+
+# Current interaction is typing the ?page command, react coming soon
 class Field():
     def __init__(self, title: str, desc: str) -> None:
         self.title = title
@@ -43,7 +39,7 @@ class EmbedPaginator():
 
     def make_embed(self, ctx, page = 1) -> discord.Embed:
         self.validate_page(page)
-        embed = Embed(title = self.title, description = self.description, color = UoM_blue)
+        embed = discord.Embed(title = self.title, description = self.description, color = UoM_blue)
         
         start = (page-1) * self.RESULTS_PER_PAGE
         stop = min(len(self.fields), start + self.RESULTS_PER_PAGE)
