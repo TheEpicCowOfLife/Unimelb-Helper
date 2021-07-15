@@ -16,10 +16,40 @@ subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"
 def get_studentVIP_URL(code):
     return f"https://studentvip.com.au/unimelb/subjects/{code.lower()}"
 
+
 def get_handbook_URL(code, year = YEAR):
     return f"https://handbook.unimelb.edu.au/{year}/subjects/{code.lower()}"
 
-def add_availability_field(embed,subject):
+OVERVIEW_LENGTH = 300
+
+def add_overview_field(embed, subject, inline = False):
+    overview = subject['overview']
+
+    # find the first space after character 200
+    cutoff = overview[OVERVIEW_LENGTH:].find(' ')
+    if (cutoff == -1):
+        cutoff = OVERVIEW_LENGTH
+    else:
+        cutoff += OVERVIEW_LENGTH
+
+    # Non exhaustive list lol, tell me if there are bugs.
+    punctuation = ['"',"'",".",",","!",'?']
+    if (overview[cutoff-1] in punctuation):
+        cutoff -= 1
+    
+    embed.add_field(name = "Overview", value = overview[:cutoff] + "...", inline = inline)
+    # embed.add_field(name = "Overview", value = subject['overview'][:200] + "...")
+    # pass
+    # # This code displays the whole thing. It is long. TODO: Possibly paginate it.
+    # overview_pars = subject['overview'].split("\n")
+    # embed.add_field(name = "Overview", value = overview_pars[0], inline = False)
+    # for par in overview_pars[1:]:
+    #     if (len(par) > 1021):
+    #         print(f"{subject['code']} has a stupid monolithic handbook overview")
+    #     embed.add_field(name = "​", value = par, inline = False)
+
+
+def add_availability_field(embed,subject, inline = False):
     availability = subject['availability']
     avail_desc = []
     if len(availability) == 0:
@@ -28,16 +58,18 @@ def add_availability_field(embed,subject):
         for thing in availability:
             avail_desc.append(f"{thing['term']} - {thing['mode']}")
     avail_desc = "\n".join(avail_desc)
-    embed.add_field(name = "Availability", value = avail_desc, inline = False)
+    embed.add_field(name = "Availability", value = avail_desc, inline = inline)
 
-def add_review_field(embed,subject):
+
+def add_review_field(embed,subject, inline = False):
     if (subject['rating'] == -1):
         subject_desc = "No ratings."
     else:
         subject_desc = f"Rated {subject['rating']} star(s) in {subject['review_count']} review(s)"
-    embed.add_field(name = "StudentVIP rating:", value = subject_desc, inline = False)
+    embed.add_field(name = "StudentVIP rating:", value = subject_desc, inline = inline)
 
-def add_links_field(embed,subject):
+
+def add_links_field(embed,subject, inline = False):
     links = []
     if (subject['has_handbook_page']):
         links.append(f"[Handbook]({get_handbook_URL(subject['code'])})")
@@ -48,7 +80,8 @@ def add_links_field(embed,subject):
         links_desc = "No links exist for this subject"
     else:
         links_desc = "\n".join(links)
-    embed.add_field(name = "Links:", value = links_desc, inline = False)
+    embed.add_field(name = "Links:", value = links_desc, inline = inline)
+
 
 # Precondition: subject is a dictionary entry from subjects.json
 def get_subject_embed_detailed(subject):
@@ -59,15 +92,15 @@ def get_subject_embed_detailed(subject):
         return embed
     else:
         embed.description = f"{subject['level']} / Points: {subject['points']} / {subject['delivery']}"
-
-        add_availability_field(embed,subject)
-        
+        add_overview_field(embed,subject)
+        add_links_field(embed,subject, inline = True)   
+        add_availability_field(embed,subject,inline = True)
         if (subject['has_studentVIP_page']):
             add_review_field(embed,subject)
         
-        add_links_field(embed,subject)   
 
     return embed
+
 
 def subject_list_to_fields(subject_list):
     ret = []
@@ -87,6 +120,7 @@ def subject_list_to_fields(subject_list):
         ret.append(Field(title,desc))
     return ret
 
+
 @bot.command()
 async def subject(ctx, *args):
     if (len(args) != 1):
@@ -101,6 +135,7 @@ async def subject(ctx, *args):
         raise ValidationError(f"Subject {subject_code} does not exist.")
 
     await ctx.send(embed = get_subject_embed_detailed(subject=subjects[subject_code]))        
+
 
 @subject.error
 async def subject_error(ctx, error):

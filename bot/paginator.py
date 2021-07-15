@@ -12,12 +12,13 @@ from data import UoM_blue
 
 # Current interaction is typing the ?page command, react coming soon
 class Field():
-    def __init__(self, title: str, desc: str) -> None:
+    def __init__(self, title: str, desc: str, inline: bool = False) -> None:
         self.title = title
         self.desc = desc
+        self.inline = inline
 
-    def add_to_embed(self, embed, inline = False):
-        embed.add_field(name = self.title, value = self.desc, inline = inline)
+    def add_to_embed(self, embed):
+        embed.add_field(name = self.title, value = self.desc, inline = self.inline)
 
 class EmbedPaginator():
     def __init__(self, title: str, description: str, fields: List[Field], results_per_page = 5, have_results_footer = True) -> None:
