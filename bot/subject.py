@@ -8,6 +8,7 @@ from bot import bot
 from data import UoM_blue, subjects, YEAR, sort_by_importance
 from error import on_error,ValidationError
 from paginator import Field,paginators,EmbedPaginator
+from search import do_search
 # This module handles everything related to displaying subjects.
 
 subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"
@@ -129,11 +130,22 @@ def validate_args_is_subject_code(ctx,args):
         raise ValidationError(f"Subject {subject_code} does not exist.")
     
 
-@bot.command()
-async def subject(ctx, *args):
-    validate_args_is_subject_code(ctx, args)
-    subject_code = args[0].upper()
-    await ctx.send(embed = get_subject_embed_detailed(subject=subjects[subject_code]))        
+@bot.command(aliases = ['search'])
+async def subject(ctx, *, arg):
+    arg = arg.strip()
+    subject_list = do_search(arg)
+    author_id = ctx.author.id
+    title = f"Displaying search result(s) for '{arg}'"
+    if (len(subject_list) == 0):
+        desc = "No results found"
+        await ctx.send(embed = discord.Embed(title = title, description = desc, color = UoM_blue))
+    elif len(subject_list) == 1:
+        await ctx.send(embed = get_subject_embed_detailed(subject=subject_list[0]))        
+    else:
+        desc = f"{len(subject_list)} result(s) found"
+        fields = subject_list_to_fields(subject_list)
+        paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
+        await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))        
 
 
 @subject.error

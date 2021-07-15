@@ -8,7 +8,6 @@ from functools import cmp_to_key
 from bot import bot
 from error import on_error,ValidationError
 from paginator import *
-from subject import subject_list_to_fields
 from data import subjects,UoM_blue,YEAR, sort_by_importance
 
 
@@ -52,8 +51,6 @@ def match_title_contains(substring):
             ret.append(subjects[code])
     return ret 
 
-
-
 def do_search(query):
     # Ordered dict has the nice property of maintaining insertion order and removing duplicates.
     ret = OrderedDict()
@@ -69,27 +66,3 @@ def do_search(query):
         for match in sort_by_importance(f(query)):
             ret[match["code"]] = match
     return [match for code,match in ret.items()]
-
-
-@bot.command()
-async def search(ctx, *, arg):
-    arg = arg.strip()
-    subject_list = do_search(arg)
-    author_id = ctx.author.id
-
-    title = f"Displaying result(s) for search '{arg}'"
-
-    # Send a special embed for no results
-    if (len(subject_list) == 0):
-        desc = "No results found"
-        await ctx.send(embed = discord.Embed(title = title, description = desc, color = UoM_blue))
-    else:
-        desc = f"{len(subject_list)} result(s) found"
-        fields = subject_list_to_fields(subject_list)
-        paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
-        await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))    
-
-
-@search.error
-async def subject_error(ctx, error):
-    await on_error(ctx,error)
