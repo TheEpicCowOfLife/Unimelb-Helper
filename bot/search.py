@@ -89,7 +89,7 @@ async def search(ctx, *, arg):
     # Send a special embed for no results
     if (len(subject_list) == 0):
         desc = "No results found"
-        await ctx.send(embed = Embed(title = title, description = desc, color = UoM_blue))
+        await ctx.send(embed = discord.Embed(title = title, description = desc, color = UoM_blue))
     else:
         desc = f"{len(subject_list)} result(s) found"
         fields = subject_list_to_fields(subject_list)
