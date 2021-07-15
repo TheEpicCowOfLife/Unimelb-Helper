@@ -8,8 +8,19 @@ from functools import cmp_to_key
 from bot import bot
 from error import on_error,ValidationError
 from paginator import *
-from data import subjects,UoM_blue,YEAR, sort_by_importance
+from data import subjects,UoM_blue,YEAR
 
+# This module implements the search engine
+
+def compare(match1, match2):
+    key0 = int(match2["has_handbook_page"])-int(match1["has_handbook_page"])
+    key1 = match2["review_count"]-match1["review_count"]
+    if (key0 == 0):
+        return key1
+    return key0
+
+def sort_by_importance(subject_list):
+    return sorted(subject_list,key = cmp_to_key(compare))
 
 # Different functions that return a list of subjects depending on the kind of match they are
 def match_code_exact(code):

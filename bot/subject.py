@@ -8,8 +8,9 @@ from bot import bot
 from data import UoM_blue, subjects, YEAR, sort_by_importance
 from error import on_error,ValidationError
 from paginator import Field,paginators,EmbedPaginator
-from search import do_search
-# This module handles everything related to displaying subjects.
+from search import do_search, sort_by_importance
+
+# This module handles everything related to displaying subjects and accessing its information.
 
 subject_code_regex = r"^[a-zA-Z]{4}[0-9]{5}$"
 
@@ -20,8 +21,8 @@ def get_studentVIP_URL(code):
 def get_handbook_URL(code, year = YEAR):
     return f"https://handbook.unimelb.edu.au/{year}/subjects/{code.lower()}"
 
+# Adds a overview field.
 OVERVIEW_LENGTH = 300
-
 def add_overview_field(embed, subject, inline = False):
     overview = subject['overview']
 
@@ -47,7 +48,7 @@ def add_overview_field(embed, subject, inline = False):
     #         print(f"{subject['code']} has a stupid monolithic handbook overview")
     #     embed.add_field(name = "​", value = par, inline = False)
 
-
+# Add the availability field to a given embed
 def add_availability_field(embed,subject, inline = False):
     availability = subject['availability']
     avail_desc = []
@@ -59,7 +60,7 @@ def add_availability_field(embed,subject, inline = False):
     avail_desc = "\n".join(avail_desc)
     embed.add_field(name = "Availability", value = avail_desc, inline = inline)
 
-
+# Add the review field to a given embed
 def add_review_field(embed,subject, inline = False):
     if (subject['rating'] == -1):
         subject_desc = "No ratings."
@@ -67,7 +68,7 @@ def add_review_field(embed,subject, inline = False):
         subject_desc = f"Rated {subject['rating']} star(s) in {subject['review_count']} review(s)"
     embed.add_field(name = "StudentVIP rating:", value = subject_desc, inline = inline)
 
-
+# Add the links field to a given embed
 def add_links_field(embed,subject, inline = False):
     links = []
     if (subject['has_handbook_page']):
@@ -80,7 +81,6 @@ def add_links_field(embed,subject, inline = False):
     else:
         links_desc = "\n".join(links)
     embed.add_field(name = "Links:", value = links_desc, inline = inline)
-
 
 # Precondition: subject is a dictionary entry from subjects.json
 def get_subject_embed_detailed(subject):
@@ -98,7 +98,7 @@ def get_subject_embed_detailed(subject):
             add_review_field(embed,subject)
     return embed
 
-
+# Converts a list of subjects to fields to be displayed in a paginator
 def subject_list_to_fields(subject_list):
     ret = []
     for subject in subject_list:
