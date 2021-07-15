@@ -81,6 +81,7 @@ def get_default_subject(code, title = "Unknown"):
                 "points" : 0,
                 "delivery" : "",
                 "availability" : [],
+                "overview" : "",
                 "prereq_for" : [],
 
                 "has_studentVIP_page" : False,
@@ -251,7 +252,21 @@ async def scrape_handbook_main(session, subject_code):
                         unique_terms[term] = subject_code
                         unique_study_modes[study_mode] = subject_code
                         subject["availability"].append({"term" : term, "mode" : study_mode})
+            
+            # Scraping overview text
 
+            # course__overview-wrapper actually encapsulates Overview, ILO and Generic skills
+            ov_wrapper = soup.find(class_ = "course__overview-wrapper")
+
+            # ILO and Generic skills are further wrapped in child divs
+            for child in ov_wrapper.find_all("div"):
+                child.decompose()
+
+            # functional!
+            subject["overview"] = '\n'.join(
+                map(lambda x: re.sub(r'\n+', '\n', x.text.strip()), # multiple newlines -> only one
+                    ov_wrapper.find_all('p'))
+            ).strip()
     except Exception as e:
         print(f"Error in {subject_code}, {e}")
     handbook_main_tracker.increment()

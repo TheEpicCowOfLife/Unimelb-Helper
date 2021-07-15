@@ -1,3 +1,4 @@
 token.txt
 *.pyc
 data/site_cache/
+env/
