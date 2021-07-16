@@ -24,7 +24,7 @@ def sort_by_importance(subject_list):
 
 # Different functions that return a list of subjects depending on the kind of match they are
 def match_code_exact(code):
-    # code = code.upper()
+    code = code.upper()
     if (code in subjects):
         return [subjects[code]]
     return []
