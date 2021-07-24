@@ -56,7 +56,11 @@ def add_availability_field(embed,subject, inline = False):
         avail_desc = ["Not available in 2021"]
     else:
         for thing in availability:
-            avail_desc.append(f"{thing['term']} - {thing['mode']}")
+            if (thing['mode'] == ""):
+                # separate case so we don't have a weird trailing dash.
+                avail_desc.append(f"{thing['term']}")
+            else:
+                avail_desc.append(f"{thing['term']} - {thing['mode']}")
     avail_desc = "\n".join(avail_desc)
     embed.add_field(name = "Availability", value = avail_desc, inline = inline)
 
@@ -152,7 +156,8 @@ async def subject(ctx, *, arg):
 async def subject_error(ctx, error):
     await on_error(ctx,error)
 
-@bot.command()
+""""test docstring?"""
+@bot.command(short_doc = "test docstring")
 async def reqfor(ctx, *args):
     validate_args_is_subject_code(ctx, args)
     subject_code = args[0].upper()
@@ -177,3 +182,5 @@ async def reqfor(ctx, *args):
 @reqfor.error
 async def subject_error(ctx, error):
     await on_error(ctx,error)
+
+commands.HelpCommand
