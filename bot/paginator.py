@@ -73,7 +73,3 @@ async def page(ctx, *args):
     paginator = paginators[author_id]
     paginator.validate_page(args[0])
     await ctx.send(embed = paginator.make_embed(ctx, page = int(args[0])))
-
-@page.error
-async def subject_error(ctx, error):
-    await on_error(ctx,error)
