@@ -9,7 +9,7 @@ import json
 
 # command looks like !prefix text
 
-@bot.command()
+@bot.command(brief = "Sets the command prefix for the current server. Administrator only.")
 @commands.has_guild_permissions(administrator = True)
 @commands.guild_only()
 async def prefix(ctx, *, prefix):

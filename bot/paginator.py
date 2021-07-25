@@ -64,7 +64,7 @@ paginators: Dict[int, EmbedPaginator] = {}
 def add_paginator(user: discord.User, paginator: EmbedPaginator):
     paginators[user.id] = paginator
 
-@bot.command()
+@bot.command(brief = "Navigates the pages of a multi-page message.")
 async def page(ctx, *, page_number):
     author_id = ctx.author.id
     if author_id not in paginators:

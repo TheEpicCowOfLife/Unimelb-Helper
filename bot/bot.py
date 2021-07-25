@@ -23,7 +23,8 @@ description = '''A simple helper bot for unimelb students'''
 intents = discord.Intents.default()
 intents.members = False
 
-bot = commands.Bot(command_prefix=get_prefix, description=description, intents=intents)    
+bot = commands.Bot(command_prefix=get_prefix, description=description, intents=intents)
+  
 
 @bot.event
 async def on_ready():
