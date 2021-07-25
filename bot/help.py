@@ -8,7 +8,7 @@ from paginator import Field, add_paginator,paginators,EmbedPaginator
 
 github_link =  'https://github.com/TheEpicCowOfLife/Unimelb-Helper'
 @bot.command(brief = "Sends the github repo link for this bot.")
-async def github(ctx, *args):
+async def github(ctx):
     await ctx.send(f"{ctx.author.mention} Contribute to this discord bot, and scream at TheEpicCowOfLife if this bot does not know about a certain subject here! {github_link}")
 
 help_command_attrs = {
