@@ -7,7 +7,7 @@ import traceback
 from bot import bot
 from data import UoM_blue, subjects, YEAR
 from error import on_error,ValidationError
-from paginator import Field,paginators,EmbedPaginator
+from paginator import Field, add_paginator,paginators,EmbedPaginator
 from search import do_search, sort_by_importance
 
 # This module handles everything related to displaying subjects and accessing its information.
@@ -121,25 +121,25 @@ def subject_list_to_fields(subject_list):
         ret.append(Field(title,desc))
     return ret
 
-def validate_args_is_subject_code(ctx,args):
-    if (len(args) != 1):
-        raise ValidationError(f"Expecting exactly one argument. Usage is '{ctx.prefix}subject ABCD12345'. Case insensitive")
-
-    subject_code = args[0].upper()
-
+def validate_subject_code(ctx, subject_code):
     if not re.match(subject_code_regex,subject_code):
         raise ValidationError(f"{subject_code} is an invalid subject code. Subject codes are of the form 'ABCD12345'. Case insensitive.")
 
     if subject_code.upper() not in subjects:
         raise ValidationError(f"Subject {subject_code} does not exist.")
+
+def validate_args_is_subject_code(ctx,args):
+    if (len(args) != 1):
+        raise ValidationError(f"Expecting exactly one argument. Usage is '{ctx.prefix}subject ABCD12345'. Case insensitive")
+    subject_code = args[0].upper()
+    validate_subject_code(ctx,subject_code)
     
 
 @bot.command(aliases = ['search'])
-async def subject(ctx, *, arg):
-    arg = arg.strip()
-    subject_list = do_search(arg)
-    author_id = ctx.author.id
-    title = f"Displaying search result(s) for '{arg}'"
+async def subject(ctx, *, query):
+    query = query.strip()
+    subject_list = do_search(query)
+    title = f"Displaying search result(s) for '{query}'"
     if (len(subject_list) == 0):
         desc = "No results found"
         await ctx.send(embed = discord.Embed(title = title, description = desc, color = UoM_blue))
@@ -148,18 +148,17 @@ async def subject(ctx, *, arg):
     else:
         desc = f"{len(subject_list)} result(s) found"
         fields = subject_list_to_fields(subject_list)
-        paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
-        await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))        
+        paginator = EmbedPaginator(title = title, description = desc, fields = fields)
+        add_paginator(ctx.author, paginator)
+        await ctx.send(embed = paginator.make_embed(ctx,page = 1))        
 
 
 @bot.command()
-async def reqfor(ctx, *args):
-    validate_args_is_subject_code(ctx, args)
-    subject_code = args[0].upper()
+async def reqfor(ctx, *, subject_code):
+    validate_subject_code(ctx, subject_code)
+
     subject_title = subjects[subject_code]["title"]
-    author_id = ctx.author.id
-    title = f"Displaying subjects that use '{subject_title}' as a prerequisite"
-    
+    title = f"Displaying subjects that use '{subject_title}' as a prerequisite"    
     subject_list = sort_by_importance([subjects[code] for code in subjects[subject_code]['prereq_for']])
 
     # Send a special embed for no results
@@ -170,6 +169,7 @@ async def reqfor(ctx, *args):
         desc = f"{len(subject_list)} result(s) found. Note that {subject_code} is one possible requirement for the following subjects"\
             " or it may even be simply listed as recommended subject. Always check the handbook for more details."
         fields = subject_list_to_fields(subject_list)
-        paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
-        await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))    
+        paginator = EmbedPaginator(title = title, description = desc, fields = fields)
+        add_paginator(ctx.author, paginator)
+        await ctx.send(embed = paginator.make_embed(ctx,page = 1))    
 

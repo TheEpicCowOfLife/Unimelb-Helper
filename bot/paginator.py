@@ -61,6 +61,8 @@ class EmbedPaginator():
 # User_id : Paginator        
 paginators: Dict[int, EmbedPaginator] = {}    
 
+def add_paginator(user: discord.User, paginator: EmbedPaginator):
+    paginators[user.id] = paginator
 
 @bot.command()
 async def page(ctx, *args):
