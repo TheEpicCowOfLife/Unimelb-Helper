@@ -27,8 +27,3 @@ async def prefix(ctx,*args):
     await ctx.send(msg)
 
     # set_prefix(ctx.guild.id,args[0])
-
-
-@prefix.error
-async def prefix_error(ctx, error):
-    await on_error(ctx,error)

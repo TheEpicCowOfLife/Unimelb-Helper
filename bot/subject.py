@@ -152,12 +152,7 @@ async def subject(ctx, *, arg):
         await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))        
 
 
-@subject.error
-async def subject_error(ctx, error):
-    await on_error(ctx,error)
-
-""""test docstring?"""
-@bot.command(short_doc = "test docstring")
+@bot.command()
 async def reqfor(ctx, *args):
     validate_args_is_subject_code(ctx, args)
     subject_code = args[0].upper()
@@ -178,9 +173,3 @@ async def reqfor(ctx, *args):
         paginators[author_id] = EmbedPaginator(title = title, description = desc, fields = fields)
         await ctx.send(embed = paginators[author_id].make_embed(ctx,page = 1))    
 
-
-@reqfor.error
-async def subject_error(ctx, error):
-    await on_error(ctx,error)
-
-commands.HelpCommand

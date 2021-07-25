@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands.errors import CommandInvokeError, MissingPermissions
-
+from bot import bot
 # Anything related to error handling goes here
 
 # Describes a kind of error that's totally fine because of bad user input that was checked for.
@@ -20,3 +20,5 @@ async def on_error(ctx, error):
     else:
         msg = f"{ctx.author.mention} Error! {error}"
     await ctx.send(msg)
+
+bot.on_command_error = on_error
