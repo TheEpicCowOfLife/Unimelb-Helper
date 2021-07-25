@@ -155,8 +155,8 @@ async def subject(ctx, *, query):
 
 @bot.command(brief = "Displays subjects that use 'subject_code' as a prerequisite. Good for looking at where a certain subject leads to.")
 async def reqfor(ctx, *, subject_code):
+    subject_code = subject_code.upper()
     validate_subject_code(ctx, subject_code)
-
     subject_title = subjects[subject_code]["title"]
     title = f"Displaying subjects that use '{subject_title}' as a prerequisite"    
     subject_list = sort_by_importance([subjects[code] for code in subjects[subject_code]['prereq_for']])
