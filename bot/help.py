@@ -11,6 +11,9 @@ github_link =  'https://github.com/TheEpicCowOfLife/Unimelb-Helper'
 async def github(ctx, *args):
     await ctx.send(f"{ctx.author.mention} Contribute to this discord bot, and scream at TheEpicCowOfLife if this bot does not know about a certain subject here! {github_link}")
 
+help_command_attrs = {
+    "brief" : "Displays information about the bot's commands"
+}
 
 # Code lovingly stolen from https://gist.github.com/InterStella0/b78488fb28cadf279dfd3164b9f0cf96
 # and modified a bit, of course.
@@ -49,8 +52,7 @@ class MyHelp(commands.HelpCommand):
 
         channel = self.get_destination()
         await channel.send(embed=embed)
-bot.help_command = MyHelp()
-bot.help_command.help = "Displays information about the bot's commands"
+bot.help_command = MyHelp(command_attrs = help_command_attrs)
 
 @bot.command(brief = "If you see this, scream at the TheEpicCowOfLife to remove this")
 async def test(ctx, *args):
@@ -61,6 +63,7 @@ async def test(ctx, *args):
 
 def check_for_missing_help():
     for command in bot.commands:
-        if command.help == None:
-            
-            pass
+        if command.brief == None:
+            print(f"DUDE. DUDE. I SWEAR TO GOD DO NOT PUSH. {command.name} IS MISSING A HELPSTRING")
+
+check_for_missing_help()
