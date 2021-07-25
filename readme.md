@@ -1,6 +1,6 @@
 # Unimelb helper
 
-This is a discord bot to search for subjects and display related information.  
+This is a discord bot to search for subjects and display related information. Demo video for CISSA [here](https://youtu.be/S2BseBoxrUw)
 
 ## Main commands  
 ### ?subject
@@ -10,8 +10,8 @@ This is like the requisites page in the handbook, but in reverse. Now you can se
 
 ## Setup
 If you don't want to setup the bot and just want to see it in action, head on over to https://discord.gg/NjNrjNNazD where it lives. It is currently deployed on heroku.   
-Otherwise, follow the following tutorial in order to setup a bot, and get a private token.
-https://discordpy.readthedocs.io/en/stable/discord.html
+Otherwise, follow the following [tutorial](https://discordpy.readthedocs.io/en/stable/discord.html) in order to setup a bot, and get a private token.
+
 To run this bot, simply set the UNIMELB_HELPER_TOKEN environment variable to the bot's private token, and run bot/main.py from the same directory as this readme.
 
 ## The web scraper
