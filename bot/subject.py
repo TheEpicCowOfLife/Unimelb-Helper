@@ -153,7 +153,7 @@ async def subject(ctx, *, query):
         await ctx.send(embed = paginator.make_embed(ctx,page = 1))        
 
 
-@bot.command(brief = "Displays subjects that use 'subject_code' as a prerequisite. Good to search where a certain subject leads to.")
+@bot.command(brief = "Displays subjects that use 'subject_code' as a prerequisite. Good for looking at where a certain subject leads to.")
 async def reqfor(ctx, *, subject_code):
     validate_subject_code(ctx, subject_code)
 
