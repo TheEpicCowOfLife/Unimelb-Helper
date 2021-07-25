@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from bot import bot,prefixes
-from error import on_error,ValidationError
 
 import json
 

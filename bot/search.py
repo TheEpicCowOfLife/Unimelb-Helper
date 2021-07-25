@@ -6,7 +6,6 @@ from collections import OrderedDict
 from functools import cmp_to_key
 
 from bot import bot
-from error import on_error,ValidationError
 from paginator import *
 from data import subjects,UoM_blue,YEAR
 

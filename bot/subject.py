@@ -6,8 +6,8 @@ import traceback
 
 from bot import bot
 from data import UoM_blue, subjects, YEAR
-from error import on_error,ValidationError
-from paginator import Field, add_paginator,paginators,EmbedPaginator
+from error import ValidationError
+from paginator import Field, add_paginator,EmbedPaginator
 from search import do_search, sort_by_importance
 
 # This module handles everything related to displaying subjects and accessing its information.

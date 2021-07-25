@@ -3,8 +3,7 @@ from discord.ext import commands
 
 from bot import bot
 from data import UoM_blue, subjects, YEAR
-from error import on_error,ValidationError
-from paginator import Field, add_paginator,paginators,EmbedPaginator
+from paginator import Field, add_paginator,EmbedPaginator
 
 github_link =  'https://github.com/TheEpicCowOfLife/Unimelb-Helper'
 @bot.command(brief = "Sends the github repo link for this bot.")

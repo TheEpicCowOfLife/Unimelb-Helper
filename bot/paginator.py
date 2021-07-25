@@ -4,7 +4,7 @@ from typing import List, Dict
 import math
 
 from bot import bot
-from error import on_error,ValidationError
+from error import ValidationError
 from data import UoM_blue
 
 # The EmbedPaginator is a custom paginator that displays an embed with a list of fields.
