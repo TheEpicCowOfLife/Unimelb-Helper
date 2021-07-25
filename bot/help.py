@@ -54,12 +54,12 @@ class MyHelp(commands.HelpCommand):
         await channel.send(embed=embed)
 bot.help_command = MyHelp(command_attrs = help_command_attrs)
 
-@bot.command(brief = "If you see this, scream at the TheEpicCowOfLife to remove this")
-async def test(ctx, *args):
-    for command in bot.commands:
-        print(command.name)
-        print(command.help)    
-    await ctx.send(f"{ctx.author.mention} test")
+# @bot.command(brief = "If you see this, scream at the TheEpicCowOfLife to remove this")
+# async def test(ctx, *args):
+#     for command in bot.commands:
+#         print(command.name)
+#         print(command.help)    
+#     await ctx.send(f"{ctx.author.mention} test")
 
 def check_for_missing_help():
     for command in bot.commands:
