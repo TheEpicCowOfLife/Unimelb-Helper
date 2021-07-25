@@ -6,7 +6,7 @@ import json
 with open("data/subjects.json") as f:
     subjects = json.loads(f.read())
 
-# Create acronyms for subjects 
+# Create acronyms for subjects so you can search subjects by acronyms.
 def create_acronyms():
     # There's a bunch of ways acronyms are created
     # There's case sensitive letters 
@@ -18,7 +18,6 @@ def create_acronyms():
     # but it'd be a pretty cool feature for future me
     # this is a huge TODO
     # and it may not even be a desired feature.
-    acronyms = []
     pass
 create_acronyms()
 
