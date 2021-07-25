@@ -65,11 +65,11 @@ def add_paginator(user: discord.User, paginator: EmbedPaginator):
     paginators[user.id] = paginator
 
 @bot.command()
-async def page(ctx, *, page):
+async def page(ctx, *, page_number):
     author_id = ctx.author.id
     if author_id not in paginators:
         raise ValidationError(f"There is nothing to use {ctx.prefix}page on!")
 
     paginator = paginators[author_id]
-    paginator.validate_page(page)
-    await ctx.send(embed = paginator.make_embed(ctx, page = int(page)))
+    paginator.validate_page(page_number)
+    await ctx.send(embed = paginator.make_embed(ctx, page = int(page_number)))
