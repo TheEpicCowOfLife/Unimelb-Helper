@@ -30,29 +30,6 @@ YEAR = "2021"
 subject_code_regex = r"[a-zA-Z]{4}[0-9]{5}"
 
 subject_code_regex_exact = r"^[a-zA-Z]{4}[0-9]{5}$"
-# Scrapes https://sws.unimelb.edu.au/2021/ for a list of all subject codes
-# and writes it to codes.json. You need to actually click on the subjects button, and paste the HTML manually
-# into input_path. Clicking a js button really is the bane of this scraper.
-def scrape_code_list(input_path,output_path):
-    with open(input_path,"r") as f:
-        soup = BeautifulSoup(f.read(), 'html.parser')
-        
-        # Apparently the only thing with id dlObject is what we're looking for,
-        # which just seems like a coincidence that we shouldn't rely on.
-        # But i see no better way.
-        unique_dict = {}
-        for option in soup.find(id = "dlObject").contents:
-            # Apparently half of the contents are empty navigable strings. Yeah I have no idea what
-            # this cooked HTML did to beautiful soup
-            if (type(option) == NavigableString):
-                continue
-            s = option.text
-            code = s[:9]
-            title = "-".join(s.split("-")[1:]).strip()
-            unique_dict[code] = title
-        
-    with open(output_path,"w") as f:
-        f.write(json.dumps({"codes" : [(code,title) for code,title in unique_dict.items()]},indent = 4))
 
 """
 List of entries planned
@@ -83,20 +60,26 @@ subjects = {}
 
 def get_default_subject(code, title = "Unknown"):
     ret = {
-                "code" : code,
-                "has_handbook_page" : False,
-                "title" : title,
-                "level" : "",
-                "points" : 0,
-                "delivery" : "",
-                "availability" : [],
-                "overview" : "",
-                "prereq_for" : [],
+        "code" : code,
+        "has_handbook_page" : False,
+        "title" : title,
+        "level" : "",
+        "points" : 0,
+        "delivery" : "",
+        "availability" : [],
+        "overview" : "",
+        "prereq_for" : [],
 
-                "has_studentVIP_page" : False,
-                "rating" : -1,
-                "review_count" : 0
-            }
+        "has_studentVIP_page" : False,
+        "rating" : -1,
+        "review_count" : 0
+    }
+    return ret
+def get_default_subject_min(code, title = "Unknown"):
+    ret = {
+        "code" : code,
+        "title" : title,
+    }
     return ret
 
 
@@ -122,7 +105,7 @@ class ProgressTracker():
     
     def increment(self):
         self.val += 1
-        if (self.val % 50 == 0):
+        if (self.val % self.period == 0):
             print(self.message % self.val)
 
 cache_tracker = ProgressTracker(50,"Cached %s pages")
@@ -167,20 +150,86 @@ async def get_soup(subject_code, url_type, session = None):
         elif (url_type == "studentVIP"):
             # So uhhhh, I accidentally scraped studentVIP at the speed of light, and cached them on my end.
             # The folders will not exist on github, so studentVIP will be requested on demand
-            if (os.path.exists("data/site_cache/studentVIP")):
+            if (False or os.path.exists(f"data/site_cache/studentVIP/{subject_code}.html")):
                 with open(f"data/site_cache/studentVIP/{subject_code}.html") as f:
                     return BeautifulSoup(f.read(), 'html.parser')
             else:            
                 url = f"https://studentvip.com.au/unimelb/subjects/{subject_code.lower()}"
                 async with session.get(url) as req:
-                    print("making request why")
+                    # print("making request why")
                     if req.status == 200:
                         return BeautifulSoup(await req.text(), 'html.parser')
         else:
             print(f"Passed in wrong url_type lol {subject_code},{url_type}")
     except Exception as e:
         print(f"Error in {subject_code} doing {url_type}, {e}")
+handbook_results_tracker = ProgressTracker(20, "Retrieved %s pages of results")
+async def get_handbook_results_soup(page, session):
+    try:
+        url = f"https://handbook.unimelb.edu.au/search?area_of_study%5B%5D=all&campus_and_attendance_mode%5B%5D=all&org_unit%5B%5D=all&page={page}&sort=external_code%7Casc&study_periods%5B%5D=all&subject_level_type%5B%5D=all&types%5B%5D=subject&year={YEAR}"
+        async with session.get(url) as req:
+            if (req.status == 200):
+                handbook_results_tracker.increment()
+                return BeautifulSoup(await req.text(), 'html.parser')
+    except Exception as e:
+        print(f"Error in page {page} of results page, {e}")
+ 
+def process_results_page(soup: BeautifulSoup):
+    results_list = soup.find(class_ = "search-results__list")
+    ret = {}
+    for result in results_list:
+        thing = result.find(class_ = "search-result-item__name")
+        title = thing.contents[0].text
+        code = thing.contents[1].text
+        ret[code] = title
+    return ret
 
+# Scrapes https://sws.unimelb.edu.au/2021/ for a list of all subject codes
+# and writes it to codes.json. You need to actually click on the subjects button, and paste the HTML manually
+# into input_path. Clicking a js button really is the bane of this scraper.
+
+# Actually it turns out sws is useless and misses out on like 5 billion subjects. Now also scraping handbook results page for completeness.
+async def scrape_code_list(session, input_paths,output_path):
+    unique_dict = {}
+    for path in input_paths:
+        with open(path,"r") as f:
+            soup = BeautifulSoup(f.read(), 'html.parser')
+            
+            # Apparently the only thing with id dlObject is what we're looking for,
+            # which just seems like a coincidence that we shouldn't rely on.
+            # But i see no better way.
+            for option in soup.find(id = "dlObject").contents:
+                # Apparently half of the contents are empty navigable strings. Yeah I have no idea what
+                # this cooked HTML did to beautiful soup
+                if (type(option) == NavigableString):
+                    continue
+                s = option.text
+                code = s[:9]
+                title = "-".join(s.split("-")[1:]).strip()
+                unique_dict[code] = title
+    
+    temp = await get_handbook_results_soup(1,session)
+    if (temp == None):
+        print("WTFF????")
+    else:
+        initial_soup: BeautifulSoup = temp    
+        # print(initial_soup)
+        result = initial_soup.find(class_ = "search-results__paginate")
+        number_of_pages = int(result.contents[2].text.split(" ")[1])
+        # print(number_of_pages)        
+        # number_of_pages = min(number_of_pages,10)
+        tasks = []
+        for i in range(2,number_of_pages+1):
+            tasks.append(get_handbook_results_soup(i,session))
+        soups = [initial_soup] + await asyncio.gather(*tasks)
+        for soup in soups:
+            if (soup == None): 
+                continue
+            return_dict = process_results_page(soup)
+            for code,title in return_dict.items():
+                unique_dict[code] = title
+    with open(output_path,"w") as f:
+        f.write(json.dumps({"codes" : sorted([(code,title) for code,title in unique_dict.items()], key = lambda k: k[0])},indent = 4))
 
 
 unique_terms = {}
@@ -207,12 +256,16 @@ async def scrape_handbook_main(session, subject_code):
             
             # Scraping level, points, and delivery method/campus. May or may not be useful?
             details_header = soup.find(class_ = "header--course-and-subject__details")
-            if (details_header == None or len(details_header.contents) != 3):
+            if (details_header == None or len(details_header.contents) not in [2,3]):
                 print(f"Details header of {subject_code} is weird")
             else:
-                subject["level"] = details_header.contents[0].text
-                subject["points"] = float(details_header.contents[1].text[8:])
-                subject["delivery"] = details_header.contents[2].text
+                if (len(details_header.contents) == 2):
+                    subject["level"] = details_header.contents[0].text
+                    subject["delivery"] = details_header.contents[1].text
+                else:
+                    subject["level"] = details_header.contents[0].text
+                    subject["points"] = float(details_header.contents[1].text[8:])
+                    subject["delivery"] = details_header.contents[2].text
 
                 unique_level[subject["level"]] = subject_code
                 unique_delivery[subject["delivery"]] = subject_code
@@ -221,8 +274,9 @@ async def scrape_handbook_main(session, subject_code):
             # Scraping availability data
             matches = soup.find_all(string = "Availability")
             if (len(matches) == 0):
+                pass
                 # This subject is not available in 2021
-                print(f"{subject_code} appears to not be available in {YEAR}")
+                # print(f"{subject_code} appears to not be available in {YEAR}")
             else:
                 if (len(matches) != 1):
                     print(f"Weird, {subject_code} matches availability more than once")
@@ -248,15 +302,19 @@ async def scrape_handbook_main(session, subject_code):
                         # And there is no good separation between what is the term, or the study-mode
                         # But I'm going to try anyways
                         # Oh look I actually got it reasonably
-                        contains_dumb_string = "Early-Start" in s
 
-                        s = [i.strip() for i in s.split('-')]
-                        if (contains_dumb_string):
-                            term = "-".join(s[0:2])
-                            study_mode = "-".join(s[2:])
+                        if (s.strip() == "Time-based Research"):
+                            term = "Time-based Research"
+                            study_mode = ""
                         else:
-                            term = s[0]
-                            study_mode = "-".join(s[1:])
+                            contains_dumb_string = "Early-Start" in s                        
+                            s = [i.strip() for i in s.split('-')]
+                            if (contains_dumb_string):
+                                term = "-".join(s[0:2])
+                                study_mode = "-".join(s[2:])
+                            else:
+                                term = s[0]
+                                study_mode = "-".join(s[1:])
                         
                         unique_terms[term] = subject_code
                         unique_study_modes[study_mode] = subject_code
@@ -382,7 +440,8 @@ async def do_everything(replace_subjects = True):
         if (not replace_subjects):
             load_subjects()
         # I have stored codes in a very lazy and haphazard manner. I apologise
-        scrape_code_list(f"data/raw/sws{YEAR}.html","data/codes.json")
+        input_files = [f"data/raw/sws2021.html"]
+        await scrape_code_list(session, input_files,"data/codes.json")
 
         with open("data/codes.json") as f:
             things = json.loads(f.read())["codes"]
@@ -412,14 +471,20 @@ async def do_everything(replace_subjects = True):
 
 
         # Scraping studentVIP may or may not be fine. So I will limit it to a leisurely 5 requests a sec.
+        # nah screw it I haven't faced any repercussions 
         # studentVIP will scream at you because a lot of 404s will be found.
+        
+        tasks = []
         for code in codes:
-            await scrape_studentVIP_main(session,code)
-            await sleep(0.2)
+            tasks.append(scrape_studentVIP_main(session,code))
+            # await scrape_studentVIP_main(session,code)
+            # await sleep(0.2)
+        await asyncio.gather(*tasks)
+
         clean_subjects()
         dump_subjects()
 
-# asyncio.run(do_everything())
+# asyncio.run(do_everything(replace_subjects=True))
 
 # WARNING: Untested code.
 async def update_studentVIP():
@@ -431,3 +496,18 @@ async def update_studentVIP():
         dump_subjects()
 
 # asyncio.run(update_studentVIP())
+
+async def test():
+    async with aiohttp.ClientSession() as session:
+        # input_files = [f"data/raw/sws2021.html"]
+        # await scrape_code_list(session, input_files,"data/codes_test.json")
+        with open("data/codes.json") as f:
+            things = json.loads(f.read())["codes"]
+            codes = [a[0] for a in things]
+        await(cache_handbook(session,codes))
+            
+        #     for code,title in things:
+        #         subjects[code] = get_default_subject_min(code,title)
+        # dump_subjects()
+
+# asyncio.run(test())
