@@ -34,9 +34,9 @@ class EmbedPaginator():
             p = int(page)
             assert(p > 0)
         except:
-            raise ValidationError(f"'{page}' is not a positive integer")
+            raise ValidationError(f"'{page}' is not an integer between 1 and {self.max_pages} inclusive.")
         if p > self.max_pages:
-            raise ValidationError(f"Error, page number specified is too high! ")
+            raise ValidationError(f"Error, page number specified is too high! Page must be between 1 and {self.max_pages} inclusive.")
 
     def make_embed(self, ctx, page = 1) -> discord.Embed:
         self.validate_page(page)
@@ -65,13 +65,11 @@ def add_paginator(user: discord.User, paginator: EmbedPaginator):
     paginators[user.id] = paginator
 
 @bot.command()
-async def page(ctx, *args):
+async def page(ctx, *, page):
     author_id = ctx.author.id
     if author_id not in paginators:
-        raise ValidationError(f"Must make a search with {ctx.prefix}search before choosing the page of the search.")
-    if len(args) != 1:
-        raise ValidationError(f"Expecting only one argument. Usage is {ctx.prefix}page x where x is a positive integer representing the page you want.")
-    
+        raise ValidationError(f"There is nothing to use {ctx.prefix}page on!")
+
     paginator = paginators[author_id]
-    paginator.validate_page(args[0])
-    await ctx.send(embed = paginator.make_embed(ctx, page = int(args[0])))
+    paginator.validate_page(page)
+    await ctx.send(embed = paginator.make_embed(ctx, page = int(page)))
