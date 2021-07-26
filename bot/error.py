@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from discord.ext.commands.errors import CommandInvokeError, MissingPermissions
+from discord.ext.commands.errors import CommandInvokeError, MissingPermissions, CommandNotFound
 from bot import bot
 # Anything related to error handling goes here
 
@@ -10,7 +10,9 @@ class ValidationError(Exception):
 
 async def on_error(ctx, error):
     msg = ""
-    
+    # We don't want the bot to spam errors in response to messages like ??
+    if (isinstance(error,CommandNotFound)):
+        return
     if (isinstance(error,CommandInvokeError)):
         if (isinstance(error.original,ValidationError)):
             msg = f"{ctx.author.mention} Error! {error.original}"
