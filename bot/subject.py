@@ -116,8 +116,10 @@ def subject_list_to_fields(subject_list):
             desc.append(f"Points: {subject['points']}")
         if (subject['delivery'] != ""):
             desc.append(f"{subject['delivery']}")
-        
-        desc = " / ".join(desc)
+        if (len(desc) == 0):
+            desc = "No known information"
+        else:
+            desc = " / ".join(desc)
         ret.append(Field(title,desc))
     return ret
 
