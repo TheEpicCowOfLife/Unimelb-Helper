@@ -25,20 +25,24 @@ def get_handbook_URL(code, year = YEAR):
 OVERVIEW_LENGTH = 300
 def add_overview_field(embed, subject, inline = False):
     overview = subject['overview']
-
-    # find the first space after character 200
-    cutoff = overview[OVERVIEW_LENGTH:].find(' ')
-    if (cutoff == -1):
-        cutoff = OVERVIEW_LENGTH
+    if len(overview) < OVERVIEW_LENGTH:
+        cropped_overview = overview
     else:
-        cutoff += OVERVIEW_LENGTH
-
-    # Non exhaustive list lol, tell me if there are bugs.
-    punctuation = ['"',"'",".",",","!",'?']
-    if (overview[cutoff-1] in punctuation):
-        cutoff -= 1
-    
-    embed.add_field(name = "Overview", value = overview[:cutoff] + "...", inline = inline)
+        # find the first space after cropping
+        cutoff = overview[OVERVIEW_LENGTH:].find(' ')
+        if (cutoff == -1):
+            cutoff = OVERVIEW_LENGTH
+        else:
+            cutoff += OVERVIEW_LENGTH
+        cutoff = min(cutoff,len(overview))
+        # Cutoff is now set to the location of the first space, or the end of the overview.        
+        # Non exhaustive list lol, tell me if there are bugs.
+        punctuation = ['"',"'",".",",","!",'?', " "]    
+        # Remove any trailing punctuation so we can add the elipsis
+        while (overview[cutoff-1] in punctuation):
+            cutoff -= 1
+        cropped_overview = overview[:cutoff] + "..."
+    embed.add_field(name = "Overview", value = cropped_overview, inline = inline)
 
     # # This code displays the whole thing. It is long. TODO: Possibly paginate it.
     # overview_pars = subject['overview'].split("\n")
