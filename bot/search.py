@@ -61,6 +61,14 @@ def match_title_contains(substring):
             ret.append(subjects[code])
     return ret 
 
+def match_title_contains_ignore_punctuation(substring):
+    ret = []
+    substring = substring.lower()
+    for code in subjects:
+        if substring in subjects[code]["punctuationless_title"].lower():
+            ret.append(subjects[code])
+    return ret 
+
 # The search algorithm ranks results first by the type of match they are, 
 # and among those of the same kind of match uses a heuristic sort_by_importance.
 # Sorting by "type of match" is a heuristic for search relevance. An exact code match is more relevant
@@ -74,7 +82,8 @@ def do_search(query):
         match_title_exact,
         match_code_prefix,
         match_title_prefix,
-        match_title_contains]
+        match_title_contains,
+        match_title_contains_ignore_punctuation]
     
     for f in funcs:
         for match in sort_by_importance(f(query)):
