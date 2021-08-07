@@ -73,7 +73,10 @@ def match_title_contains_ignore_punctuation(substring):
 # and among those of the same kind of match uses a heuristic sort_by_importance.
 # Sorting by "type of match" is a heuristic for search relevance. An exact code match is more relevant
 # than the query being a substring of the title. See the funcs[] list for the exact ordering I have devised.
-def do_search(query):
+def do_search(query):    
+    # preprocess our query a little to make it more user friendly
+    # first we get rid of extra spaces in between.
+    query = " ".join([i.strip() for i in query.split()])
     # Ordered dict has the nice property of maintaining insertion order and removing duplicates.
     ret = OrderedDict()
 
