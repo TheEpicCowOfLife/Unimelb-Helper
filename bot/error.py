@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands.errors import CommandInvokeError, MissingPermissions, CommandNotFound
+import traceback
 from bot import bot
 # Anything related to error handling goes here
 
