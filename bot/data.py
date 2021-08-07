@@ -1,8 +1,10 @@
 from functools import cmp_to_key
+from typing import Dict
 import json
 
 # Contains constants loads data, and other things to be accessed globally
 
+subjects: Dict[str,Dict] = {}
 with open("data/subjects.json") as f:
     subjects = json.loads(f.read())
 
