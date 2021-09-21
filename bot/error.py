@@ -16,7 +16,10 @@ async def on_error(ctx, error):
         return
     if (isinstance(error,CommandInvokeError)):
         if (isinstance(error.original,ValidationError)):
-            msg = f"{ctx.author.mention} Error! {error.original}"
+            e = str(error.original)
+            if len(e) > 200:
+                e = e[:200] + "... (truncated error message)"
+            msg = f"{ctx.author.mention} Error! {e}"
         else:
             print(f"oh no, {error}")
             msg = f"{ctx.author.mention} Critical error! Contact the dev(s). {error}"        

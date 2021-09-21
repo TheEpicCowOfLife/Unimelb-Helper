@@ -144,6 +144,8 @@ def validate_args_is_subject_code(ctx,args):
 @bot.command(aliases = ['search'], brief = "Searchs for subjects and displays information about them.")
 async def subject(ctx, *, query):
     query = query.strip()
+    if (len(query) > 150):
+        raise ValidationError(f"Argument too long, exceeds 150 character limit")
     subject_list = do_search(query)
     title = f"Displaying search result(s) for '{query}'"
     if (len(subject_list) == 0):
