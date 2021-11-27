@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 # Gets soup. Soup is an abstract representation of the HTML that has already been nicely parsed. 
 # Has plenty of nice helper functions
 async def get_soup(session,url):
-    print("hi")
     async with session.get(url) as req:
         if req.status == 200:
             return BeautifulSoup(await req.text(), 'html.parser')

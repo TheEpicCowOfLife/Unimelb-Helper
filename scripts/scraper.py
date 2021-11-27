@@ -26,7 +26,7 @@ from post_processing import *
 
 # You can also change this, and hope everything works the same way it did before.
 # I almost guarantee it won't.
-YEAR = "2021"
+YEAR = "2022"
 
 subject_code_regex = r"[a-zA-Z]{4}[0-9]{5}"
 
@@ -132,6 +132,7 @@ async def cache_handbook(session, subject_codes):
 # i should totally use enums, whatever.
 # get_soup may return none if it fails. Assuming that is best practice.
 async def get_soup(subject_code, url_type, session = None):
+    # for example: subject_code = "MAST20022"
     try:
         if (url_type == "handbook_main"):
             with open(f"data/site_cache/handbook_main/{subject_code}.html") as f:
@@ -183,30 +184,13 @@ def process_results_page(soup: BeautifulSoup):
 # into input_path. Clicking a js button really is the bane of this scraper.
 
 # Actually it turns out sws is useless and misses out on like 5 billion subjects. Now also scraping handbook results page for completeness.
-async def scrape_code_list(session, input_paths,output_path):
+async def scrape_code_list(session,output_path):
     unique_dict = {}
-    for path in input_paths:
-        with open(path,"r") as f:
-            soup = BeautifulSoup(f.read(), 'html.parser')
-            
-            # Apparently the only thing with id dlObject is what we're looking for,
-            # which just seems like a coincidence that we shouldn't rely on.
-            # But i see no better way.
-            for option in soup.find(id = "dlObject").contents:
-                # Apparently half of the contents are empty navigable strings. Yeah I have no idea what
-                # this cooked HTML did to beautiful soup
-                if (type(option) == NavigableString):
-                    continue
-                s = option.text
-                code = s[:9]
-                title = "-".join(s.split("-")[1:]).strip()
-                unique_dict[code] = title
-    
     temp = await get_handbook_results_soup(1,session)
     if (temp == None):
         print("WTFF????")
     else:
-        initial_soup: BeautifulSoup = temp    
+        initial_soup: BeautifulSoup = temp
         # print(initial_soup)
         result = initial_soup.find(class_ = "search-results__paginate")
         number_of_pages = int(result.contents[2].text.split(" ")[1])
@@ -426,9 +410,7 @@ async def do_everything(replace_subjects = True):
     async with aiohttp.ClientSession() as session:
         if (not replace_subjects):
             subjects = load_subjects()
-        # I have stored codes in a very lazy and haphazard manner. I apologise
-        input_files = [f"data/raw/sws2021.html"]
-        await scrape_code_list(session, input_files,"data/codes.json")
+        # await scrape_code_list(session,"data/codes.json")
 
         with open("data/codes.json") as f:
             things = json.loads(f.read())["codes"]
@@ -437,7 +419,7 @@ async def do_everything(replace_subjects = True):
             for code,title in things:
                 if (replace_subjects or code not in subjects):
                     subjects[code] = get_default_subject(code,title)
-
+        # codes = codes[:20]
         await cache_handbook(session,codes)
 
         # From what I can gather, it's fine to scrape the handbook as fast as we want
@@ -471,7 +453,7 @@ async def do_everything(replace_subjects = True):
         process_everything(subjects)
         dump_subjects(subjects)
 
-# asyncio.run(do_everything(replace_subjects=True))
+asyncio.run(do_everything(replace_subjects=True))
 
 # WARNING: Untested code.
 async def update_studentVIP():

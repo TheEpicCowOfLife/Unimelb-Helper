@@ -57,7 +57,7 @@ def add_availability_field(embed,subject, inline = False):
     availability = subject['availability']
     avail_desc = []
     if len(availability) == 0:
-        avail_desc = ["Not available in 2021"]
+        avail_desc = [f"Not available in {YEAR}"]
     else:
         for thing in availability:
             if (thing['mode'] == ""):

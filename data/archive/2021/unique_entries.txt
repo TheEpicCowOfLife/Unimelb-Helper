@@ -1,0 +1,96 @@
+Here is a list of all the possible values certain things can take.
+
+Should probably sort them so they appear in a sane order
+
+Each entry is of the form (thing, subject_code) where subject_code is an example where thing appears
+
+Terms:
+Semester 1 : ZOOL90007
+Semester 2 : ZOOL30009
+Winter Term : VETS90083
+November : SOCI90024
+September : VETS40023
+January : PPMN90031
+Summer Term : THTR30042
+Semester 1 (Early-Start) : VETS90145
+Semester 2 (Early-Start) : VETS90150
+June : THTR20043
+July : VETS90092
+March : VETS40023
+February : ZOOL30008
+May : SOCI90025
+August : SCWK90050
+Term 2 : REHB90010
+Term 1 : SMED90001
+Term 4 : SCWK90027
+Term 3 : SMED90002
+Year Long : WELF90010
+Year Long (Extended) : VETS90096
+Time-based Research : VETS90027
+Semester 2 (Extended) : VETS90057
+Semester 1 (Extended) : VETS90057
+October : VETS90089
+April : VETS90087
+December : PPMN90006
+
+Study modes:
+Dual-Delivery : ZOOL90007
+Online : ZOOL30006
+ : ZOOL30009
+On Campus : UNIB10011
+Off Campus : UNIB10023
+
+Delivery:
+Dual-Delivery (Parkville) : ZOOL90007
+Dual-Delivery (Parkville) and Online : UNIB10022
+Not available in 2021 : VETS90114
+Online : ZOOL30006
+On Campus (Parkville) : ZOOL30009
+Online and Dual-Delivery (Parkville) : SWEN90016
+Dual-Delivery (Burnley) : HORT90048
+On Campus (Dookie) : SKIL10007
+On Campus (Parkville) and On Campus (Dookie) : AGRI10039
+On Campus (Dookie) and Dual-Delivery (Parkville) : AGRI20036
+Dual-Delivery (Dookie) and Dual-Delivery (Parkville) : AGRI20038
+Online and On Campus (Dookie) : AGRI30022
+Dual-Delivery (Parkville) and On Campus (Dookie) : ANSC30008
+Dual-Delivery (Parkville) and On Campus (Parkville) : SCIE90028
+On Campus (Parkville) and Online : UNIB10011
+On Campus (Parkville) and Dual-Delivery (Parkville) : PSYC90120
+Online and On Campus (Parkville) : PSYT90004
+On Campus (Southbank) : THTR90009
+Off Campus : UNIB10023
+Off Campus, Dual-Delivery (Parkville), and On Campus (Parkville) : BIOM30003
+Off Campus and Online : BUSA90525
+Dual-Delivery (Southbank) : THTR40008
+Dual-Delivery (Southbank) and Online : MUSI90191
+Off Campus and On Campus (Parkville) : GEOL20004
+On Campus (Burnley) : HORT90038
+Off Campus and Dual-Delivery (Parkville) : SCIE90017
+On Campus (Parkville) and Off Campus : LAWS70067
+Online, On Campus (Parkville), and Dual-Delivery (Parkville) : LING90010
+Dual-Delivery (Parkville), On Campus (Parkville), and Online : LING90012
+Online, Dual-Delivery (Parkville), and On Campus (Parkville) : LING90039
+Online and Dual-Delivery (Southbank) : MUSI40105
+On Campus (Southbank) and Dual-Delivery (Southbank) : MUSI30020
+Dual-Delivery (Southbank) and On Campus (Southbank) : MUSI40068
+On Campus (Shepparton) : RURA90009
+Dual-Delivery (Parkville) and Off Campus : SCIE30002
+On Campus (Werribee) : VETS90150
+
+Levels:
+Undergraduate level 1 : UNIB10027
+Undergraduate level 2 : ZOOL20006
+Undergraduate level 3 : ZOOL30009
+Graduate coursework : ZOOL90007
+Honours : VISM40009
+Undergraduate level 4 : VETS40023
+Masters time-based research : VETS90027
+Doctorate time-based research : PSYC80004
+Undergraduate level 5 : DENT50001
+Study abroad (level 9) : DEVT90075
+Exchange (level 2) : EDUC20079
+Graduate coursework level 6 : GENP60002
+Graduate coursework level 7 : VETS70002
+Graduate coursework level 5 : PPMN50001
+Exchange (level 3) : SCIE30003

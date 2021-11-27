@@ -27,4 +27,4 @@ create_acronyms()
 
 UoM_blue = 0x094183
 
-YEAR = 2021
+YEAR = 2022

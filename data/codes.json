@@ -1,16 +1,12 @@
 {
     "codes": [
         [
-            "AAAM00101",
-            "Academic Advising Group Meeting"
-        ],
-        [
-            "ABPL10004",
-            "Global Foundations of Design"
-        ],
-        [
             "ABPL10005",
             "Understanding the Built Environment"
+        ],
+        [
+            "ABPL10007",
+            "Environmental Technologies"
         ],
         [
             "ABPL20028",
@@ -39,6 +35,10 @@
         [
             "ABPL20053",
             "Construction of Concrete Buildings"
+        ],
+        [
+            "ABPL20055",
+            "Global Foundations of Design"
         ],
         [
             "ABPL30037",
@@ -131,6 +131,10 @@
         [
             "ABPL30070",
             "Venice Studio"
+        ],
+        [
+            "ABPL40053",
+            "Research Methods in Design"
         ],
         [
             "ABPL90010",
@@ -414,7 +418,7 @@
         ],
         [
             "ABPL90222",
-            "Ex_Lab: Timber Furniture"
+            "F_Lab: Bespoke Furnitures"
         ],
         [
             "ABPL90236",
@@ -442,7 +446,7 @@
         ],
         [
             "ABPL90268",
-            "Building Envelopes"
+            "Fa\u00e7ade Design and Construction"
         ],
         [
             "ABPL90271",
@@ -617,10 +621,6 @@
             "Procurement Methods"
         ],
         [
-            "ABPL90328",
-            "Issues in Technology"
-        ],
-        [
             "ABPL90330",
             "Economics of Building"
         ],
@@ -690,7 +690,7 @@
         ],
         [
             "ABPL90361",
-            "ExLaB: Experimental Furniture Futures"
+            "Ex_Lab: Experimental Furniture Futures"
         ],
         [
             "ABPL90362",
@@ -805,10 +805,6 @@
             "MSD Minor Thesis Part 2"
         ],
         [
-            "ABPL90398",
-            "Property Data and Tools"
-        ],
-        [
             "ABPL90400",
             "Design for Diversity"
         ],
@@ -890,7 +886,7 @@
         ],
         [
             "ABPL90422",
-            "SI-Lab: Scanning and Virtual Reality"
+            "SI_Lab: Spatial Information"
         ],
         [
             "ABPL90423",
@@ -898,7 +894,7 @@
         ],
         [
             "ABPL90424",
-            "Introduction to High-Performance Design "
+            "Introduction to High-Performance Design"
         ],
         [
             "ABPL90425",
@@ -927,6 +923,18 @@
         [
             "ABPL90431",
             "Making the Invisible Visible"
+        ],
+        [
+            "ABPL90432",
+            "Building Information Modelling"
+        ],
+        [
+            "ABPL90433",
+            "Building Information Management"
+        ],
+        [
+            "ABPL90434",
+            "Construction Management Internship"
         ],
         [
             "ACCT10001",
@@ -983,6 +991,10 @@
         [
             "ACCT30011",
             "International Accounting Study Program"
+        ],
+        [
+            "ACCT30012",
+            "Reporting for Sustainability"
         ],
         [
             "ACCT40001",
@@ -1413,10 +1425,6 @@
             "Vine to Wine"
         ],
         [
-            "AGRI20030",
-            "Wine & Spirits:An Australian Perspective"
-        ],
-        [
             "AGRI20035",
             "Applied Crop Production and Horticulture"
         ],
@@ -1473,10 +1481,6 @@
             "Innovation Change & Knowledge Transfer"
         ],
         [
-            "AGRI30012",
-            "Food & Water:Global Issues Local Impacts"
-        ],
-        [
             "AGRI30016",
             "Irrigation and Water Management"
         ],
@@ -1501,10 +1505,6 @@
             "Professional Practice for Agriculture"
         ],
         [
-            "AGRI30039",
-            "Applied Farm Economic Analysis"
-        ],
-        [
             "AGRI30040",
             "Agribusiness Marketing & Value Chains"
         ],
@@ -1521,10 +1521,6 @@
             "Resource Management Economics"
         ],
         [
-            "AGRI30044",
-            "Agricultural Trade and Policy"
-        ],
-        [
             "AGRI30045",
             "Applications in Precision Agriculture"
         ],
@@ -1539,6 +1535,10 @@
         [
             "AGRI30048",
             "Plant Breeding and Genetics"
+        ],
+        [
+            "AGRI30049",
+            "Agricultural Science Research Project"
         ],
         [
             "AGRI40017",
@@ -1661,6 +1661,14 @@
             "Graduate Research Internship"
         ],
         [
+            "AGRI90096",
+            "Advances in Crop Monitoring Methods"
+        ],
+        [
+            "AGRI90097",
+            "Australian Agriculture"
+        ],
+        [
             "AHIS10001",
             "Art History: Theory and Controversy"
         ],
@@ -1741,16 +1749,8 @@
             "Indigenous Australian Art Histories"
         ],
         [
-            "AHIS40005",
-            "Trauma & Spectacle: Postwar European Art"
-        ],
-        [
             "AHIS40006",
             "Postcolonial Visual Art"
-        ],
-        [
-            "AHIS40007",
-            "The Artist's Body"
         ],
         [
             "AHIS40008",
@@ -1805,14 +1805,6 @@
             "Writing About Art and the Moving Image"
         ],
         [
-            "AHIS90009",
-            "Theories of Art"
-        ],
-        [
-            "AHIS90010",
-            "British Art and Sensibility at the NGV"
-        ],
-        [
             "AIND10003",
             "Ancient & Contemporary Indigenous Arts"
         ],
@@ -1846,7 +1838,7 @@
         ],
         [
             "AMGT90004",
-            "States, Governments and the Arts"
+            "Cultural Policy"
         ],
         [
             "AMGT90006",
@@ -1921,18 +1913,6 @@
             "Viscera and Visceral Systems"
         ],
         [
-            "ANAT40001",
-            "Anatomy & Neurosci Research Proj Part 1"
-        ],
-        [
-            "ANAT40002",
-            "Seminars in Anatomy and Neuroscience"
-        ],
-        [
-            "ANAT40005",
-            "Anatomy & Neurosci Research Proj Part 2"
-        ],
-        [
             "ANAT90004",
             "Anatomy and Physiology for Audiology"
         ],
@@ -1943,22 +1923,6 @@
         [
             "ANAT90011",
             "Anatomy and Physiology"
-        ],
-        [
-            "ANAT90012",
-            "Project in Anatomy"
-        ],
-        [
-            "ANAT90013",
-            "Project in Anatomy"
-        ],
-        [
-            "ANAT90014",
-            "Project in Anatomy"
-        ],
-        [
-            "ANAT90015",
-            "Project in Anatomy"
         ],
         [
             "ANAT90016",
@@ -2030,7 +1994,7 @@
         ],
         [
             "ANCW20027",
-            "Archaeology of the Classical Greek World"
+            "The Ancient Greeks: Art & Archaeology"
         ],
         [
             "ANCW20028",
@@ -2114,7 +2078,7 @@
         ],
         [
             "ANSC10001",
-            "Animals in Society 1: Introduction"
+            "Animals & Society 1: Animals & Our World"
         ],
         [
             "ANSC10002",
@@ -2134,7 +2098,7 @@
         ],
         [
             "ANSC20004",
-            "Animals and Society 2: Humans & Animals"
+            "Animals & Society 2: Human-Animal Bond"
         ],
         [
             "ANSC20005",
@@ -2221,6 +2185,10 @@
             "Anthropology: Studying Self and Other"
         ],
         [
+            "ANTH10002",
+            "Anthropology & Food in Everyday Life"
+        ],
+        [
             "ANTH20001",
             "Keeping the Body in Mind"
         ],
@@ -2245,16 +2213,12 @@
             "Diplomat, Soldier, Spy: The Deep State"
         ],
         [
-            "ANTH20014",
-            "The Secret Life of Students"
+            "ANTH20015",
+            "Melbourne: Urban Anthropology in Action"
         ],
         [
             "ANTH30003",
             "Lived Religion in an Uncertain World"
-        ],
-        [
-            "ANTH30004",
-            "Anthropology of Kinship and Family"
         ],
         [
             "ANTH30005",
@@ -2270,7 +2234,7 @@
         ],
         [
             "ANTH30017",
-            "Cultural Tourism in Southeast Asia"
+            "Tourism, Culture and Encounters"
         ],
         [
             "ANTH30018",
@@ -2281,16 +2245,8 @@
             "Innovation, Design, and Society"
         ],
         [
-            "ANTH30020",
-            "Anthropology of Urban Life and Conflict"
-        ],
-        [
             "ANTH30021",
-            "The Corporation and the Gig-Economy"
-        ],
-        [
-            "ANTH30022",
-            "Extractive Legacies in Latin America"
+            "Digital Lives: Anthropology & Technology"
         ],
         [
             "ANTH30023",
@@ -2317,20 +2273,12 @@
             "Explanation and Understanding"
         ],
         [
-            "ANTH90005",
-            "Structure and Agency in Everyday Life"
-        ],
-        [
             "ARBC10001",
             "Arabic 3"
         ],
         [
             "ARBC10002",
             "Arabic 4"
-        ],
-        [
-            "ARBC10003",
-            "Arabic 5"
         ],
         [
             "ARBC10005",
@@ -2425,6 +2373,10 @@
             "Design Studio Alpha"
         ],
         [
+            "ARCH10004",
+            "Design History & Theory in the Making"
+        ],
+        [
             "ARCH20001",
             "Design Studio Beta"
         ],
@@ -2461,8 +2413,20 @@
             "Design Visualisation: Digital Techniques"
         ],
         [
+            "ARCH40001",
+            "Architecture Studies Thesis (Part 1)"
+        ],
+        [
+            "ARCH40002",
+            "Architecture Studies Thesis (Part 2)"
+        ],
+        [
             "ARTS10001",
             "Reading the Disciplines"
+        ],
+        [
+            "ARTS10002",
+            "Arts Discovery"
         ],
         [
             "ARTS30001",
@@ -2533,20 +2497,8 @@
             "Researching Language"
         ],
         [
-            "ARTS90020",
-            "Visiting Scholar: Advanced Seminar A"
-        ],
-        [
-            "ARTS90021",
-            "Visiting Scholar: Advanced Seminar B"
-        ],
-        [
             "ARTS90022",
             "Research Ethics in & beyond the Academy"
-        ],
-        [
-            "ARTS90023",
-            "Orientalism"
         ],
         [
             "ARTS90024",
@@ -2565,10 +2517,6 @@
             "Environmentalism and Ecocriticism"
         ],
         [
-            "ARTS90029",
-            "Memory & Narrative in Interview Research"
-        ],
-        [
             "ARTS90030",
             "Melbourne History Workshop Practicum"
         ],
@@ -2583,6 +2531,82 @@
         [
             "ARTS90033",
             "Arts Research Internship"
+        ],
+        [
+            "ARTS90034",
+            "Indigenous Treaties & Future Relations"
+        ],
+        [
+            "ARTS90035",
+            "Indigenous Governance Principles"
+        ],
+        [
+            "ARTS90036",
+            "Theories of Art"
+        ],
+        [
+            "ARTS90037",
+            "The Cosmopolitan Imaginary"
+        ],
+        [
+            "ARTS90038",
+            "Writing as Women: Critical Readings"
+        ],
+        [
+            "ARTS90039",
+            "Historical Themes in Australian Politics"
+        ],
+        [
+            "ARTS90040",
+            "Advanced Linguistics Analysis A"
+        ],
+        [
+            "ARTS90041",
+            "Advanced Linguistics Analysis B"
+        ],
+        [
+            "ARTS90042",
+            "Digital Methods"
+        ],
+        [
+            "ARTS90043",
+            "Translation in Research"
+        ],
+        [
+            "ARTS90044",
+            "The Art & Practice of the Personal Essay"
+        ],
+        [
+            "ARTS90045",
+            "Greco-Roman Governance and Public Policy"
+        ],
+        [
+            "ARTS90046",
+            "Quantitative Methods"
+        ],
+        [
+            "ARTS90047",
+            "Advanced Qualitative Methods"
+        ],
+        [
+            "ARTS90048",
+            "Philosophical Methodology"
+        ],
+        [
+            "ARTS90049",
+            "Research in Gender"
+        ],
+        [
+            "ARTS90050",
+            "Digital Archives: Tools and Methods"
+        ],
+        [
+            "ARTS90051",
+            "Time"
+        ],
+        [
+            "ARTS90052",
+            "Classical Social Theory"
         ],
         [
             "ASIA10001",
@@ -2682,11 +2706,15 @@
         ],
         [
             "ATOC20001",
-            "Weather and Climate Systems"
+            "Extreme Weather and Climate"
+        ],
+        [
+            "ATOC20003",
+            "Atmospheric Modelling"
         ],
         [
             "ATOC30003",
-            "Atmosphere Ocean Interaction"
+            "Tropical Meteorology and Climate"
         ],
         [
             "ATOC30004",
@@ -2706,7 +2734,7 @@
         ],
         [
             "ATOC90004",
-            "Current Topics in Atmospheric Research"
+            "Current Topics in Climate Science"
         ],
         [
             "ATOC90005",
@@ -2747,6 +2775,14 @@
         [
             "ATOC90017",
             "Advanced Past Climates"
+        ],
+        [
+            "ATOC90018",
+            "Climate Science Industry Project"
+        ],
+        [
+            "ATOC90019",
+            "Climate Science Research Project"
         ],
         [
             "AUDI90001",
@@ -2885,10 +2921,6 @@
             "Land Food and Culture"
         ],
         [
-            "AUST70001",
-            "Shorter Thesis - Australian Studies"
-        ],
-        [
             "AUST90008",
             "Migration and People Movement"
         ],
@@ -2930,23 +2962,23 @@
         ],
         [
             "BCMB40002",
-            "Advanced Studies in Biochemistry"
+            "Biochemistry & Pharmacology Coursework"
         ],
         [
             "BCMB40009",
-            "Biochemistry Research Project Part 1"
+            "Biochemistry & Pharmacology Research 1"
         ],
         [
             "BCMB40010",
-            "Biochemistry Research Project Part 2"
+            "Biochemistry & Pharmacology Research 2"
         ],
         [
             "BCMB40011",
-            "Biochemistry Research Project Part 1"
+            "Biochemistry & Pharmacology Research 1"
         ],
         [
             "BCMB40012",
-            "Biochemistry Research Project Part 2"
+            "Biochemistry & Pharmacology Research 2"
         ],
         [
             "BIEN90001",
@@ -3051,6 +3083,10 @@
         [
             "BIOL30002",
             "Experimental Reproductive Physiology"
+        ],
+        [
+            "BIOL30011",
+            "Applied Marine Biology"
         ],
         [
             "BIOL40004",
@@ -3215,6 +3251,10 @@
         [
             "BIOL90039",
             "BioSciences Research Project Pt 5"
+        ],
+        [
+            "BIOL90040",
+            "Graduate Seminar in BioSciences"
         ],
         [
             "BIOM10001",
@@ -3445,12 +3485,28 @@
             "Biotransport Processes"
         ],
         [
+            "BMEN90041",
+            "Biomedical Eng Summer Research Project"
+        ],
+        [
             "BMSC40003",
             "Medical Biology Research Project Part 1"
         ],
         [
             "BMSC40008",
             "Medical Biology Research Project Part 2"
+        ],
+        [
+            "BMSC40009",
+            "Critical Care Research Project Part 1"
+        ],
+        [
+            "BMSC40010",
+            "Critical Care Research Project Part 2"
+        ],
+        [
+            "BMSC40011",
+            "Advancing Critical Care"
         ],
         [
             "BOTA20001",
@@ -3514,7 +3570,7 @@
         ],
         [
             "BTCH90010",
-            "Genetically Modified Organisms"
+            "Biotechnology Impacts in Society"
         ],
         [
             "BTCH90011",
@@ -3990,7 +4046,7 @@
         ],
         [
             "BUSA90532",
-            "Business Foundations"
+            "Business Essentials"
         ],
         [
             "BUSA90533",
@@ -4245,10 +4301,6 @@
             "Atmospheric Chemistry"
         ],
         [
-            "CHEM90044",
-            "Synchrotron & NMR Structural Techniques"
-        ],
-        [
             "CHEM90045",
             "Advanced Physical Organic Chemistry"
         ],
@@ -4325,8 +4377,12 @@
             "Chemistry Research Project Pt 5"
         ],
         [
-            "CHEN20009",
-            "Transport Processes"
+            "CHEM90064",
+            "Advanced Environmental Analysis"
+        ],
+        [
+            "CHEM90065",
+            "Advanced NMR Spectroscopy"
         ],
         [
             "CHEN20010",
@@ -4334,11 +4390,15 @@
         ],
         [
             "CHEN20011",
-            "Chemical Process Analysis"
+            "Digitisation in the Process Industries"
+        ],
+        [
+            "CHEN20012",
+            "Fundamentals of Chemical Engineering"
         ],
         [
             "CHEN30001",
-            "Reactor Engineering"
+            "Reactors and Catalysis"
         ],
         [
             "CHEN30005",
@@ -4347,6 +4407,10 @@
         [
             "CHEN30015",
             "Safety and Sustainability Case Studies"
+        ],
+        [
+            "CHEN30016",
+            "Momentum, Mass and Heat Transfer"
         ],
         [
             "CHEN80001",
@@ -4362,15 +4426,15 @@
         ],
         [
             "CHEN90010",
-            "Minerals, Materials and Recycling"
+            "Sustainable Minerals and Recycling"
         ],
         [
             "CHEN90011",
-            "Bioenvironmental Engineering"
+            "Wastewater and Environmental Remediation"
         ],
         [
             "CHEN90012",
-            "Process Equipment Design"
+            "Design and Construction of Equipment"
         ],
         [
             "CHEN90013",
@@ -4378,11 +4442,7 @@
         ],
         [
             "CHEN90018",
-            "Particle Mechanics and Processing"
-        ],
-        [
-            "CHEN90019",
-            "Advanced Heat & Mass Transport Processes"
+            "Particle Technology"
         ],
         [
             "CHEN90020",
@@ -4414,11 +4474,11 @@
         ],
         [
             "CHEN90031",
-            "Bioprocess Engineering"
+            "Sustainable Processing"
         ],
         [
             "CHEN90032",
-            "Process Dynamics And Control"
+            "Process Simulation and Control"
         ],
         [
             "CHEN90034",
@@ -4435,6 +4495,22 @@
         [
             "CHEN90039",
             "Pharmaceutical & Biochemical Production"
+        ],
+        [
+            "CHEN90040",
+            "Sustainable Food Processing"
+        ],
+        [
+            "CHEN90041",
+            "Energy, Emissions and Pollution Control"
+        ],
+        [
+            "CHEN90042",
+            "Thermal and Separation Design"
+        ],
+        [
+            "CHEN90043",
+            "High Performance Materials"
         ],
         [
             "CHIN10001",
@@ -4825,6 +4901,10 @@
             "Research Development & Translation Pt 2"
         ],
         [
+            "CMCE10001",
+            "Sustainable Commerce"
+        ],
+        [
             "COMP10001",
             "Foundations of Computing"
         ],
@@ -4842,7 +4922,7 @@
         ],
         [
             "COMP20005",
-            "Engineering Computation"
+            "Intro. to Numerical Computation in C"
         ],
         [
             "COMP20007",
@@ -5109,6 +5189,10 @@
             "The Ethics of Artificial Intelligence"
         ],
         [
+            "COMP90088",
+            "Cryptocurrencies & decentralised ledgers"
+        ],
+        [
             "CONS10001",
             "Principles of Building"
         ],
@@ -5137,8 +5221,12 @@
             "Contemporary Art and Biomedicine"
         ],
         [
+            "CREA10002",
+            "Stories of Place"
+        ],
+        [
             "CREA20001",
-            "Working with Indigenous Arts & Artists "
+            "Working with Indigenous Arts & Artists"
         ],
         [
             "CREA70001",
@@ -5262,7 +5350,7 @@
         ],
         [
             "CRIM20008",
-            "Terrorism: Shifting Paradigms"
+            "Terrorism and State Violence"
         ],
         [
             "CRIM20009",
@@ -5299,6 +5387,10 @@
         [
             "CRIM30012",
             "Law in Social Theory"
+        ],
+        [
+            "CRIM30013",
+            "Gender and Crime"
         ],
         [
             "CRIM40002",
@@ -5401,14 +5493,6 @@
             "Criminology Thesis Part 2"
         ],
         [
-            "CRIM90030",
-            "Criminology & Sociology Internship Pt 1"
-        ],
-        [
-            "CRIM90031",
-            "Criminology & Sociology Internship Pt 2"
-        ],
-        [
             "CRIM90032",
             "Criminology Special Topics 2"
         ],
@@ -5422,7 +5506,7 @@
         ],
         [
             "CRIM90035",
-            "Victims and Criminal Justice"
+            "Victims: Recognition and Redress"
         ],
         [
             "CRIM90036",
@@ -5435,6 +5519,10 @@
         [
             "CRIM90038",
             "New Horizons in Criminology"
+        ],
+        [
+            "CRIM90039",
+            "Criminology Internship"
         ],
         [
             "CULS10005",
@@ -5481,16 +5569,8 @@
             "Cultural Complexity and Intelligence"
         ],
         [
-            "CULS90011",
-            "The Cosmopolitan Imaginary"
-        ],
-        [
             "CUMC90003",
             "Conservation Intensive"
-        ],
-        [
-            "CUMC90004",
-            "Conservation Research and OBL"
         ],
         [
             "CUMC90005",
@@ -5499,14 +5579,6 @@
         [
             "CUMC90006",
             "Conservation Internship and Projects"
-        ],
-        [
-            "CUMC90009",
-            "Conservation of Photographs 1"
-        ],
-        [
-            "CUMC90020",
-            "Video Lab"
         ],
         [
             "CUMC90021",
@@ -5574,7 +5646,7 @@
         ],
         [
             "CVEN30010",
-            "Systems Modelling and Design"
+            "Geotechnical Modelling and Design"
         ],
         [
             "CVEN30011",
@@ -5787,10 +5859,6 @@
         [
             "CWRI40012",
             "Reading Dialogue"
-        ],
-        [
-            "CWRI40013",
-            "New Script"
         ],
         [
             "CWRI40014",
@@ -6101,10 +6169,6 @@
             "Specialist Dental Practice 1"
         ],
         [
-            "DENT90086",
-            "Comprehensive Dental Practice"
-        ],
-        [
             "DENT90087",
             "Endodontics 1"
         ],
@@ -6350,11 +6414,7 @@
         ],
         [
             "DEVT90007",
-            "Development Studies Special Topics A"
-        ],
-        [
-            "DEVT90008",
-            "International Internship in Development"
+            "Development Policy: Independent Project"
         ],
         [
             "DEVT90009",
@@ -6382,11 +6442,11 @@
         ],
         [
             "DEVT90043",
-            "Management in Development B"
+            "Advocacy in Development Practice"
         ],
         [
             "DEVT90044",
-            "Management in Development A"
+            "Practising Community-led Development"
         ],
         [
             "DEVT90045",
@@ -6398,7 +6458,7 @@
         ],
         [
             "DEVT90053",
-            "Intervening in Development"
+            "Development Systems and Interventions"
         ],
         [
             "DEVT90054",
@@ -6477,52 +6537,12 @@
             "Development, Culture and Conflict"
         ],
         [
-            "DNCE10016",
-            "Choreographic Process into Performance 1"
-        ],
-        [
-            "DNCE10017",
-            "Dance Technique 1"
-        ],
-        [
-            "DNCE10018",
-            "Integrated Body Mind Practices 1"
-        ],
-        [
-            "DNCE10019",
-            "Choreographic Process into Performance 2"
-        ],
-        [
-            "DNCE10020",
-            "Body Balance"
-        ],
-        [
-            "DNCE10021",
-            "Dance Lineages 1"
-        ],
-        [
-            "DNCE10022",
-            "Dance Technique 2"
-        ],
-        [
-            "DNCE10023",
-            "Dance Technique Extension 1"
-        ],
-        [
-            "DNCE10025",
-            "Voice"
-        ],
-        [
-            "DNCE10026",
-            "Improvisation and Duo"
+            "DEVT90079",
+            "Conflict, Security and Development"
         ],
         [
             "DNCE10027",
             "Dancing the Dance 1"
-        ],
-        [
-            "DNCE10028",
-            "The Dancer as Artist"
         ],
         [
             "DNCE10029",
@@ -6539,66 +6559,6 @@
         [
             "DNCE10032",
             "Thinking through Dancing"
-        ],
-        [
-            "DNCE20013",
-            "Dance Technique 3"
-        ],
-        [
-            "DNCE20014",
-            "Choreographic Process into Performance 3"
-        ],
-        [
-            "DNCE20015",
-            "Dance Technique Extension 2"
-        ],
-        [
-            "DNCE20016",
-            "Integrated Body Mind Practices 2"
-        ],
-        [
-            "DNCE20017",
-            "Dance Lineages 2"
-        ],
-        [
-            "DNCE20018",
-            "Dance Technique 4"
-        ],
-        [
-            "DNCE20019",
-            "Choreographic Process into Performance 4"
-        ],
-        [
-            "DNCE20020",
-            "Integrated Body Mind Practices 3"
-        ],
-        [
-            "DNCE20023",
-            "Independent Dance Contract A"
-        ],
-        [
-            "DNCE20024",
-            "Dance Technique Extension 3"
-        ],
-        [
-            "DNCE20025",
-            "Voice"
-        ],
-        [
-            "DNCE20026",
-            "Career Planning"
-        ],
-        [
-            "DNCE20027",
-            "Improvisation and Duo"
-        ],
-        [
-            "DNCE20028",
-            "Travelling Dance Studio"
-        ],
-        [
-            "DNCE20029",
-            "Body Balance"
         ],
         [
             "DNCE20031",
@@ -6637,62 +6597,6 @@
             "Travelling Studio"
         ],
         [
-            "DNCE30002",
-            "Special Study"
-        ],
-        [
-            "DNCE30010",
-            "Choreographic Processes 5 Screen Dance"
-        ],
-        [
-            "DNCE30011",
-            "Dance Technique 5"
-        ],
-        [
-            "DNCE30012",
-            "Choreographic Processes 6 Site Specific"
-        ],
-        [
-            "DNCE30013",
-            "Independent Dance Contract B"
-        ],
-        [
-            "DNCE30014",
-            "Independent Dance Contract C"
-        ],
-        [
-            "DNCE30015",
-            "Performance Project A"
-        ],
-        [
-            "DNCE30016",
-            "Performance Project B"
-        ],
-        [
-            "DNCE30019",
-            "Dance Industry Project"
-        ],
-        [
-            "DNCE30020",
-            "Dance Technique Extension 4"
-        ],
-        [
-            "DNCE30021",
-            "Career Planning"
-        ],
-        [
-            "DNCE30022",
-            "Dance Technique Extension 5"
-        ],
-        [
-            "DNCE30024",
-            "Travelling Dance Studio"
-        ],
-        [
-            "DNCE30025",
-            "Dance Technique 6"
-        ],
-        [
             "DNCE30026",
             "Dance Lab 5: Dance and Music"
         ],
@@ -6725,28 +6629,36 @@
             "Research Paper (Dance)"
         ],
         [
-            "DNCE90005",
-            "Performance Research Approaches 1"
+            "DNCE90013",
+            "Body Time Space and Place"
         ],
         [
-            "DPSS10001",
-            "Production Practice 1"
+            "DNCE90014",
+            "Inter-Disciplinary Dance Methods"
         ],
         [
-            "DPSS10002",
-            "Foundations of Design and Production 1"
+            "DNCE90015",
+            "Choreography as Research"
         ],
         [
-            "DPSS10004",
-            "Production Practice 2"
+            "DNCE90016",
+            "Dance Writing, Archives & Documentation"
+        ],
+        [
+            "DNCE90017",
+            "Critical Dance Pedagogy"
+        ],
+        [
+            "DNCE90018",
+            "Dance Science & Somatics"
+        ],
+        [
+            "DNCE90019",
+            "Research Project"
         ],
         [
             "DPSS10005",
             "Artefact and Performance 2"
-        ],
-        [
-            "DPSS10006",
-            "Foundations of Design and Production 2"
         ],
         [
             "DPSS10007",
@@ -6763,38 +6675,6 @@
         [
             "DPSS10010",
             "Production Studio 2"
-        ],
-        [
-            "DPSS20001",
-            "Production Practice 3"
-        ],
-        [
-            "DPSS20002",
-            "Frontiers in Design and Technology"
-        ],
-        [
-            "DPSS20003",
-            "Design Studio 1"
-        ],
-        [
-            "DPSS20004",
-            "Technical Studio 1"
-        ],
-        [
-            "DPSS20005",
-            "Design Studio 2"
-        ],
-        [
-            "DPSS20006",
-            "Technical Studio 2"
-        ],
-        [
-            "DPSS20007",
-            "Interpretations of Period Style"
-        ],
-        [
-            "DPSS20008",
-            "Introduction to Production Management"
         ],
         [
             "DPSS20009",
@@ -6817,28 +6697,12 @@
             "Production Studio 4"
         ],
         [
-            "DPSS30001",
-            "Production Practice 4"
-        ],
-        [
-            "DPSS30002",
-            "Design Internship"
-        ],
-        [
-            "DPSS30003",
-            "Technical Internship"
-        ],
-        [
             "DPSS30004",
             "Independent Design Project"
         ],
         [
             "DPSS30005",
             "Independent Technical Project"
-        ],
-        [
-            "DPSS30006",
-            "Professional Practice and Promotion"
         ],
         [
             "DPSS30007",
@@ -6874,31 +6738,39 @@
         ],
         [
             "DPSS90004",
-            "Design Projects 3"
+            "Design Projects 3 Part 1"
+        ],
+        [
+            "DPSS90005",
+            "Design Projects 3 Part 2"
+        ],
+        [
+            "DPSS90006",
+            "Creative Collaboration (Stage)"
+        ],
+        [
+            "DPSS90007",
+            "Creative Collaboration (Screen)"
+        ],
+        [
+            "DPSS90008",
+            "Design and the Production Process"
+        ],
+        [
+            "DPSS90009",
+            "Technical Collaboration"
+        ],
+        [
+            "DPSS90010",
+            "Industry Practice Part 1"
+        ],
+        [
+            "DPSS90011",
+            "Industry Practice Part 2"
         ],
         [
             "DRAM10026",
-            "Up Close and Personal with MTC"
-        ],
-        [
-            "DRAM10027",
-            "Body and Voice 1"
-        ],
-        [
-            "DRAM10028",
-            "Acting and Performance 1"
-        ],
-        [
-            "DRAM10029",
-            "Contextual Studies 1 History Matters"
-        ],
-        [
-            "DRAM10030",
-            "Body and Voice 2"
-        ],
-        [
-            "DRAM10031",
-            "Acting and Performance 2"
+            "Inside look at MTC"
         ],
         [
             "DRAM10032",
@@ -6917,28 +6789,8 @@
             "Performance Preparation 2"
         ],
         [
-            "DRAM20022",
-            "Acting Lab 1"
-        ],
-        [
             "DRAM20023",
             "Contextual Studies 2 Theory in Action"
-        ],
-        [
-            "DRAM20024",
-            "Acting Lab 2"
-        ],
-        [
-            "DRAM20025",
-            "Contextual Studies 3 Performing Practice"
-        ],
-        [
-            "DRAM20026",
-            "Theatre Lab 1"
-        ],
-        [
-            "DRAM20027",
-            "Theatre Lab 2"
         ],
         [
             "DRAM20028",
@@ -6975,30 +6827,6 @@
         [
             "DRAM30020",
             "Acting for Camera"
-        ],
-        [
-            "DRAM30021",
-            "Acting Lab 3"
-        ],
-        [
-            "DRAM30022",
-            "Industry Practice 1"
-        ],
-        [
-            "DRAM30023",
-            "Acting Lab 4"
-        ],
-        [
-            "DRAM30024",
-            "Industry Practice 2 Showcase"
-        ],
-        [
-            "DRAM30025",
-            "Theatre Lab 3"
-        ],
-        [
-            "DRAM30026",
-            "Theatre Lab 4"
         ],
         [
             "DRAM30027",
@@ -7158,7 +6986,7 @@
         ],
         [
             "ECOL30007",
-            "Marine Ecosystems: Ecology & Management"
+            "Marine Biodiversity and Biogeography"
         ],
         [
             "ECOM20001",
@@ -7299,6 +7127,18 @@
         [
             "ECOM90024",
             "Forecasting in Economics and Business"
+        ],
+        [
+            "ECOM90025",
+            "Advanced Data Analysis"
+        ],
+        [
+            "ECOM90026",
+            "Econometrics Research Report Part 1"
+        ],
+        [
+            "ECOM90027",
+            "Econometrics Research Report Part 2"
         ],
         [
             "ECON10002",
@@ -7709,6 +7549,10 @@
             "Advanced Experimental Economics"
         ],
         [
+            "ECON90080",
+            "Macroeconomics"
+        ],
+        [
             "EDUC10048",
             "Creativity, Play and the Arts"
         ],
@@ -7842,7 +7686,7 @@
         ],
         [
             "EDUC30070",
-            "Applying Coaching Science"
+            "Sports Science & Coaching Applications"
         ],
         [
             "EDUC30071",
@@ -7889,10 +7733,6 @@
             "Supervised Teaching (Second Language)"
         ],
         [
-            "EDUC90057",
-            "Education Capstone Research Project"
-        ],
-        [
             "EDUC90096",
             "Supervised Observation (Second Language)"
         ],
@@ -7922,7 +7762,7 @@
         ],
         [
             "EDUC90194",
-            "Specific Learning Difficulties: Numeracy"
+            "Learning Difficulties in Numeracy"
         ],
         [
             "EDUC90195",
@@ -8049,10 +7889,6 @@
             "Major Thesis - Education"
         ],
         [
-            "EDUC90367",
-            "Foundational English Literacy"
-        ],
-        [
             "EDUC90373",
             "Primary Humanities Education"
         ],
@@ -8085,180 +7921,8 @@
             "Australian Indigenous Education"
         ],
         [
-            "EDUC90426",
-            "Foundations of Mathematics Teaching"
-        ],
-        [
             "EDUC90428",
             "Promoting Student Wellbeing"
-        ],
-        [
-            "EDUC90429",
-            "Learning Area Biology 1"
-        ],
-        [
-            "EDUC90430",
-            "Learning Area Biology 2"
-        ],
-        [
-            "EDUC90431",
-            "Learning Area Commerce & Bus. Studies 1"
-        ],
-        [
-            "EDUC90432",
-            "Learning Area Commerce & Bus. Studies 2"
-        ],
-        [
-            "EDUC90433",
-            "Learning Area Chemistry 1"
-        ],
-        [
-            "EDUC90434",
-            "Learning Area Chemistry 2"
-        ],
-        [
-            "EDUC90435",
-            "Learning Area Drama A 1"
-        ],
-        [
-            "EDUC90436",
-            "Learning Area Drama A 2"
-        ],
-        [
-            "EDUC90437",
-            "Learning Area English 1"
-        ],
-        [
-            "EDUC90438",
-            "Learning Area English 2"
-        ],
-        [
-            "EDUC90441",
-            "Learning Area Health 1"
-        ],
-        [
-            "EDUC90442",
-            "Learning Area Health 2"
-        ],
-        [
-            "EDUC90443",
-            "Learning Area History 1"
-        ],
-        [
-            "EDUC90444",
-            "Learning Area History 2"
-        ],
-        [
-            "EDUC90445",
-            "Learning Area Humanities 1"
-        ],
-        [
-            "EDUC90446",
-            "Learning Area Humanities 2"
-        ],
-        [
-            "EDUC90447",
-            "Learning Area SOSE 1"
-        ],
-        [
-            "EDUC90448",
-            "Learning Area SOSE 2"
-        ],
-        [
-            "EDUC90453",
-            "Learning Area Languages 1"
-        ],
-        [
-            "EDUC90454",
-            "Learning Area Languages 2"
-        ],
-        [
-            "EDUC90457",
-            "Learning Area Mathematics 1"
-        ],
-        [
-            "EDUC90458",
-            "Learning Area Mathematics 2"
-        ],
-        [
-            "EDUC90461",
-            "Learning Area Media Studies 1"
-        ],
-        [
-            "EDUC90462",
-            "Learning Area Media Studies 2"
-        ],
-        [
-            "EDUC90463",
-            "Learning Area Music A 1"
-        ],
-        [
-            "EDUC90464",
-            "Learning Area Music A 2"
-        ],
-        [
-            "EDUC90465",
-            "Learning Area Music B 1"
-        ],
-        [
-            "EDUC90466",
-            "Learning Area Music B 2"
-        ],
-        [
-            "EDUC90467",
-            "Learning Area Physical Education 1"
-        ],
-        [
-            "EDUC90468",
-            "Learning Area Physical Education 2"
-        ],
-        [
-            "EDUC90469",
-            "Learning Area Physics 1"
-        ],
-        [
-            "EDUC90470",
-            "Learning Area Physics 2"
-        ],
-        [
-            "EDUC90471",
-            "Learning Area Psychology 1"
-        ],
-        [
-            "EDUC90472",
-            "Learning Area Psychology 2"
-        ],
-        [
-            "EDUC90473",
-            "Learning Area Science 1"
-        ],
-        [
-            "EDUC90474",
-            "Learning Area Science 2"
-        ],
-        [
-            "EDUC90475",
-            "Learning Area TESOL 1"
-        ],
-        [
-            "EDUC90476",
-            "Learning Area TESOL 2"
-        ],
-        [
-            "EDUC90477",
-            "Learning Area Visual Arts & Design 1"
-        ],
-        [
-            "EDUC90478",
-            "Learning Area Visual Arts & Design 2"
-        ],
-        [
-            "EDUC90479",
-            "Learning Area Visual Arts & Design (Ad)1"
-        ],
-        [
-            "EDUC90480",
-            "Learning Area Visual Arts & Design (Ad)2"
         ],
         [
             "EDUC90481",
@@ -8375,10 +8039,6 @@
         [
             "EDUC90608",
             "Identity, Culture and the Arts"
-        ],
-        [
-            "EDUC90609",
-            "Australian Curriculum Perspectives"
         ],
         [
             "EDUC90610",
@@ -8557,24 +8217,8 @@
             "Literacy Assessment and Learning"
         ],
         [
-            "EDUC90778",
-            "Primary Mathematics Education 1"
-        ],
-        [
             "EDUC90786",
             "Leading Educational Research"
-        ],
-        [
-            "EDUC90787",
-            "Principles of Positive Psychology"
-        ],
-        [
-            "EDUC90788",
-            "Applications of Positive Psychology"
-        ],
-        [
-            "EDUC90789",
-            "Positive Psychology and Organisations"
         ],
         [
             "EDUC90790",
@@ -8609,14 +8253,6 @@
             "Clinical Simulation"
         ],
         [
-            "EDUC90806",
-            "Introduction to Positive Education"
-        ],
-        [
-            "EDUC90807",
-            "Building Positive Education Communities"
-        ],
-        [
             "EDUC90822",
             "Connecting and Engaging Students"
         ],
@@ -8641,10 +8277,6 @@
             "Learning From Evidence"
         ],
         [
-            "EDUC90834",
-            "Primary Mathematics Education2 Extension"
-        ],
-        [
             "EDUC90835",
             "Primary Mathematics Education3 Extension"
         ],
@@ -8663,14 +8295,6 @@
         [
             "EDUC90839",
             "Science in Schools"
-        ],
-        [
-            "EDUC90841",
-            "Comparative Education Systems & Contexts"
-        ],
-        [
-            "EDUC90842",
-            "Perspectives on Childhood and Youth"
         ],
         [
             "EDUC90843",
@@ -8897,14 +8521,6 @@
             "Clinical Teaching Practice (Sec) 3"
         ],
         [
-            "EDUC90913",
-            "Personalising Learning with Technology"
-        ],
-        [
-            "EDUC90915",
-            "Working with Grammar in Context"
-        ],
-        [
             "EDUC90916",
             "Place Based Elective (Alternative)"
         ],
@@ -9029,54 +8645,6 @@
             "Science Communication and Technology"
         ],
         [
-            "EDUC90955",
-            "Learning Area Accounting 1"
-        ],
-        [
-            "EDUC90956",
-            "Learning Area Accounting 2"
-        ],
-        [
-            "EDUC90957",
-            "Learning Area Business Management 1"
-        ],
-        [
-            "EDUC90958",
-            "Learning Area Business Management 2"
-        ],
-        [
-            "EDUC90959",
-            "Learning Area Economics 1"
-        ],
-        [
-            "EDUC90960",
-            "Learning Area Economics 2"
-        ],
-        [
-            "EDUC90961",
-            "Learning Area Legal Studies 1"
-        ],
-        [
-            "EDUC90962",
-            "Learning Area Legal Studies 2"
-        ],
-        [
-            "EDUC90963",
-            "Learning Area Environmental Science 1"
-        ],
-        [
-            "EDUC90964",
-            "Learning Area Environmental Science 2"
-        ],
-        [
-            "EDUC90965",
-            "Learning Area Politics 1"
-        ],
-        [
-            "EDUC90966",
-            "Learning Area Politics 2"
-        ],
-        [
             "EDUC90968",
             "Curriculum Frameworks in the IB MYP"
         ],
@@ -9095,10 +8663,6 @@
         [
             "EDUC90972",
             "Active Pedagogies"
-        ],
-        [
-            "EDUC90973",
-            "Introduction to Digital Thinking"
         ],
         [
             "EDUC90974",
@@ -9191,14 +8755,6 @@
         [
             "EDUC91012",
             "Clinical Teaching Practice (Sec) 3 Ext"
-        ],
-        [
-            "EDUC91013",
-            "Learning Area Drama B 1"
-        ],
-        [
-            "EDUC91014",
-            "Learning Area Drama B 2"
         ],
         [
             "EDUC91015",
@@ -9301,6 +8857,606 @@
             "Beyond Siloed Approaches to Science"
         ],
         [
+            "EDUC91041",
+            "Principles of Positive Psychology"
+        ],
+        [
+            "EDUC91042",
+            "Applications of Positive Psychology"
+        ],
+        [
+            "EDUC91043",
+            "Systems Informed Approaches to Change"
+        ],
+        [
+            "EDUC91044",
+            "Positive Psychology and Organisations"
+        ],
+        [
+            "EDUC91045",
+            "Critical Review of Wellbeing Science"
+        ],
+        [
+            "EDUC91046",
+            "Wellbeing Design, Delivery & Evaluation"
+        ],
+        [
+            "EDUC91047",
+            "First Nations in Education"
+        ],
+        [
+            "EDUC91048",
+            "Engaging and Assessing Learners (EC) 1"
+        ],
+        [
+            "EDUC91049",
+            "Language, Literacy & Play-based Learning"
+        ],
+        [
+            "EDUC91050",
+            "Children, Childhood and Families"
+        ],
+        [
+            "EDUC91051",
+            "Engaging and Assessing Learners (EC) 2"
+        ],
+        [
+            "EDUC91052",
+            "Becoming Numerate in the Early Years"
+        ],
+        [
+            "EDUC91053",
+            "Diversity and Inclusion"
+        ],
+        [
+            "EDUC91054",
+            "The Arts, Play and Young Children"
+        ],
+        [
+            "EDUC91055",
+            "Engaging and Assessing Learners (EC) 3"
+        ],
+        [
+            "EDUC91056",
+            "Social and Emotional Wellbeing"
+        ],
+        [
+            "EDUC91057",
+            "Early Childhood Multimodal Literacies"
+        ],
+        [
+            "EDUC91058",
+            "Professional Learning Capstone (EC)"
+        ],
+        [
+            "EDUC91059",
+            "Leadership, Ethics and Advocacy (EC)"
+        ],
+        [
+            "EDUC91060",
+            "Inquiry and Project Learning"
+        ],
+        [
+            "EDUC91061",
+            "STEM Learning in the Early Years"
+        ],
+        [
+            "EDUC91062",
+            "Engaging and Assessing Learners (ECP) 1"
+        ],
+        [
+            "EDUC91063",
+            "Language and Literacy: Birth to 8 Years"
+        ],
+        [
+            "EDUC91064",
+            "Engaging Children in the Arts"
+        ],
+        [
+            "EDUC91065",
+            "Engaging and Assessing Learners (ECP) 2"
+        ],
+        [
+            "EDUC91066",
+            "Numeracy: Birth to 8 Years"
+        ],
+        [
+            "EDUC91067",
+            "Science in Early Childhood and Primary"
+        ],
+        [
+            "EDUC91068",
+            "Being Healthy, Well and Active"
+        ],
+        [
+            "EDUC91069",
+            "Language & Literacy: F to Year 2 (ECP)"
+        ],
+        [
+            "EDUC91070",
+            "Engaging and Assessing Learners (ECP) 3"
+        ],
+        [
+            "EDUC91071",
+            "Language & Literacy: Years 3 to 6 (ECP)"
+        ],
+        [
+            "EDUC91072",
+            "Humanities Education: F to Year 6"
+        ],
+        [
+            "EDUC91073",
+            "Mathematics: Primary 1"
+        ],
+        [
+            "EDUC91074",
+            "Professional Learning Capstone (ECP)"
+        ],
+        [
+            "EDUC91075",
+            "Engaging and Assessing Learners (ECP) 4"
+        ],
+        [
+            "EDUC91076",
+            "Leadership in Diverse Contexts"
+        ],
+        [
+            "EDUC91077",
+            "Mathematics: Primary 2"
+        ],
+        [
+            "EDUC91078",
+            "Engaging and Assessing Learners (Prim) 1"
+        ],
+        [
+            "EDUC91079",
+            "Language and Literacy: F to Year 2"
+        ],
+        [
+            "EDUC91080",
+            "Mathematics Education: Primary 1"
+        ],
+        [
+            "EDUC91081",
+            "Engaging and Assessing Learners (Prim) 2"
+        ],
+        [
+            "EDUC91082",
+            "Learning In and Through Primary Arts"
+        ],
+        [
+            "EDUC91083",
+            "Language and Literacy: Years 3 to 6"
+        ],
+        [
+            "EDUC91084",
+            "Mathematics Education: Primary 2"
+        ],
+        [
+            "EDUC91085",
+            "Engaging and Assessing Learners (Prim) 3"
+        ],
+        [
+            "EDUC91086",
+            "Mathematics Education: Primary 3"
+        ],
+        [
+            "EDUC91087",
+            "Literacy Assessment and Learning"
+        ],
+        [
+            "EDUC91088",
+            "Professional Learning Capstone (Prim)"
+        ],
+        [
+            "EDUC91089",
+            "Primary Science Education"
+        ],
+        [
+            "EDUC91090",
+            "Wellbeing, Health and Physical Education"
+        ],
+        [
+            "EDUC91091",
+            "Primary Humanities Education"
+        ],
+        [
+            "EDUC91092",
+            "Engaging and Assessing Learners (Sec) 1"
+        ],
+        [
+            "EDUC91093",
+            "Learning Area Accounting 1"
+        ],
+        [
+            "EDUC91094",
+            "Learning Area Biology 1"
+        ],
+        [
+            "EDUC91095",
+            "Learning Area Business Management 1"
+        ],
+        [
+            "EDUC91096",
+            "Learning Area Chemistry 1"
+        ],
+        [
+            "EDUC91097",
+            "Learning Area Commerce 1"
+        ],
+        [
+            "EDUC91098",
+            "Learning Area Drama A1"
+        ],
+        [
+            "EDUC91099",
+            "Learning Area Drama B1"
+        ],
+        [
+            "EDUC91100",
+            "Learning Area Economics 1"
+        ],
+        [
+            "EDUC91101",
+            "Learning Area English 1"
+        ],
+        [
+            "EDUC91102",
+            "Learning Area Environmental Science 1"
+        ],
+        [
+            "EDUC91103",
+            "Learning Area Health Education 1"
+        ],
+        [
+            "EDUC91104",
+            "Learning Area History 1"
+        ],
+        [
+            "EDUC91105",
+            "Learning Area Humanities 1"
+        ],
+        [
+            "EDUC91106",
+            "Learning Area Humanities Additional 1"
+        ],
+        [
+            "EDUC91107",
+            "Learning Area Languages 1"
+        ],
+        [
+            "EDUC91108",
+            "Learning Area Legal Studies 1"
+        ],
+        [
+            "EDUC91109",
+            "Learning Area Mathematics 1"
+        ],
+        [
+            "EDUC91110",
+            "Learning Area Media Studies 1"
+        ],
+        [
+            "EDUC91111",
+            "Learning Area Music A1"
+        ],
+        [
+            "EDUC91112",
+            "Learning Area Music B1"
+        ],
+        [
+            "EDUC91113",
+            "Learning Area Physical Education 1"
+        ],
+        [
+            "EDUC91114",
+            "Learning Area Physics 1"
+        ],
+        [
+            "EDUC91115",
+            "Learning Area Politics 1"
+        ],
+        [
+            "EDUC91116",
+            "Learning Area Psychology 1"
+        ],
+        [
+            "EDUC91117",
+            "Learning Area Science 1"
+        ],
+        [
+            "EDUC91118",
+            "Learning Area TESOL 1"
+        ],
+        [
+            "EDUC91119",
+            "Learning Area Visual Arts and Design A1"
+        ],
+        [
+            "EDUC91120",
+            "Learning Area Visual Arts and Design B1"
+        ],
+        [
+            "EDUC91121",
+            "Engaging and Assessing Learners (Sec) 2"
+        ],
+        [
+            "EDUC91122",
+            "Literacies, Languages, and Learners"
+        ],
+        [
+            "EDUC91123",
+            "Learning Area Accounting 2"
+        ],
+        [
+            "EDUC91124",
+            "Learning Area Biology 2"
+        ],
+        [
+            "EDUC91125",
+            "Learning Area Business Management 2"
+        ],
+        [
+            "EDUC91126",
+            "Learning Area Chemistry 2"
+        ],
+        [
+            "EDUC91127",
+            "Learning Area Commerce 2"
+        ],
+        [
+            "EDUC91128",
+            "Learning Area Drama A2"
+        ],
+        [
+            "EDUC91129",
+            "Learning Area Drama B2"
+        ],
+        [
+            "EDUC91130",
+            "Learning Area Economics 2"
+        ],
+        [
+            "EDUC91131",
+            "Learning Area English 2"
+        ],
+        [
+            "EDUC91132",
+            "Learning Area Environmental Science 2"
+        ],
+        [
+            "EDUC91133",
+            "Learning Area Health Education 2"
+        ],
+        [
+            "EDUC91134",
+            "Learning Area History 2"
+        ],
+        [
+            "EDUC91135",
+            "Learning Area Humanities 2"
+        ],
+        [
+            "EDUC91136",
+            "Learning Area Humanities Additional 2"
+        ],
+        [
+            "EDUC91137",
+            "Learning Area Languages 2"
+        ],
+        [
+            "EDUC91138",
+            "Learning Area Legal Studies 2"
+        ],
+        [
+            "EDUC91139",
+            "Learning Area Mathematics 2"
+        ],
+        [
+            "EDUC91140",
+            "Learning Area Media Studies 2"
+        ],
+        [
+            "EDUC91141",
+            "Learning Area Music A2"
+        ],
+        [
+            "EDUC91142",
+            "Learning Area Music B2"
+        ],
+        [
+            "EDUC91143",
+            "Learning Area Physical Education 2"
+        ],
+        [
+            "EDUC91144",
+            "Learning Area Physics 2"
+        ],
+        [
+            "EDUC91145",
+            "Learning Area Politics 2"
+        ],
+        [
+            "EDUC91146",
+            "Learning Area Psychology 2"
+        ],
+        [
+            "EDUC91147",
+            "Learning Area Science 2"
+        ],
+        [
+            "EDUC91148",
+            "Learning Area TESOL 2"
+        ],
+        [
+            "EDUC91149",
+            "Learning Area Visual Arts and Design A2"
+        ],
+        [
+            "EDUC91150",
+            "Learning Area Visual Arts and Design B2"
+        ],
+        [
+            "EDUC91151",
+            "Engaging and Assessing Learners (Sec) 3"
+        ],
+        [
+            "EDUC91152",
+            "Professional Learning Capstone (Sec)"
+        ],
+        [
+            "EDUC91153",
+            "Learning Area Accounting 3"
+        ],
+        [
+            "EDUC91154",
+            "Learning Area Biology 3"
+        ],
+        [
+            "EDUC91155",
+            "Learning Area Business Management 3"
+        ],
+        [
+            "EDUC91156",
+            "Learning Area Chemistry 3"
+        ],
+        [
+            "EDUC91157",
+            "Learning Area Commerce 3"
+        ],
+        [
+            "EDUC91158",
+            "Learning Area Drama A3"
+        ],
+        [
+            "EDUC91159",
+            "Learning Area Drama B3"
+        ],
+        [
+            "EDUC91160",
+            "Learning Area Economics 3"
+        ],
+        [
+            "EDUC91161",
+            "Learning Area English 3"
+        ],
+        [
+            "EDUC91162",
+            "Learning Area Environmental Science 3"
+        ],
+        [
+            "EDUC91163",
+            "Learning Area Health Education 3"
+        ],
+        [
+            "EDUC91164",
+            "Learning Area History 3"
+        ],
+        [
+            "EDUC91165",
+            "Learning Area Humanities 3"
+        ],
+        [
+            "EDUC91166",
+            "Learning Area Humanities Additional 3"
+        ],
+        [
+            "EDUC91167",
+            "Learning Area Languages 3"
+        ],
+        [
+            "EDUC91168",
+            "Learning Area Legal Studies 3"
+        ],
+        [
+            "EDUC91169",
+            "Learning Area Mathematics 3"
+        ],
+        [
+            "EDUC91170",
+            "Learning Area Media Studies 3"
+        ],
+        [
+            "EDUC91171",
+            "Learning Area Music A3"
+        ],
+        [
+            "EDUC91172",
+            "Learning Area Music B3"
+        ],
+        [
+            "EDUC91173",
+            "Learning Area Physical Education 3"
+        ],
+        [
+            "EDUC91174",
+            "Learning Area Physics 3"
+        ],
+        [
+            "EDUC91175",
+            "Learning Area Politics 3"
+        ],
+        [
+            "EDUC91176",
+            "Learning Area Psychology 3"
+        ],
+        [
+            "EDUC91177",
+            "Learning Area Science 3"
+        ],
+        [
+            "EDUC91178",
+            "Learning Area TESOL 3"
+        ],
+        [
+            "EDUC91179",
+            "Learning Area Visual Arts and Design A3"
+        ],
+        [
+            "EDUC91180",
+            "Learning Area Visual Arts and Design B3"
+        ],
+        [
+            "EDUC91181",
+            "Promoting Wellbeing in Secondary Schools"
+        ],
+        [
+            "EDUC91182",
+            "Leadership in Schools"
+        ],
+        [
+            "EDUC91183",
+            "Foundations: Arts Teaching"
+        ],
+        [
+            "EDUC91184",
+            "Foundations: DigiTech Teaching"
+        ],
+        [
+            "EDUC91185",
+            "Foundations: English Teaching"
+        ],
+        [
+            "EDUC91186",
+            "Foundations: Health & Phys Ed Teaching"
+        ],
+        [
+            "EDUC91187",
+            "Foundations: Humanities Teaching"
+        ],
+        [
+            "EDUC91188",
+            "Foundations: Languages Teaching"
+        ],
+        [
+            "EDUC91189",
+            "Foundations: Mathematics Teaching"
+        ],
+        [
+            "EDUC91190",
+            "Foundations: Science Teaching"
+        ],
+        [
             "ELEN20005",
             "Foundations of Electrical Networks"
         ],
@@ -9311,10 +9467,6 @@
         [
             "ELEN30009",
             "Electrical Network Analysis and Design"
-        ],
-        [
-            "ELEN30010",
-            "Digital System Design"
         ],
         [
             "ELEN30011",
@@ -9537,6 +9689,14 @@
             "Low-carbon Grids: Operation & Economics"
         ],
         [
+            "ELEN90093",
+            "Microprocessor Design Clinic"
+        ],
+        [
+            "ELEN90094",
+            "Large Data Methods & Applications"
+        ],
+        [
             "ENEN20002",
             "Earth Processes for Engineering"
         ],
@@ -9605,6 +9765,14 @@
             "Engineering Hydrology"
         ],
         [
+            "ENEN90039",
+            "Advanced Hydrological Solutions"
+        ],
+        [
+            "ENEN90040",
+            "Water Planning & an Uncertain Future"
+        ],
+        [
             "ENGL10001",
             "Modern and Contemporary Literature"
         ],
@@ -9657,8 +9825,12 @@
             "The Theatre Experience"
         ],
         [
-            "ENGL30002",
+            "ENGL20035",
             "Critical Debates"
+        ],
+        [
+            "ENGL20036",
+            "Theatre Histories"
         ],
         [
             "ENGL30006",
@@ -9693,12 +9865,16 @@
             "Exploring Irish Literature"
         ],
         [
-            "ENGL30050",
-            "Global Theatre History"
-        ],
-        [
             "ENGL30051",
             "Comedy"
+        ],
+        [
+            "ENGL30052",
+            "English, Theatre & Contemporary Culture"
+        ],
+        [
+            "ENGL30053",
+            "Renaissance Drama"
         ],
         [
             "ENGL40003",
@@ -9725,10 +9901,6 @@
             "Australian Theatre and Performance"
         ],
         [
-            "ENGL40024",
-            "Renaissance Drama"
-        ],
-        [
             "ENGL40025",
             "Global Crime Narratives"
         ],
@@ -9747,10 +9919,6 @@
         [
             "ENGL80001",
             "PhD Research"
-        ],
-        [
-            "ENGL90002",
-            "Writing as Women: Critical Readings"
         ],
         [
             "ENGM90006",
@@ -9893,16 +10061,16 @@
             "Creating Innovative Professionals"
         ],
         [
-            "ENGR90040",
-            "Film and Engineering at the Crossroads"
-        ],
-        [
             "ENGR90041",
             "Engineering Research Project Part 1"
         ],
         [
             "ENGR90042",
             "Engineering Research Project Part 2"
+        ],
+        [
+            "ENGR90043",
+            "MechEng Summer Research Project"
         ],
         [
             "ENST10004",
@@ -9975,22 +10143,6 @@
         [
             "ENST90007",
             "Environmental Research Project (25)"
-        ],
-        [
-            "ENST90011",
-            "Climate Variability and Climate Change"
-        ],
-        [
-            "ENST90012",
-            "Climate and Economic Strategy"
-        ],
-        [
-            "ENST90013",
-            "Greenhouse Gases from Agriculture"
-        ],
-        [
-            "ENST90014",
-            "Climate Change & Agricultural Adaptation"
         ],
         [
             "ENST90016",
@@ -10098,7 +10250,7 @@
         ],
         [
             "ERTH20002",
-            "Environmental Geosciences"
+            "Environmental Geoscience"
         ],
         [
             "ERTH20003",
@@ -10109,8 +10261,12 @@
             "Earth's Microbiomes"
         ],
         [
-            "ERTH30001",
-            "Hydrogeology/Environmental Geochemistry"
+            "ERTH30002",
+            "Earth Resources for a Sustainable Future"
+        ],
+        [
+            "ERTH30003",
+            "Applied Geophysical Methods"
         ],
         [
             "ERTH40007",
@@ -10147,10 +10303,6 @@
         [
             "ERTH90029",
             "Environmental Geochemistry"
-        ],
-        [
-            "ERTH90032",
-            "Interpretation of Satellite Images"
         ],
         [
             "ERTH90033",
@@ -10265,6 +10417,18 @@
             "Spatial Data Analytics and Geoprocessing"
         ],
         [
+            "ERTH90061",
+            "Earth Science Research Project 25"
+        ],
+        [
+            "ERTH90062",
+            "Introduction to Archaeological Science"
+        ],
+        [
+            "ERTH90063",
+            "Seminar in Archaeological Science"
+        ],
+        [
             "ESLA10003",
             "Academic English 1"
         ],
@@ -10374,7 +10538,7 @@
         ],
         [
             "EVSC20004",
-            "Blue Planet-Intro to Marine Environments"
+            "Blue Planet - Intro to Marine Biology"
         ],
         [
             "EVSC20005",
@@ -10387,6 +10551,10 @@
         [
             "EVSC20007",
             "Modelling the Real World"
+        ],
+        [
+            "EVSC20008",
+            "Earth's Surface Processes"
         ],
         [
             "EVSC30002",
@@ -10493,24 +10661,8 @@
             "Critical and Theoretical Studies 1"
         ],
         [
-            "FINA10028",
-            "Related Studies Painting"
-        ],
-        [
-            "FINA10030",
-            "Related Studies Photography"
-        ],
-        [
-            "FINA10031",
-            "Related Studies Sculpture & Spatial Prac"
-        ],
-        [
             "FINA10032",
             "Critical and Theoretical Studies 2"
-        ],
-        [
-            "FINA10033",
-            "Open Art"
         ],
         [
             "FINA10034",
@@ -10525,10 +10677,6 @@
             "Life Drawing: The Body"
         ],
         [
-            "FINA10039",
-            "Related Studies Drawing & Printmedia"
-        ],
-        [
             "FINA20026",
             "Painting Techniques"
         ],
@@ -10537,20 +10685,12 @@
             "Studio Studies 3"
         ],
         [
-            "FINA20028",
-            "Studio Options 1"
-        ],
-        [
             "FINA20029",
             "Critical and Theoretical Studies 3"
         ],
         [
             "FINA20030",
             "Studio Studies 4"
-        ],
-        [
-            "FINA20031",
-            "Studio Options 2"
         ],
         [
             "FINA20032",
@@ -10725,10 +10865,6 @@
             "Screenwriting Practices 1A"
         ],
         [
-            "FLTV10013",
-            "Industry Perspectives"
-        ],
-        [
             "FLTV10014",
             "Pictures, Sounds, Words"
         ],
@@ -10757,16 +10893,12 @@
             "Animation Lab 1"
         ],
         [
-            "FLTV10021",
-            "Interactive Art Media 1"
-        ],
-        [
             "FLTV10023",
             "Introduction to Screenwriting Practices"
         ],
         [
             "FLTV10024",
-            "Making Micro Movies - Filming the Real"
+            "Making Micro Documentaries"
         ],
         [
             "FLTV20005",
@@ -10775,10 +10907,6 @@
         [
             "FLTV20006",
             "Screen Practice 2A"
-        ],
-        [
-            "FLTV20007",
-            "Languages of the Screen 2"
         ],
         [
             "FLTV20008",
@@ -10837,52 +10965,20 @@
             "Melbourne Film Festival Studio"
         ],
         [
-            "FLTV30008",
-            "Critical Reflection"
-        ],
-        [
             "FLTV30009",
             "Languages of the Screen"
-        ],
-        [
-            "FLTV30010",
-            "Presentation and Marketing"
         ],
         [
             "FLTV30011",
             "Screen Culture and Aesthetics 3"
         ],
         [
-            "FLTV30012",
-            "Screen Practice 3"
-        ],
-        [
-            "FLTV30014",
-            "Screenwriting Practices 3"
-        ],
-        [
             "FLTV30015",
             "Screen Adaptation"
         ],
         [
-            "FLTV30016",
-            "Attachment or Research Project"
-        ],
-        [
-            "FLTV30017",
-            "Screenwriting Business"
-        ],
-        [
             "FLTV30018",
             "Animation Lab 3"
-        ],
-        [
-            "FLTV30019",
-            "Animation Research 3"
-        ],
-        [
-            "FLTV30020",
-            "Animation Studio 3"
         ],
         [
             "FLTV30021",
@@ -10899,10 +10995,6 @@
         [
             "FLTV30024",
             "Animation Studio 3B"
-        ],
-        [
-            "FLTV30025",
-            "Screen Practice 3A"
         ],
         [
             "FLTV30026",
@@ -10923,6 +11015,14 @@
         [
             "FLTV30030",
             "Screenwriting Practices 3B"
+        ],
+        [
+            "FLTV30031",
+            "Screen Futures: Power and Lens"
+        ],
+        [
+            "FLTV30032",
+            "Screen Practice 3A"
         ],
         [
             "FLTV40004",
@@ -11025,32 +11125,12 @@
             "Major Screenwriting Project"
         ],
         [
-            "FLTV90003",
-            "Design Processes and Principles A"
-        ],
-        [
             "FLTV90004",
             "Design Realisation and Collaboration A"
         ],
         [
-            "FLTV90005",
-            "Design Documentation and Communication A"
-        ],
-        [
-            "FLTV90006",
-            "Studies in Screen"
-        ],
-        [
-            "FLTV90007",
-            "Design Processes and Principles B"
-        ],
-        [
             "FLTV90008",
             "Design Realisation and Collaboration B"
-        ],
-        [
-            "FLTV90009",
-            "Design Documentation and Communication B"
         ],
         [
             "FLTV90010",
@@ -11389,6 +11469,10 @@
             "Sustainable Investment"
         ],
         [
+            "FNCE90089",
+            "Seminars in Entrepreneurial Finance"
+        ],
+        [
             "FOOD10001",
             "Beer Styles and Sensory Analysis"
         ],
@@ -11457,10 +11541,6 @@
             "Sensory Evaluation"
         ],
         [
-            "FOOD90029",
-            "Food Engineering"
-        ],
-        [
             "FOOD90031",
             "Food Packaging Materials and Processes"
         ],
@@ -11491,10 +11571,6 @@
         [
             "FOOD90038",
             "MFPI Internship Part 2"
-        ],
-        [
-            "FOOD90039",
-            "Securing Sufficient and Healthy Food"
         ],
         [
             "FOOD90040",
@@ -11550,7 +11626,7 @@
         ],
         [
             "FREN20007",
-            "Immigration in France"
+            "Immigration and Identity"
         ],
         [
             "FREN20010",
@@ -11638,7 +11714,7 @@
         ],
         [
             "FREN30017",
-            "Immigration in France"
+            "Immigration and Identity"
         ],
         [
             "FREN30018",
@@ -11785,6 +11861,10 @@
             "Sex, Gender and Culture: An Introduction"
         ],
         [
+            "GEND10002",
+            "Global Intersections:Gender, Race, Class"
+        ],
+        [
             "GEND20001",
             "Sex, Gender and Power"
         ],
@@ -11799,10 +11879,6 @@
         [
             "GEND20008",
             "Sex and Gender Present and Future"
-        ],
-        [
-            "GEND20009",
-            "Global Intersections:Gender, Race, Class"
         ],
         [
             "GEND20010",
@@ -11822,7 +11898,7 @@
         ],
         [
             "GEND30007",
-            "Transgender Studies Terms and Debates"
+            "Trans Studies: Cultures and Communities"
         ],
         [
             "GEND40002",
@@ -11846,15 +11922,11 @@
         ],
         [
             "GEND40008",
-            "Queer Theory"
+            "Queer Studies: Bodies, Identities, Sexua"
         ],
         [
             "GEND40009",
             "Feminist & Queer Perspectives on Science"
-        ],
-        [
-            "GEND70001",
-            "Shorter Thesis - Gender Studies"
         ],
         [
             "GEND90006",
@@ -11865,20 +11937,12 @@
             "Rethinking Rights and Global Development"
         ],
         [
-            "GEND90010",
-            "Sex, Gender and the Case Study"
-        ],
-        [
             "GEND90011",
             "Gender and Development Thesis Part 1"
         ],
         [
             "GEND90012",
             "Gender and Development Thesis Part 2"
-        ],
-        [
-            "GEND90013",
-            "Research in Gender"
         ],
         [
             "GEND90015",
@@ -11929,10 +11993,6 @@
             "Health Communication Skills 1"
         ],
         [
-            "GENE90005",
-            "Genomics in Practice"
-        ],
-        [
             "GENE90018",
             "Advanced Topics in Genetics"
         ],
@@ -11977,12 +12037,12 @@
             "Introduction to Primary Care Research"
         ],
         [
-            "GENP60002",
-            "Preventive Health Care"
+            "GENP90017",
+            "Nurse Immuniser"
         ],
         [
-            "GENP90017",
-            "Immunisation and Travel Health"
+            "GENP90021",
+            "Preventive Health Care"
         ],
         [
             "GEOG10001",
@@ -12242,15 +12302,11 @@
         ],
         [
             "GEOL20002",
-            "Structural and Metamorphic Geology"
+            "Earth Structure, Geophysics, Geodynamics"
         ],
         [
             "GEOL20003",
-            "Earth Composition, Minerals and Magmas"
-        ],
-        [
-            "GEOL20004",
-            "Field Mapping and Sedimentary Geology"
+            "Building Earth: Rocks, Minerals, Magmas"
         ],
         [
             "GEOL30002",
@@ -12258,27 +12314,19 @@
         ],
         [
             "GEOL30003",
-            "Sedimentary Geology"
+            "Sedimentary Geology and Hydrogeology"
         ],
         [
             "GEOL30004",
             "Geochemistry & Petrogenesis"
         ],
         [
-            "GEOL30005",
-            "Applied Geophysics"
-        ],
-        [
-            "GEOL30006",
-            "Economic Geology"
-        ],
-        [
             "GEOL30007",
-            "Geobiology: Fossils & Environments"
+            "Geobiology"
         ],
         [
             "GEOL30009",
-            "Advanced Field Geology"
+            "Field Geology"
         ],
         [
             "GEOL90005",
@@ -12309,10 +12357,6 @@
             "Geochronology and Thermochronology"
         ],
         [
-            "GEOL90029",
-            "Geology of Gold"
-        ],
-        [
             "GEOL90030",
             "Coastal Environmental Geomorphology"
         ],
@@ -12331,14 +12375,6 @@
         [
             "GEOL90034",
             "Practical Igneous Petrology"
-        ],
-        [
-            "GEOL90035",
-            "Geodynamics"
-        ],
-        [
-            "GEOL90038",
-            "Igneous Geodynamics and Ore Deposits"
         ],
         [
             "GEOL90043",
@@ -12365,12 +12401,16 @@
             "Sedimentary Basins and Resource Analysis"
         ],
         [
-            "GEOL90049",
-            "Introduction to Structural Geology"
-        ],
-        [
             "GEOL90050",
             "Field Geology of New Zealand"
+        ],
+        [
+            "GEOL90051",
+            "Basin Structure and Stratigraphy"
+        ],
+        [
+            "GEOL90052",
+            "Precious Metal and Magmatic Ore Deposits"
         ],
         [
             "GEOM20013",
@@ -12413,14 +12453,6 @@
             "Foundations of Spatial Information"
         ],
         [
-            "GEOM90010",
-            "Spatial Information Research Project A"
-        ],
-        [
-            "GEOM90013",
-            "Spatial Information Research Project C"
-        ],
-        [
             "GEOM90015",
             "Spatial Data Infrastructure"
         ],
@@ -12433,20 +12465,8 @@
             "Spatial Databases"
         ],
         [
-            "GEOM90020",
-            "Spatial Information Research Project"
-        ],
-        [
-            "GEOM90023",
-            "Spatial Information Research Project B"
-        ],
-        [
             "GEOM90026",
             "MPhil Research"
-        ],
-        [
-            "GEOM90031",
-            "Spatial Information Research Project D"
         ],
         [
             "GEOM90033",
@@ -12669,6 +12689,14 @@
             "Hebrew 6"
         ],
         [
+            "HEBR30016",
+            "Hebrew 7"
+        ],
+        [
+            "HEBR30017",
+            "Hebrew 8"
+        ],
+        [
             "HIST10012",
             "The World Since World War II"
         ],
@@ -12717,10 +12745,6 @@
             "The French Revolution"
         ],
         [
-            "HIST20069",
-            "Modern European History 1789 to 1914"
-        ],
-        [
             "HIST20070",
             "Australia in the World"
         ],
@@ -12758,11 +12782,15 @@
         ],
         [
             "HIST20088",
-            "Introduction to Indigenous History"
+            "Indigenous History"
         ],
         [
             "HIST20089",
             "Britain's Empire: Power and Resistance"
+        ],
+        [
+            "HIST20090",
+            "Gender in History, 1800 to the Present"
         ],
         [
             "HIST30004",
@@ -12813,10 +12841,6 @@
             "Global Histories of Indigenous Activism"
         ],
         [
-            "HIST30075",
-            "Gender in History, 1800 to the Present"
-        ],
-        [
             "HIST30076",
             "Stalinism"
         ],
@@ -12841,10 +12865,6 @@
             "History Research Workshop"
         ],
         [
-            "HIST70002",
-            "Shorter Thesis - History"
-        ],
-        [
             "HIST80001",
             "PhD Research"
         ],
@@ -12865,14 +12885,6 @@
             "Middle Eastern Wars: Jihad & Resistance"
         ],
         [
-            "HIST90032",
-            "Historical Themes in Australian Politics"
-        ],
-        [
-            "HIST90033",
-            "Visiting Scholar Subject: History"
-        ],
-        [
             "HIST90034",
             "International Relations Thesis Part 1"
         ],
@@ -12883,10 +12895,6 @@
         [
             "HIST90037",
             "Russia and the World"
-        ],
-        [
-            "HIST90038",
-            "Enlightenment and Revolutions 1750-1820"
         ],
         [
             "HLTH90001",
@@ -12903,10 +12911,6 @@
         [
             "HLTH90004",
             "Health & Human Services Research Project"
-        ],
-        [
-            "HLTH90006",
-            "Basics of Digital Health for Clinicians"
         ],
         [
             "HLTH90007",
@@ -13037,16 +13041,8 @@
             "Science and Pseudoscience"
         ],
         [
-            "HPSC10003",
-            "Debating Science in Society"
-        ],
-        [
             "HPSC10004",
             "Bad Science"
-        ],
-        [
-            "HPSC10005",
-            "Eugenics: A Biopolitical History"
         ],
         [
             "HPSC20002",
@@ -13073,6 +13069,14 @@
             "Sex and Gender in the Sciences"
         ],
         [
+            "HPSC20024",
+            "Debating Science in Society"
+        ],
+        [
+            "HPSC20025",
+            "Eugenics: A Biopolitical History"
+        ],
+        [
             "HPSC30019",
             "Minds and Madness"
         ],
@@ -13093,6 +13097,10 @@
             "Thinking about Science: Past and Present"
         ],
         [
+            "HPSC30038",
+            "Being Online"
+        ],
+        [
             "HPSC40016",
             "History and Philosophy of Science"
         ],
@@ -13103,10 +13111,6 @@
         [
             "HPSC40019",
             "HPS Thesis Part 2"
-        ],
-        [
-            "HPSC70001",
-            "Shorter Thesis - HPS"
         ],
         [
             "HPSC90010",
@@ -13185,6 +13189,10 @@
             "Indigenous Australia"
         ],
         [
+            "INDG10002",
+            "First Peoples in a Global Context"
+        ],
+        [
             "INDG20001",
             "Indigenous Treaties and Titles"
         ],
@@ -13222,7 +13230,7 @@
         ],
         [
             "INDG40002",
-            "Textual Revelations"
+            "Reading Indigenous Australia"
         ],
         [
             "INDG40003",
@@ -13290,7 +13298,7 @@
         ],
         [
             "INDO10012",
-            "Literature: Reading Indonesian Lives"
+            "Indonesian Literature and Film"
         ],
         [
             "INDO10013",
@@ -13326,7 +13334,7 @@
         ],
         [
             "INDO20015",
-            "Literature: Reading Indonesian Lives"
+            "Indonesian Literature and Film"
         ],
         [
             "INDO20016",
@@ -13341,12 +13349,16 @@
             "Indonesian Politics and Society"
         ],
         [
-            "INDO30002",
+            "INDO20019",
+            "Indonesian Languages in Social Context"
+        ],
+        [
+            "INDO20020",
             "Creative Industries in Indonesia"
         ],
         [
             "INDO30006",
-            "Literature: Reading Indonesian Lives"
+            "Indonesian Literature and Film"
         ],
         [
             "INDO30007",
@@ -13355,10 +13367,6 @@
         [
             "INDO30011",
             "Indonesian 5"
-        ],
-        [
-            "INDO30017",
-            "Indonesian Languages in Social Context"
         ],
         [
             "INDO30018",
@@ -13371,6 +13379,14 @@
         [
             "INDO30020",
             "Indonesia in the World"
+        ],
+        [
+            "INDO30021",
+            "Indonesian Visions, Global Partnerships"
+        ],
+        [
+            "INDO30022",
+            "Indonesian Views, Global Linkages"
         ],
         [
             "INDO40001",
@@ -13481,20 +13497,16 @@
             "International Politics"
         ],
         [
-            "INTS70001",
-            "Shorter Thesis - International Justice"
-        ],
-        [
             "INTS90007",
             "Rising China in the Globalised World"
         ],
         [
             "ISLM10002",
-            "Islam and Modernity"
+            "Islam in the Modern World"
         ],
         [
             "ISLM10003",
-            "Islam and Muslim Societies: Introduction"
+            "Understanding Islam and Muslim Societies"
         ],
         [
             "ISLM20003",
@@ -13506,7 +13518,7 @@
         ],
         [
             "ISLM20016",
-            "Introduction to Islamic Spirituality"
+            "Spirituality in Islam"
         ],
         [
             "ISLM30003",
@@ -13518,7 +13530,7 @@
         ],
         [
             "ISLM30018",
-            "Diplomacy: Engaging the Muslim World"
+            "Diplomacy: International Relations/Islam"
         ],
         [
             "ISLM30019",
@@ -13526,7 +13538,7 @@
         ],
         [
             "ISLM30020",
-            "Islam and Democracy"
+            "Islam & Democracy:Cooperation & Conflict"
         ],
         [
             "ISLM40001",
@@ -14122,7 +14134,7 @@
         ],
         [
             "JOUR90004",
-            "New Media: Harnessing Digital Disruption"
+            "New Media Storytelling"
         ],
         [
             "JOUR90005",
@@ -14235,6 +14247,10 @@
         [
             "KORE30002",
             "Two Koreas in the World"
+        ],
+        [
+            "LANG10001",
+            "Language"
         ],
         [
             "LANG20001",
@@ -15454,7 +15470,7 @@
         ],
         [
             "LAWS70447",
-            "Executive Power in Australia"
+            "Executive Power"
         ],
         [
             "LAWS70448",
@@ -15773,10 +15789,6 @@
             "Unilateral Conduct"
         ],
         [
-            "LAWS90067",
-            "Asian Competition Policy and Law"
-        ],
-        [
             "LAWS90068",
             "Research Project (GCCL) A"
         ],
@@ -15998,7 +16010,7 @@
         ],
         [
             "LAWS90124",
-            "Women, Peace and Security"
+            "Gender and Human Rights"
         ],
         [
             "LAWS90125",
@@ -16150,7 +16162,7 @@
         ],
         [
             "LAWS90165",
-            "Digital Consumer Protection Law"
+            "AI and Consumer Protection Law"
         ],
         [
             "LAWS90166",
@@ -16225,10 +16237,6 @@
             "Pharmaceuticals: Current Legal Issues"
         ],
         [
-            "LAWS90184",
-            "Media Law in a Global Context"
-        ],
-        [
             "LAWS90185",
             "Migration, Diasporas and the Law"
         ],
@@ -16298,11 +16306,11 @@
         ],
         [
             "LAWS90203",
-            "AI, Ethics and Science"
+            "Science & AI: Legal & Ethical Challenges"
         ],
         [
             "LAWS90204",
-            "Civil Corporate Regulatory Litigation"
+            "Civil Regulatory Litigation"
         ],
         [
             "LAWS90205",
@@ -16375,6 +16383,70 @@
         [
             "LAWS90229",
             "Rethinking Construction Contracting Risk"
+        ],
+        [
+            "LAWS90230",
+            "Trusts Law in Asia-Pacific"
+        ],
+        [
+            "LAWS90231",
+            "Chinese Tax Law and Policy"
+        ],
+        [
+            "LAWS90232",
+            "Global Digital Tax"
+        ],
+        [
+            "LAWS90233",
+            "Tax in Practice"
+        ],
+        [
+            "LAWS90234",
+            "International Tax in the United States"
+        ],
+        [
+            "LAWS90235",
+            "Tax of Superannuation A"
+        ],
+        [
+            "LAWS90236",
+            "Tax of Innovation"
+        ],
+        [
+            "LAWS90237",
+            "FinTech and Payments Law"
+        ],
+        [
+            "LAWS90238",
+            "Press Freedom and National Security"
+        ],
+        [
+            "LAWS90239",
+            "Superannuation Law and Regulation"
+        ],
+        [
+            "LAWS90240",
+            "Law and Automation"
+        ],
+        [
+            "LAWS90241",
+            "Projects and the Environment Practicum"
+        ],
+        [
+            "LAWS90242",
+            "Ageing and Human Rights"
+        ],
+        [
+            "LAWS90243",
+            "Future Lawyer"
+        ],
+        [
+            "LAWS90245",
+            "Law and Human Nature"
+        ],
+        [
+            "LAWS90246",
+            "International Employment & Equality Law"
         ],
         [
             "LING10001",
@@ -16481,10 +16553,6 @@
             "Shorter Thesis - Applied Linguistics"
         ],
         [
-            "LING70003",
-            "Shorter Thesis - Linguistics"
-        ],
-        [
             "LING80001",
             "PhD Research"
         ],
@@ -16553,22 +16621,6 @@
             "Discourse and Interaction"
         ],
         [
-            "LING90029",
-            "Current Topics in Applied Linguistics"
-        ],
-        [
-            "LING90030",
-            "Current Topics in Linguistics"
-        ],
-        [
-            "LING90031",
-            "Advanced Linguistics Analysis A"
-        ],
-        [
-            "LING90032",
-            "Advanced Linguistics Analysis B"
-        ],
-        [
             "LING90033",
             "Linguistics for Speech Pathology"
         ],
@@ -16597,8 +16649,8 @@
             "Concepts in Applied Linguistics"
         ],
         [
-            "LING90040",
-            "Genre in theory, Genres in practice"
+            "LING90041",
+            "Projects in Applied Linguistics"
         ],
         [
             "LTAM10001",
@@ -16982,11 +17034,11 @@
         ],
         [
             "MAST90099",
-            "Categorical Data: Models and Methods"
+            "Advanced Regression"
         ],
         [
             "MAST90100",
-            "Inference Methods in Biostatistics"
+            "Probability & Inference in Biostatistics"
         ],
         [
             "MAST90101",
@@ -16994,7 +17046,7 @@
         ],
         [
             "MAST90102",
-            "Linear Regression"
+            "Foundations of Regression"
         ],
         [
             "MAST90103",
@@ -17093,10 +17145,6 @@
             "Advanced Biological Modelling: Dynamics"
         ],
         [
-            "MAST90128",
-            "Advanced Environmental Computation"
-        ],
-        [
             "MAST90129",
             "Infectious Disease Dynamics"
         ],
@@ -17153,6 +17201,10 @@
             "Advanced Nonlinear Optimisation"
         ],
         [
+            "MAST90143",
+            "Differential Geometry"
+        ],
+        [
             "MCEN30017",
             "Mechanics & Materials"
         ],
@@ -17179,10 +17231,6 @@
         [
             "MCEN90008",
             "Fluid Dynamics"
-        ],
-        [
-            "MCEN90012",
-            "Design for Manufacture"
         ],
         [
             "MCEN90014",
@@ -17349,6 +17397,10 @@
             "Visual Communication and Digital Media"
         ],
         [
+            "MECM20015",
+            "Advertising and Media"
+        ],
+        [
             "MECM30002",
             "Perspectives in Global Media Cultures"
         ],
@@ -17401,10 +17453,6 @@
             "Media & Communications Thesis Part 2"
         ],
         [
-            "MECM70001",
-            "Shorter Thesis - Media & Communications"
-        ],
-        [
             "MECM90002",
             "Global Data Policy & Governance"
         ],
@@ -17446,15 +17494,11 @@
         ],
         [
             "MECM90025",
-            "Advanced Industry Practice \u2013 PR"
+            "Advanced Industry Practice - PR"
         ],
         [
             "MECM90026",
             "Advanced Industry Practice - Advertising"
-        ],
-        [
-            "MECM90028",
-            "Digital Methods"
         ],
         [
             "MECM90029",
@@ -17534,11 +17578,11 @@
         ],
         [
             "MEDI40018",
-            "Research Project \u2013 WH Part 1"
+            "Research Project - WH Part 1"
         ],
         [
             "MEDI40019",
-            "Research Project \u2013 WH Part 2"
+            "Research Project - WH Part 2"
         ],
         [
             "MEDI70021",
@@ -17554,7 +17598,7 @@
         ],
         [
             "MEDI90047",
-            "Congenital,Obsetric& Medical Conditions"
+            "Congenital,Obstetric& Medical Conditions"
         ],
         [
             "MEDI90048",
@@ -17654,11 +17698,11 @@
         ],
         [
             "MEDI90098",
-            "Research Thesis Capstone - Part 1"
+            "Research Capstone - Part 1"
         ],
         [
             "MEDI90099",
-            "Research Thesis Capstone - Part 2"
+            "Research Capstone - Part 2"
         ],
         [
             "MEDI90100",
@@ -17697,6 +17741,10 @@
             "Terror Medicine Principles & Responses"
         ],
         [
+            "MEDI90109",
+            "Managing Complex Disasters"
+        ],
+        [
             "MEDS30004",
             "Advanced Medical Science 1"
         ],
@@ -17731,10 +17779,6 @@
         [
             "MEDS90009",
             "Curriculum Design in Surgical Education"
-        ],
-        [
-            "MEDS90010",
-            "Minor Thesis - Surgical Education"
         ],
         [
             "MEDS90011",
@@ -17835,6 +17879,22 @@
         [
             "MEDS90037",
             "Transition to Practice A"
+        ],
+        [
+            "MEDS90039",
+            "MD Discovery 1: Foundation"
+        ],
+        [
+            "MEDS90040",
+            "MD Discovery 2: Application"
+        ],
+        [
+            "MEDS90041",
+            "MD Discovery 3: Integration"
+        ],
+        [
+            "MEDS90042",
+            "MD Discovery 4: Creation"
         ],
         [
             "MGMT10002",
@@ -17954,7 +18014,7 @@
         ],
         [
             "MGMT90014",
-            "Human Resource Management in Context"
+            "HRM in the New World of Work"
         ],
         [
             "MGMT90015",
@@ -17962,7 +18022,7 @@
         ],
         [
             "MGMT90016",
-            "Performance & Reward Management"
+            "Performance and Reward Management"
         ],
         [
             "MGMT90017",
@@ -18110,7 +18170,7 @@
         ],
         [
             "MGMT90141",
-            "Business Analysis & Decision Making"
+            "Business Analysis and Decision Making"
         ],
         [
             "MGMT90146",
@@ -18286,7 +18346,7 @@
         ],
         [
             "MGMT90225",
-            "Creating a Successful Business Model"
+            "Business Model Innovation"
         ],
         [
             "MGMT90226",
@@ -18298,7 +18358,7 @@
         ],
         [
             "MGMT90228",
-            "Managing Growth and Pathways to Market"
+            "Managing Growth"
         ],
         [
             "MGMT90229",
@@ -18306,7 +18366,7 @@
         ],
         [
             "MGMT90230",
-            "Creating Your Own Enterprise"
+            "New Venture Creation: Initiation"
         ],
         [
             "MGMT90231",
@@ -18442,7 +18502,7 @@
         ],
         [
             "MGMT90267",
-            "Agile Decision Making in a Digital World"
+            "Artificial Intelligence in Organisations"
         ],
         [
             "MGMT90268",
@@ -18491,6 +18551,18 @@
         [
             "MGMT90280",
             "Managerial Decision Analytics"
+        ],
+        [
+            "MGMT90284",
+            "Intrapreneurship: Implementation"
+        ],
+        [
+            "MGMT90285",
+            "Intrapreneurship: Initiation"
+        ],
+        [
+            "MGMT90286",
+            "New Venture Creation: Validation"
         ],
         [
             "MIIM20001",
@@ -18733,40 +18805,8 @@
             "Customer Experience Leadership"
         ],
         [
-            "MPMP00101",
-            "Melbourne Peer Mentor Program Part 1"
-        ],
-        [
-            "MPMP00102",
-            "Melbourne Peer Mentor Program Part 2"
-        ],
-        [
-            "MPMP00301",
-            "Peer Mentor Part 1"
-        ],
-        [
-            "MPMP00302",
-            "Peer Mentor Part 2"
-        ],
-        [
-            "MREN90001",
-            "Polymers and Composites"
-        ],
-        [
-            "MREN90003",
-            "Electronic and Magnetic Materials"
-        ],
-        [
-            "MREN90004",
-            "Ceramics and Brittle Materials"
-        ],
-        [
             "MREN90005",
             "Materials Engineering Research Project"
-        ],
-        [
-            "MULT10001",
-            "First Peoples in a Global Context"
         ],
         [
             "MULT10011",
@@ -18777,24 +18817,8 @@
             "Sustainability in Developing Communities"
         ],
         [
-            "MULT10014",
-            "Identity"
-        ],
-        [
-            "MULT10015",
-            "Language"
-        ],
-        [
             "MULT10016",
             "Reason"
-        ],
-        [
-            "MULT10017",
-            "Representation"
-        ],
-        [
-            "MULT10018",
-            "Power"
         ],
         [
             "MULT10019",
@@ -18874,11 +18898,11 @@
         ],
         [
             "MULT90004",
-            "Sustainability Governance and Leadership"
+            "Environmental Sustainability"
         ],
         [
             "MULT90005",
-            "Interdisciplinarity and the Environment"
+            "Partnerships for Sustainable Futures"
         ],
         [
             "MULT90014",
@@ -18905,44 +18929,8 @@
             "GSHSS Advanced Special Study"
         ],
         [
-            "MULT90041",
-            "Translation in Research"
-        ],
-        [
-            "MULT90044",
-            "The Art & Practice of the Personal Essay"
-        ],
-        [
-            "MULT90052",
-            "Greco-Roman Governance and Public Policy"
-        ],
-        [
-            "MULT90054",
-            "Quantitative Methods"
-        ],
-        [
-            "MULT90055",
-            "Advanced Qualitative Methods"
-        ],
-        [
-            "MULT90056",
-            "Digital Archives: Tools and Methods"
-        ],
-        [
-            "MULT90058",
-            "Conflict, Security and Development"
-        ],
-        [
             "MULT90059",
             "Social Enterprise Incubator"
-        ],
-        [
-            "MULT90061",
-            "Internship II (Year Long) Part 1"
-        ],
-        [
-            "MULT90062",
-            "Internship II (Year Long) Part 2"
         ],
         [
             "MULT90063",
@@ -18990,7 +18978,7 @@
         ],
         [
             "MUSI10047",
-            "Music History 1: Monteverdi to Mozart"
+            "Music History 1: 17th & 18th Centuries"
         ],
         [
             "MUSI10052",
@@ -19066,11 +19054,11 @@
         ],
         [
             "MUSI10173",
-            "Guitar Group 1"
+            "Guitar Ensemble 1 (Breadth)"
         ],
         [
             "MUSI10174",
-            "Guitar Group 2"
+            "Guitar Ensemble 2 (Breadth)"
         ],
         [
             "MUSI10179",
@@ -19177,6 +19165,38 @@
             "Sound Studies 1"
         ],
         [
+            "MUSI10230",
+            "Musical Perspectives"
+        ],
+        [
+            "MUSI10231",
+            "Composition 1"
+        ],
+        [
+            "MUSI10232",
+            "Composition 2"
+        ],
+        [
+            "MUSI10233",
+            "ANAM-MCM Ensembles 1"
+        ],
+        [
+            "MUSI10234",
+            "ANAM-MCM Ensembles 2"
+        ],
+        [
+            "MUSI10235",
+            "Symphonic Ensembles 1 (Breadth)"
+        ],
+        [
+            "MUSI10236",
+            "Symphonic Ensembles 2 (Breadth)"
+        ],
+        [
+            "MUSI10237",
+            "Music and Health"
+        ],
+        [
             "MUSI20008",
             "Music Technology"
         ],
@@ -19198,11 +19218,11 @@
         ],
         [
             "MUSI20055",
-            "Composition 1"
+            "Composition 3"
         ],
         [
             "MUSI20056",
-            "Composition 2"
+            "Composition 4"
         ],
         [
             "MUSI20061",
@@ -19258,11 +19278,11 @@
         ],
         [
             "MUSI20089",
-            "Guitar Ensemble 3"
+            "Guitar Ensemble 1"
         ],
         [
             "MUSI20090",
-            "Guitar Ensemble 4"
+            "Guitar Ensemble 2"
         ],
         [
             "MUSI20091",
@@ -19274,11 +19294,11 @@
         ],
         [
             "MUSI20093",
-            "Symphonic Ensembles 3"
+            "Symphonic Ensembles 1"
         ],
         [
             "MUSI20094",
-            "Symphonic Ensembles 4"
+            "Symphonic Ensembles 2"
         ],
         [
             "MUSI20099",
@@ -19314,19 +19334,19 @@
         ],
         [
             "MUSI20123",
-            "University Symphonic Ensembles 2"
+            "Symphonic Ensembles 2 (Breadth)"
         ],
         [
             "MUSI20124",
-            "University Symphonic Ensembles 1"
+            "Symphonic Ensembles 1 (Breadth)"
         ],
         [
             "MUSI20132",
-            "Melbourne Big Band 2"
+            "Big Band 2 (Breadth)"
         ],
         [
             "MUSI20134",
-            "Melbourne Big Band 1"
+            "Big Band 1 (Breadth)"
         ],
         [
             "MUSI20135",
@@ -19430,7 +19450,7 @@
         ],
         [
             "MUSI20198",
-            "Music History 2: C19th Music and Ideas"
+            "Music History 2: The Long 19th Century"
         ],
         [
             "MUSI20199",
@@ -19486,19 +19506,19 @@
         ],
         [
             "MUSI20213",
-            "Chamber Choir 3"
+            "Chamber Choir 1"
         ],
         [
             "MUSI20214",
-            "Chamber Choir 4"
+            "Chamber Choir 2"
         ],
         [
             "MUSI20215",
-            "Medieval and Renaissance Ensemble 3"
+            "Medieval and Renaissance Ensemble 1"
         ],
         [
             "MUSI20216",
-            "Medieval and Renaissance Ensemble 4"
+            "Medieval and Renaissance Ensemble 2"
         ],
         [
             "MUSI20217",
@@ -19547,6 +19567,22 @@
         [
             "MUSI20228",
             "Optimising Personal Performance"
+        ],
+        [
+            "MUSI20229",
+            "ANAM-MCM Ensembles 3"
+        ],
+        [
+            "MUSI20230",
+            "ANAM-MCM Ensembles 4"
+        ],
+        [
+            "MUSI20231",
+            "Indigenous Music and Musicians"
+        ],
+        [
+            "MUSI20232",
+            "Indigenous Musical Instruments"
         ],
         [
             "MUSI30004",
@@ -19634,11 +19670,11 @@
         ],
         [
             "MUSI30165",
-            "Big Band 3"
+            "Big Band 1"
         ],
         [
             "MUSI30166",
-            "Big Band 4"
+            "Big Band 2"
         ],
         [
             "MUSI30167",
@@ -19666,11 +19702,11 @@
         ],
         [
             "MUSI30181",
-            "Guitar Ensemble 5"
+            "Guitar Ensemble 1"
         ],
         [
             "MUSI30182",
-            "Guitar Ensemble 6"
+            "Guitar Ensemble 2"
         ],
         [
             "MUSI30183",
@@ -19682,11 +19718,11 @@
         ],
         [
             "MUSI30185",
-            "Symphonic Ensembles 5"
+            "Symphonic Ensembles 1"
         ],
         [
             "MUSI30186",
-            "Symphonic Ensembles 6"
+            "Symphonic Ensembles 2"
         ],
         [
             "MUSI30193",
@@ -19702,11 +19738,11 @@
         ],
         [
             "MUSI30213",
-            "Composition 3"
+            "Composition 5"
         ],
         [
             "MUSI30214",
-            "Composition 4"
+            "Composition 6"
         ],
         [
             "MUSI30223",
@@ -19758,7 +19794,7 @@
         ],
         [
             "MUSI30244",
-            "Chamber Choir 5"
+            "Chamber Choir 1"
         ],
         [
             "MUSI30246",
@@ -19766,7 +19802,7 @@
         ],
         [
             "MUSI30249",
-            "Music History 3:Impressionism to Present"
+            "Music History 3: 20th & 21st Centuries"
         ],
         [
             "MUSI30250",
@@ -19798,7 +19834,7 @@
         ],
         [
             "MUSI30258",
-            "Chamber Choir 6"
+            "Chamber Choir 2"
         ],
         [
             "MUSI30259",
@@ -19806,11 +19842,11 @@
         ],
         [
             "MUSI30260",
-            "Medieval and Renaissance Ensemble 5"
+            "Medieval and Renaissance Ensemble 1"
         ],
         [
             "MUSI30261",
-            "Medieval and Renaissance Ensemble 6"
+            "Medieval and Renaissance Ensemble 2"
         ],
         [
             "MUSI30262",
@@ -19819,10 +19855,6 @@
         [
             "MUSI30263",
             "Jazz & Improv Composition Workshop"
-        ],
-        [
-            "MUSI30264",
-            "Wagner's Ring"
         ],
         [
             "MUSI30265",
@@ -19851,6 +19883,42 @@
         [
             "MUSI30271",
             "Topics in Popular Music Studies"
+        ],
+        [
+            "MUSI30272",
+            "Research in Context"
+        ],
+        [
+            "MUSI30273",
+            "Musicology/Ethnomusicology Capstone"
+        ],
+        [
+            "MUSI30274",
+            "Collaborative Music Capstone"
+        ],
+        [
+            "MUSI30275",
+            "ANAM Ensembles 5"
+        ],
+        [
+            "MUSI30276",
+            "ANAM Ensembles 6"
+        ],
+        [
+            "MUSI30277",
+            "Big Band 1 (Breadth)"
+        ],
+        [
+            "MUSI30278",
+            "Big Band 2 (Breadth)"
+        ],
+        [
+            "MUSI30279",
+            "Symphonic Ensembles 1 (Breadth)"
+        ],
+        [
+            "MUSI30280",
+            "Symphonic Ensembles 2 (Breadth)"
         ],
         [
             "MUSI40012",
@@ -20061,10 +20129,6 @@
             "Capstone Music Project Part 2"
         ],
         [
-            "MUSI40109",
-            "Wagner's Ring"
-        ],
-        [
             "MUSI40110",
             "Honours Music Studies 1"
         ],
@@ -20122,15 +20186,15 @@
         ],
         [
             "MUSI90038",
-            "Clinical Training in Music Therapy 1"
+            "Music Therapy Practice 1"
         ],
         [
             "MUSI90039",
-            "Clinical Training in Music Therapy 2"
+            "Music Therapy Practice 2"
         ],
         [
             "MUSI90040",
-            "Clinical Training in Music Therapy 3"
+            "Music Therapy Practice 3"
         ],
         [
             "MUSI90041",
@@ -20238,7 +20302,7 @@
         ],
         [
             "MUSI90187",
-            "Clinical Training in Music Therapy 4"
+            "Music Therapy Practice 4"
         ],
         [
             "MUSI90188",
@@ -20289,20 +20353,8 @@
             "Suzuki Practicum Part 2"
         ],
         [
-            "MUSI90206",
-            "Research in Music Therapy"
-        ],
-        [
-            "MUSI90211",
-            "Applications of Music in Therapy B"
-        ],
-        [
             "MUSI90217",
             "Orchestral Experience 1"
-        ],
-        [
-            "MUSI90218",
-            "Musician's Health"
         ],
         [
             "MUSI90219",
@@ -20317,10 +20369,6 @@
             "Orchestral Performance Practicum 1"
         ],
         [
-            "MUSI90222",
-            "Preliminary Orchestra Audition Prep"
-        ],
-        [
             "MUSI90223",
             "Optimal Performance Under Pressure"
         ],
@@ -20329,20 +20377,12 @@
             "Orchestral Experience 3"
         ],
         [
-            "MUSI90225",
-            "Music Outreach & Social Entrepreneurship"
-        ],
-        [
             "MUSI90226",
             "Orchestral Experience 4"
         ],
         [
             "MUSI90227",
             "Orchestral Performance Practicum 2"
-        ],
-        [
-            "MUSI90228",
-            "Advanced Orchestra Audition Prep"
         ],
         [
             "MUSI90229",
@@ -20437,38 +20477,6 @@
             "Research Process for Music Psychologists"
         ],
         [
-            "MUST10001",
-            "Dance Skills 1"
-        ],
-        [
-            "MUST10002",
-            "Acting Skills 1"
-        ],
-        [
-            "MUST10003",
-            "Voice Skills 1"
-        ],
-        [
-            "MUST10004",
-            "Music Theatre Contextual Studies"
-        ],
-        [
-            "MUST10005",
-            "Dance Skills 2"
-        ],
-        [
-            "MUST10006",
-            "Acting Skills 2"
-        ],
-        [
-            "MUST10007",
-            "Voice Skills 2"
-        ],
-        [
-            "MUST10008",
-            "Music Theatre Combination Class 1"
-        ],
-        [
             "MUST10013",
             "Music Theatre Contextual Studies 1"
         ],
@@ -20487,30 +20495,6 @@
         [
             "MUST10017",
             "The Art of Working Online"
-        ],
-        [
-            "MUST20001",
-            "Dance Skills 3"
-        ],
-        [
-            "MUST20002",
-            "Acting Skills 3"
-        ],
-        [
-            "MUST20003",
-            "Voice Skills 3"
-        ],
-        [
-            "MUST20004",
-            "Music Theatre Combination Class 2"
-        ],
-        [
-            "MUST20005",
-            "Voice Skills 4"
-        ],
-        [
-            "MUST20006",
-            "Music Theatre Combination Class 3"
         ],
         [
             "MUST20010",
@@ -20535,38 +20519,6 @@
         [
             "MUST20016",
             "Musicals & Society: Oklahoma to Hamilton"
-        ],
-        [
-            "MUST30001",
-            "Dance Skills 4"
-        ],
-        [
-            "MUST30002",
-            "Acting Skills 4"
-        ],
-        [
-            "MUST30003",
-            "Voice Skills 5"
-        ],
-        [
-            "MUST30004",
-            "Music Theatre Combination Class 4"
-        ],
-        [
-            "MUST30005",
-            "New Work"
-        ],
-        [
-            "MUST30006",
-            "Dance Skills 5"
-        ],
-        [
-            "MUST30009",
-            "Performance Project B"
-        ],
-        [
-            "MUST30010",
-            "Music Theatre Combination Class 5B"
         ],
         [
             "MUST30011",
@@ -20625,22 +20577,6 @@
             "Auditory Neuroscience"
         ],
         [
-            "NEUR90015",
-            "Project in Neuroscience"
-        ],
-        [
-            "NEUR90016",
-            "Project in Neuroscience"
-        ],
-        [
-            "NEUR90017",
-            "Project in Neuroscience"
-        ],
-        [
-            "NEUR90018",
-            "Project in Neuroscience"
-        ],
-        [
             "NRMT10007",
             "Land Resources and Management"
         ],
@@ -20693,14 +20629,6 @@
             "Foundations in Cancer & Palliative Care2"
         ],
         [
-            "NURS90046",
-            "Fundamentals of Palliative Care"
-        ],
-        [
-            "NURS90047",
-            "Adult Palliative Care"
-        ],
-        [
             "NURS90052",
             "Nursing Science 3"
         ],
@@ -20719,10 +20647,6 @@
         [
             "NURS90059",
             "Nursing Research"
-        ],
-        [
-            "NURS90065",
-            "Paediatric Palliative Care"
         ],
         [
             "NURS90066",
@@ -20753,14 +20677,6 @@
             "Advanced Nursing Practice in Context"
         ],
         [
-            "NURS90073",
-            "Contemporary Approaches to Bereavement"
-        ],
-        [
-            "NURS90074",
-            "Psychosocial Aspects of Palliative Care"
-        ],
-        [
             "NURS90075",
             "Applications of Clinical Pharmacology"
         ],
@@ -20770,7 +20686,7 @@
         ],
         [
             "NURS90077",
-            "Specialist Mental Health Nursing"
+            "Foundations of Mental Health Nursing"
         ],
         [
             "NURS90078",
@@ -20861,36 +20777,8 @@
             "Minor Thesis Part 2"
         ],
         [
-            "NURS90111",
-            "Nursing Specialty 2 (Renal)"
-        ],
-        [
-            "NURS90112",
-            "Nursing Specialty 1"
-        ],
-        [
-            "NURS90113",
-            "Nursing Specialty 2"
-        ],
-        [
-            "NURS90114",
-            "Nursing Practice 1"
-        ],
-        [
-            "NURS90115",
-            "Nursing Practice 2"
-        ],
-        [
-            "NURS90116",
-            "Nursing Practice 2 (Renal)"
-        ],
-        [
             "NURS90117",
             "Foundations in Neonatal Care"
-        ],
-        [
-            "NURS90118",
-            "Ethics in Clinical Practice"
         ],
         [
             "NURS90119",
@@ -20999,6 +20887,50 @@
         [
             "NURS90147",
             "Haematology Nursing 2"
+        ],
+        [
+            "NURS90148",
+            "Emergency Nursing Practice"
+        ],
+        [
+            "NURS90149",
+            "Emergency Nursing"
+        ],
+        [
+            "NURS90150",
+            "Intensive Care Nursing Practice"
+        ],
+        [
+            "NURS90151",
+            "Intensive Care Nursing"
+        ],
+        [
+            "NURS90152",
+            "Critical Care Nursing"
+        ],
+        [
+            "NURS90153",
+            "Human Anatomy and Physiology"
+        ],
+        [
+            "NURS90154",
+            "Foundations of Nursing Practice"
+        ],
+        [
+            "NURS90155",
+            "Nursing of Acute Health Conditions"
+        ],
+        [
+            "NURS90156",
+            "Human Pathophysiology"
+        ],
+        [
+            "NURS90157",
+            "Transition to Nursing Practice"
+        ],
+        [
+            "NURS90158",
+            "Nursing of Chronic Health Conditions"
         ],
         [
             "NUTR20001",
@@ -21249,28 +21181,12 @@
             "Administrative Challenges in Practice"
         ],
         [
-            "PADM90002",
-            "Managing Effectively"
-        ],
-        [
-            "PADM90003",
-            "Managing Public Finances"
-        ],
-        [
             "PADM90004",
             "Public Administration Thesis"
         ],
         [
             "PADM90005",
             "The Nature of Governing"
-        ],
-        [
-            "PADM90006",
-            "The Rule of Law"
-        ],
-        [
-            "PADM90007",
-            "The World of Public Administration"
         ],
         [
             "PADM90008",
@@ -21323,6 +21239,10 @@
         [
             "PADM90021",
             "Public Policy Development"
+        ],
+        [
+            "PADM90024",
+            "Clinical Leadership During Crises"
         ],
         [
             "PAED40001",
@@ -21514,7 +21434,7 @@
         ],
         [
             "PHIL40004",
-            "Value Theory"
+            "Topics in Political Philosophy"
         ],
         [
             "PHIL40005",
@@ -21526,7 +21446,7 @@
         ],
         [
             "PHIL40013",
-            "Topics in the Philosophy of Language"
+            "Free Speech & Hate Speech"
         ],
         [
             "PHIL40017",
@@ -21549,20 +21469,12 @@
             "Philosophy Thesis Part 2"
         ],
         [
-            "PHIL70004",
-            "Shorter Thesis - Applied Philosophy"
-        ],
-        [
             "PHIL70005",
             "Shorter Thesis - Philosophy"
         ],
         [
             "PHIL90007",
             "Literature Review"
-        ],
-        [
-            "PHIL90009",
-            "Violence, War and Terrorism"
         ],
         [
             "PHIL90010",
@@ -21589,24 +21501,8 @@
             "Inequality and Public Policy"
         ],
         [
-            "PHIL90034",
-            "Philosophical Methodology"
-        ],
-        [
-            "PHIL90035",
-            "Visiting Scholar Subject: Philosophy"
-        ],
-        [
             "PHIL90039",
             "Applied Ethics Thesis Part 2"
-        ],
-        [
-            "PHIL90040",
-            "New Research in Practical Ethics"
-        ],
-        [
-            "PHIL90042",
-            "Time"
         ],
         [
             "PHRM20001",
@@ -21629,18 +21525,6 @@
             "Drugs in Biomedical Experiments"
         ],
         [
-            "PHRM40001",
-            "Pharmacology Research Project Part 1"
-        ],
-        [
-            "PHRM40002",
-            "Advanced Topics in Pharmacology"
-        ],
-        [
-            "PHRM40006",
-            "Pharmacology Research Project Part 2"
-        ],
-        [
             "PHRM90001",
             "Pharmacology and Therapeutics 1"
         ],
@@ -21651,6 +21535,10 @@
         [
             "PHRM90022",
             "Sports Pharmacotherapeutics"
+        ],
+        [
+            "PHRM90023",
+            "Pharmacology for Physiotherapy A"
         ],
         [
             "PHTY90002",
@@ -21678,15 +21566,15 @@
         ],
         [
             "PHTY90089",
-            "Neurological Physiotherapy 1"
+            "Neurological Physiotherapy"
         ],
         [
             "PHTY90090",
-            "Musculoskeletal Physiotherapy 1"
+            "Musculoskeletal Physiotherapy"
         ],
         [
             "PHTY90091",
-            "Cardiorespiratory Physiotherapy 1"
+            "Cardiorespiratory Physiotherapy"
         ],
         [
             "PHTY90092",
@@ -21773,6 +21661,18 @@
             "Physiotherapy Advanced Clinical Practice"
         ],
         [
+            "PHTY90115",
+            "Foundation Physiotherapy Sciences A"
+        ],
+        [
+            "PHTY90116",
+            "Foundation Physiotherapy Sciences B"
+        ],
+        [
+            "PHTY90117",
+            "Integrated Professional Practice A"
+        ],
+        [
             "PHYC10001",
             "Physics 1: Advanced"
         ],
@@ -21823,6 +21723,10 @@
         [
             "PHYC20015",
             "Special Relativity and Electromagnetism"
+        ],
+        [
+            "PHYC20017",
+            "Archaeoastronomy"
         ],
         [
             "PHYC30011",
@@ -22046,15 +21950,15 @@
         ],
         [
             "PHYS40005",
-            "Physiology Research Project Part 1"
+            "Anatomy & Physiology Research Project P1"
         ],
         [
             "PHYS40006",
-            "Physiology Research Project Part 2"
+            "Anatomy & Physiology Research Project P2"
         ],
         [
             "PHYS90008",
-            "Advanced Seminars in Physiology"
+            "Advanced Seminars in Biomedical Sciences"
         ],
         [
             "PLAN10001",
@@ -22083,6 +21987,14 @@
         [
             "PLAN30005",
             "Urban Precinct Studio"
+        ],
+        [
+            "PLAN40001",
+            "Urban Planning Honours Thesis (Part 1)"
+        ],
+        [
+            "PLAN40002",
+            "Urban Planning Honours Thesis (Part 2)"
         ],
         [
             "PLAN90001",
@@ -22285,10 +22197,6 @@
             "Human Rights"
         ],
         [
-            "POLS90041",
-            "Global Campaigning: NGOs and Movements"
-        ],
-        [
             "POLS90042",
             "Latin America in the World"
         ],
@@ -22325,10 +22233,6 @@
             "Technology and Power in World Politics"
         ],
         [
-            "POLS90052",
-            "Critical Approaches to Social Policy"
-        ],
-        [
             "POLS90053",
             "India and the World"
         ],
@@ -22341,20 +22245,12 @@
             "International Relations Thesis Part 2"
         ],
         [
-            "POLS90057",
-            "America and the Rise of Asia"
-        ],
-        [
             "POLS90058",
             "Asia-Pacific: Zone of Conflict or Peace?"
         ],
         [
-            "POLS90059",
-            "Challenges in Australian Foreign Policy"
-        ],
-        [
             "POLS90060",
-            "Gender in International Relations"
+            "Sex and Power in Global Politics"
         ],
         [
             "POLS90062",
@@ -22363,6 +22259,14 @@
         [
             "POLS90063",
             "Indigenous Peoples in Global Context"
+        ],
+        [
+            "POLS90064",
+            "U21 Advanced International Study"
+        ],
+        [
+            "POPH10001",
+            "Introduction to Epidemiology"
         ],
         [
             "POPH20001",
@@ -22481,10 +22385,6 @@
             "Survival Analysis & Regression for Rates"
         ],
         [
-            "POPH90148",
-            "Probability and Distribution Theory"
-        ],
-        [
             "POPH90149",
             "Biostatistics Research Project - S"
         ],
@@ -22534,15 +22434,15 @@
         ],
         [
             "POPH90200",
-            "Principles of Social Research Design"
+            "Advanced Qualitative Health Research"
         ],
         [
             "POPH90201",
-            "Community-Based Participatory Research"
+            "Community Engagement for Health Impact"
         ],
         [
             "POPH90205",
-            "Health Inequalities"
+            "Social Determinants of Health Inequality"
         ],
         [
             "POPH90206",
@@ -22590,7 +22490,7 @@
         ],
         [
             "POPH90243",
-            "Epidemiology 3"
+            "Epidemiology in Practice"
         ],
         [
             "POPH90244",
@@ -22642,7 +22542,7 @@
         ],
         [
             "POPH90270",
-            "Bioethics and Public Health"
+            "Bioethics in Practice"
         ],
         [
             "POPH90271",
@@ -22761,6 +22661,10 @@
             "Pandemic Preparedness and Response"
         ],
         [
+            "POPH90302",
+            "Introduction to Health Services Research"
+        ],
+        [
             "PPMN10002",
             "Public Policy: Advocating for Change"
         ],
@@ -22787,10 +22691,6 @@
         [
             "PPMN40007",
             "Public Policy & Management Thesis Part 2"
-        ],
-        [
-            "PPMN50001",
-            "U21 Advanced International Study"
         ],
         [
             "PPMN90006",
@@ -22833,10 +22733,6 @@
             "Executive Internship"
         ],
         [
-            "PPMN90042",
-            "Political Problems and Policy Responses"
-        ],
-        [
             "PPMN90045",
             "Government Today 1"
         ],
@@ -22877,6 +22773,10 @@
             "Economics and Cities"
         ],
         [
+            "PROP10002",
+            "Property in the Modern Economy"
+        ],
+        [
             "PROP20001",
             "Finance for Built Environment"
         ],
@@ -22907,6 +22807,14 @@
         [
             "PSYC10004",
             "Mind, Brain and Behaviour 2"
+        ],
+        [
+            "PSYC10006",
+            "Mind, Brain and Behaviour A"
+        ],
+        [
+            "PSYC10007",
+            "Mind, Brain and Behaviour B"
         ],
         [
             "PSYC20001",
@@ -22978,7 +22886,7 @@
         ],
         [
             "PSYC30024",
-            "Behaviour Change and Well-being"
+            "Behaviour Change and Wellbeing"
         ],
         [
             "PSYC40001",
@@ -23149,14 +23057,6 @@
             "Neuroanatomy for Neuropsychologists"
         ],
         [
-            "PSYC90093",
-            "Introduction to Positive Psychology"
-        ],
-        [
-            "PSYC90094",
-            "Positive Psychology in Practice"
-        ],
-        [
             "PSYC90095",
             "Thesis (Masters/coursework) Part 1"
         ],
@@ -23218,7 +23118,7 @@
         ],
         [
             "PSYC90111",
-            "Well-being\u00a0in Practice"
+            "Well-being in Practice"
         ],
         [
             "PSYC90112",
@@ -23255,6 +23155,14 @@
         [
             "PSYC90120",
             "Research Project (Psych)"
+        ],
+        [
+            "PSYC90121",
+            "Professional Placement (Clinical) 1"
+        ],
+        [
+            "PSYC90122",
+            "Professional Placement (Clinical) 2"
         ],
         [
             "PSYT90004",
@@ -23409,22 +23317,6 @@
             "Managing Youth Self-harm and Suicide 2"
         ],
         [
-            "PSYT90116",
-            "Psychiatric Disorders"
-        ],
-        [
-            "PSYT90117",
-            "Basic Clinical Skills in Psychiatry"
-        ],
-        [
-            "PSYT90118",
-            "Psychopharmacology and Intro to EBM"
-        ],
-        [
-            "PSYT90119",
-            "Social Psychiatry"
-        ],
-        [
             "PUBL90001",
             "Structural Editing"
         ],
@@ -23459,10 +23351,6 @@
         [
             "PUBL90010",
             "Print Production and Design"
-        ],
-        [
-            "PUBL90012",
-            "Practicum"
         ],
         [
             "PUBL90013",
@@ -23685,6 +23573,10 @@
             "Human Sciences: From Cells to Societies"
         ],
         [
+            "SCIE10005",
+            "Today's Science, Tomorrow's World"
+        ],
+        [
             "SCIE20001",
             "Thinking Scientifically"
         ],
@@ -23877,6 +23769,10 @@
             "Screen & Cultural Studies Thesis Part 2"
         ],
         [
+            "SCRN40019",
+            "Screen & Cultural Research Seminar"
+        ],
+        [
             "SCRN90002",
             "Film Production: From Script to Screen"
         ],
@@ -23887,10 +23783,6 @@
         [
             "SCRN90006",
             "Film Festival Cultures"
-        ],
-        [
-            "SCRN90009",
-            "Screen Theory"
         ],
         [
             "SCWK90027",
@@ -24005,6 +23897,14 @@
             "Social Work Research Project"
         ],
         [
+            "SCWK90072",
+            "Professional Identity 1"
+        ],
+        [
+            "SCWK90073",
+            "Professional Identity 2"
+        ],
+        [
             "SKIL10007",
             "Foundation Communication Skills"
         ],
@@ -24026,7 +23926,7 @@
         ],
         [
             "SOCI10003",
-            "Inequalities: Challenges for the Future"
+            "Inequalities: Future Challenges"
         ],
         [
             "SOCI20014",
@@ -24074,7 +23974,7 @@
         ],
         [
             "SOCI30015",
-            "Sociology of Work: The Future of Work"
+            "Sociology of Work: The Future of Work?"
         ],
         [
             "SOCI40003",
@@ -24090,7 +23990,7 @@
         ],
         [
             "SOCI40008",
-            "Reading Sociology"
+            "Reading Social Theory"
         ],
         [
             "SOCI40009",
@@ -24179,10 +24079,6 @@
         [
             "SOTH40004",
             "Social Theory Thesis"
-        ],
-        [
-            "SOTH90007",
-            "Classical Social Theory"
         ],
         [
             "SPAN10001",
@@ -24294,7 +24190,7 @@
         ],
         [
             "SPAN40002",
-            "Spanish Honours Language Seminar 1"
+            "Spanish Honours Language Seminar"
         ],
         [
             "SPAN40007",
@@ -24373,6 +24269,14 @@
             "Software Processes and Management"
         ],
         [
+            "SWEN90017",
+            "Masters Advanced Software Project Part 1"
+        ],
+        [
+            "SWEN90018",
+            "Masters Advanced Software Project Part 2"
+        ],
+        [
             "THTR10007",
             "The Actors Process"
         ],
@@ -24389,16 +24293,8 @@
             "The Artist's Toolbox"
         ],
         [
-            "THTR20042",
-            "Puppets as Storytellers"
-        ],
-        [
             "THTR20043",
             "Design and the Moving Image"
-        ],
-        [
-            "THTR30039",
-            "Understanding Masks"
         ],
         [
             "THTR30042",
@@ -24447,10 +24343,6 @@
         [
             "THTR70014",
             "Design Projects 1"
-        ],
-        [
-            "THTR90006",
-            "Applied Project A (Design)"
         ],
         [
             "THTR90007",
@@ -24585,20 +24477,12 @@
             "Community Interpreting"
         ],
         [
-            "UNIB10002",
-            "Logic: Language and Information"
-        ],
-        [
             "UNIB10003",
             "An Ecological History of Humanity"
         ],
         [
             "UNIB10004",
             "Seeing: The Whole Picture"
-        ],
-        [
-            "UNIB10005",
-            "Being Online: Internet Meets Society"
         ],
         [
             "UNIB10006",
@@ -24621,10 +24505,6 @@
             "The Secret Life of the Body 1"
         ],
         [
-            "UNIB10013",
-            "Catastrophes as Turning Points"
-        ],
-        [
             "UNIB10014",
             "Philosophy, Politics and Economics"
         ],
@@ -24639,10 +24519,6 @@
         [
             "UNIB10019",
             "Thinking Tools for Wicked Problems"
-        ],
-        [
-            "UNIB10020",
-            "Refugees, Borders, Nationalism"
         ],
         [
             "UNIB10021",
@@ -24685,20 +24561,12 @@
             "Human Rights and Global Justice"
         ],
         [
-            "UNIB20012",
-            "Water for Sustainable Futures"
-        ],
-        [
             "UNIB20013",
             "Body, Mind and Medicine: A Dissection"
         ],
         [
             "UNIB20014",
             "Food For a Healthy Planet II"
-        ],
-        [
-            "UNIB20016",
-            "Queer Lives"
         ],
         [
             "UNIB20018",
@@ -24725,24 +24593,8 @@
             "Global Health, Security & Sustainability"
         ],
         [
-            "UNIB30010",
-            "Food for a Healthy Planet III"
-        ],
-        [
-            "VETS20014",
-            "Foundations of Animal Health 1"
-        ],
-        [
-            "VETS20015",
-            "Foundations of Animal Health 2"
-        ],
-        [
             "VETS20019",
             "Frontiers in Veterinary Science"
-        ],
-        [
-            "VETS30013",
-            "Animal Health in Production Systems"
         ],
         [
             "VETS30014",
@@ -24787,10 +24639,6 @@
         [
             "VETS40017",
             "Veterinary Clinical Skills"
-        ],
-        [
-            "VETS40018",
-            "Professional Veterinary Practice"
         ],
         [
             "VETS40020",
@@ -24921,32 +24769,8 @@
             "Principles of Medicine & Surgery 3 PtB"
         ],
         [
-            "VETS90058",
-            "Veterinary Bioscience 1A"
-        ],
-        [
-            "VETS90059",
-            "Veterinary Bioscience 1B"
-        ],
-        [
-            "VETS90060",
-            "Applications in Animal Health A"
-        ],
-        [
-            "VETS90061",
-            "Applications in Animal Health B"
-        ],
-        [
-            "VETS90062",
-            "Principles of Veterinary Bioscience"
-        ],
-        [
             "VETS90064",
             "Veterinary Bioscience 2A"
-        ],
-        [
-            "VETS90065",
-            "Veterinary Bioscience 2 Part B"
         ],
         [
             "VETS90066",
@@ -24955,14 +24779,6 @@
         [
             "VETS90067",
             "Infections Population & Pub. Health PtB"
-        ],
-        [
-            "VETS90068",
-            "Applications in Animal Health 2 Part A"
-        ],
-        [
-            "VETS90069",
-            "Applications in Animal Health 2 Part B"
         ],
         [
             "VETS90076",
@@ -25067,42 +24883,6 @@
         [
             "VETS90101",
             "Veterinary Bioscience 2B"
-        ],
-        [
-            "VETS90102",
-            "Applications in Animal Health Part B"
-        ],
-        [
-            "VETS90103",
-            "Veterinary Bioscience 2 Part B"
-        ],
-        [
-            "VETS90104",
-            "Production, Herd and Public Health Pt B"
-        ],
-        [
-            "VETS90105",
-            "Veterinary Medicine and Surgery Part B"
-        ],
-        [
-            "VETS90106",
-            "Veterinary Medicine and Surgery Part A"
-        ],
-        [
-            "VETS90107",
-            "Infections and Immunity Part A"
-        ],
-        [
-            "VETS90108",
-            "Veterinary Bioscience 1 Part A"
-        ],
-        [
-            "VETS90109",
-            "Veterinary Bioscience 1 Part B"
-        ],
-        [
-            "VETS90110",
-            "Infections and Immunity Part B"
         ],
         [
             "VETS90111",
@@ -25265,24 +25045,12 @@
             "Wildlife, Aquaculture, Exotics and Pigs"
         ],
         [
-            "VISM40009",
-            "Visual Media: Experimental Projects"
-        ],
-        [
             "WELF90004",
             "Principles of Counselling 1"
         ],
         [
             "WELF90005",
             "Principles of Counselling 2"
-        ],
-        [
-            "WELF90006",
-            "Fitness to Practice 1"
-        ],
-        [
-            "WELF90007",
-            "Fitness to Practice 2"
         ],
         [
             "WELF90008",
@@ -25327,10 +25095,6 @@
         [
             "ZOOL30009",
             "Tropical Field Ecology"
-        ],
-        [
-            "ZOOL90007",
-            "Graduate Seminar in Ecology & Evolution"
         ]
     ]
 }
