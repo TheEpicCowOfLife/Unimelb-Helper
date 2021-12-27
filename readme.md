@@ -1,7 +1,6 @@
 # Unimelb helper
 
-This is a discord bot to search for subjects and display related information. Demo video for CISSA [here](https://youtu.be/S2BseBoxrUw)
-
+This is a discord bot to search for subjects and display related information.
 ## Main commands  
 ### ?subject
 A much faster search engine than the handbook's search engine, and arguably better, producing less unwanted results. Also displays information about subjects in a fairly pretty way.
